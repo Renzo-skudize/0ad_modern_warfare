@@ -53,7 +53,7 @@
   <Identity>
     <VisibleClasses datatype="tokens"> Plane</VisibleClasses>
     <SpecificName>Lockheed Martin F-35</SpecificName>
-    <Icon>units/F-35.png</Icon>
+    <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <Obstruction disable=""/>
   <Position>
