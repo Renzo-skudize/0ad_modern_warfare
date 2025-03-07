@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>structural/F-35.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/rocket.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/F-35.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_spec.xml</material>
+</actor>
