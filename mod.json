@@ -1,0 +1,8 @@
+{
+  "name": "modern_warfare",
+  "label": "Modern Warfare",
+  "version": "0.0.1",
+  "url": "https://github.com/Renzo-skudize/0ad_modern_warfare",
+  "description": "Modern Warfare since 1990",
+  "dependencies": [ "0ad=0.0.26"]
+}
