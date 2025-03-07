@@ -51,7 +51,8 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens"> Plane</VisibleClasses>
+    <VisibleClasses datatype="tokens">Plane</VisibleClasses>
+    <Civ>usa</Civ>
     <SpecificName>Lockheed Martin F-35</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
