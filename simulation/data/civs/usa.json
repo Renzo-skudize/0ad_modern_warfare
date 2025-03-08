@@ -1,0 +1,108 @@
+{
+	"Code": "usa",
+	"Culture": "occident",
+	"Music": [
+		{
+			"File": "Helen_Leaves_Sparta.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "As_Seasons_Change.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Bandit_Country.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Calm_Before_the_Storm.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cradle_of_Civilization.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Elysian_Fields.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Expedition.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "In_the_Shadow_of_Olympus.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Tale_of_Warriors.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Point_of_No_Return.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+		 ],
+	"CivBonuses": [
+		{
+			"Name": "Spartan Women",
+			"History": "",
+			"Description": "Female Citizens +40% health and +50% melee attack hack damage."
+		}
+		      ],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/spart/wallset_stone"
+		    ],
+	"StartEntities": [
+		{
+			"Template": "structures/usa/civil_centre"
+		},
+		{
+			"Template": "units/usa/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/usa/infantry_rifleman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/usa/infantry_rocketlauncher_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/usa/combine_harvester"
+		}
+	],
+	"AINames": [
+		"George Herbert Walker Bush",
+		"William Jefferson Clinton",
+		"George Walker Bush",
+		"Barack Hussein Obama",
+		"Donald John Trump",
+		"Joseph Robinette Biden Jr.",
+		"James Danforth Quile",
+		"Albert Arnold Gore Jr.",
+		"Richard Bruce Cheney",
+		"Michael Richard Pence",
+    "Kamala Devi Harris",
+		"James David Vance"
+	],
+	"SkirmishReplacements": {
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": ""
+	},
+	"SelectableInGameSetup": true
+}
