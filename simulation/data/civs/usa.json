@@ -71,11 +71,11 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/usa/infantry_rifleman_b",
+			"Template": "units/usa/infantry_rifleman",
 			"Count": 2
 		},
 		{
-			"Template": "units/usa/infantry_rocketlauncher_b",
+			"Template": "units/usa/infantry_rocketlauncher",
 			"Count": 2
 		},
 		{
@@ -93,7 +93,7 @@
 		"Albert Arnold Gore Jr.",
 		"Richard Bruce Cheney",
 		"Michael Richard Pence",
-    "Kamala Devi Harris",
+    		"Kamala Devi Harris",
 		"James David Vance"
 	],
 	"SkirmishReplacements": {
