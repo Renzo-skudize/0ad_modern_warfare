@@ -12,5 +12,5 @@
       </textures>
     </variant>
   </group>
-  <material>basic_spec.xml</material>
+  <material>playercolor_spec.xml</material>
 </actor>
