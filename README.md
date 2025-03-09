@@ -1,2 +1,3 @@
-# 0ad_modern_warfare
+# 0AD Modern Warfare
+
 A 0AD Mod for modern warfare since 1990
