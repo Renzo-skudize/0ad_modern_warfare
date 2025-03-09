@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_spart_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/G-36.xml" attachpoint="weapon_R"/>
       </props>
