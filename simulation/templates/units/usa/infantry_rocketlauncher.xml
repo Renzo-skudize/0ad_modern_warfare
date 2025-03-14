@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/usa/infantry_rifleman.xml</Actor>
+    <Actor>units/usa/infantry_rocketlauncher.xml</Actor>
   </VisualActor>
 </Entity>
