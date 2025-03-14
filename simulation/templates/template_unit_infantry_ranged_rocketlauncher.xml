@@ -8,8 +8,8 @@
         <Crush>330</Crush>
       </Damage>
       <MaxRange>120</MaxRange>
-      <PrepareTime>800</PrepareTime>
-      <RepeatTime>500</RepeatTime>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
       <PreferredClasses datatype="tokens">Unit</PreferredClasses>
       <Projectile>
         <Speed>300</Speed>
