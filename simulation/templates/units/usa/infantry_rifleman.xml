@@ -3,20 +3,6 @@
   <Attack>
     <Ranged>
       <AttackName context="Gun">M-16</AttackName>
-      <Damage>
-        <Pierce>140</Pierce>
-        <Crush>0</Crush>
-      </Damage>
-      <MaxRange>90</MaxRange>
-      <PrepareTime>800</PrepareTime>
-      <RepeatTime>500</RepeatTime>
-      <Projectile>
-        <Speed>300</Speed>
-        <Spread>3</Spread>
-        <Gravity>9.81</Gravity>
-        <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="3"/>
-      </Projectile>
     </Ranged>
   </Attack>
   <Identity>
@@ -26,9 +12,6 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <Promotion disable=""/>
-  <Vision>
-    <Range>110</Range>
-  </Vision>
   <VisualActor>
     <Actor>units/usa/infantry_rifleman.xml</Actor>
   </VisualActor>
