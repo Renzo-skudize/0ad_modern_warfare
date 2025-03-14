@@ -26,6 +26,9 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <Promotion disable=""/>
+  <Vision>
+    <Range>110</Range>
+  </Vision>
   <VisualActor>
     <Actor>units/usa/infantry_rifleman.xml</Actor>
   </VisualActor>
