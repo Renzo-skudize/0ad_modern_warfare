@@ -21,6 +21,6 @@
   </Attack>
   <Promotion disable=""/>
   <Vision>
-    <Range>110</Range>
+    <Range>125</Range>
   </Vision>
 </Entity>
