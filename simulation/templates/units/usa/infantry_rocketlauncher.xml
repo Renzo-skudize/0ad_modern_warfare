@@ -1,1 +1,18 @@
-template_unit_infantry_ranged
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_rocketlauncher">
+  <Attack>
+    <Ranged>
+      <AttackName context="Rocket">Javelin</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <GenericName>US Army Soldier</GenericName>
+    <SpecificName>GI</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/usa/infantry_rifleman.xml</Actor>
+  </VisualActor>
+</Entity>
