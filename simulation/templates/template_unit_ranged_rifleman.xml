@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_rifleman">
+<Entity parent="template_unit_infantry_ranged">
   <Attack>
     <Ranged>
       <AttackName context="Gun">M-16</AttackName>
@@ -19,17 +19,8 @@
       </Projectile>
     </Ranged>
   </Attack>
-  <Identity>
-    <Civ>usa</Civ>
-    <GenericName>US Army Soldier</GenericName>
-    <SpecificName>GI</SpecificName>
-    <Icon>units/usa/F-35.png</Icon>
-  </Identity>
   <Promotion disable=""/>
   <Vision>
     <Range>110</Range>
   </Vision>
-  <VisualActor>
-    <Actor>units/usa/infantry_rifleman.xml</Actor>
-  </VisualActor>
 </Entity>
