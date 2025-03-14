@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/weapons/javelin.dae</mesh>
+      <textures>
+        <texture file="props/rocket.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile_loaded"/>
+        <prop actor="props/units/weapons/rocket.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+</actor>
