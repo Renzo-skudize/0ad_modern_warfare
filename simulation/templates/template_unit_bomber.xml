@@ -29,7 +29,7 @@
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
-    <SinkRate>300.0</SinkRate>
+    <SinkRate>30.0</SinkRate>
     <SinkAccel>7.0</SinkAccel>
   </Decay>
   <Health>
