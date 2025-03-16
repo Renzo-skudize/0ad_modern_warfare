@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fighter_single_engine">
+  <Attack>
+    <Ranged>
+      <AttackName context="Bomb">Mark 82</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Northrop Grumman B-21</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/F-35.xml</Actor>
+  </VisualActor>
+</Entity>
