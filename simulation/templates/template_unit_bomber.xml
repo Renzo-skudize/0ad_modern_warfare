@@ -52,10 +52,7 @@
   </Repairable>
   <Selectable>
     <Overlay>
-      <Texture>
-        <MainTexture disable=""/>
-        <MainTextureMask disable=""/>
-      </Texture>
+      <Texture disable=""/>
     </Overlay>
   </Selectable>
   <UnitAI>
