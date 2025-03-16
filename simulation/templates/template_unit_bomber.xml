@@ -52,7 +52,6 @@
   </Repairable>
   <Selectable>
     <Overlay>
-      <AlwaysVisible/>
       <Texture>
         <MainTexture disable=""/>
         <MainTextureMask disable=""/>
