@@ -51,7 +51,13 @@
     <RepairTimeRatio>3.0</RepairTimeRatio>
   </Repairable>
   <Selectable>
-    <Overlay disable=""/>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture disable=""/>
+        <MainTextureMask disable=""/>
+      </Texture>
+    </Overlay>
   </Selectable>
   <UnitAI>
     <Formations datatype="tokens" replace=""/>
