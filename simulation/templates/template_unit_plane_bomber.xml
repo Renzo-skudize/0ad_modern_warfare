@@ -1,1 +1,75 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Ranged>
+      <AttackName context="Bomb">Mark 82</AttackName>
+      <Damage>
+        <Crush>280</Crush>
+      </Damage>
+      <MaxRange>150</MaxRange>
+      <MinRange>0</MinRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>190</Speed>
+        <Spread>4</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>10</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>400</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Plane</VisibleClasses>
+    <GenericName> </GenericName>
+  </Identity>
+  <Obstruction disable=""/>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>2.5</TurnRate>
+  </Position>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
+  <UnitAI>
+    <Formations datatype="tokens" replace=""/>
+  </UnitAI>
+  <UnitMotion disable=""/>
+  <UnitMotionFlying>
+    <MaxSpeed>100.0</MaxSpeed>
+    <TakeoffSpeed>50.0</TakeoffSpeed>
+    <LandingSpeed>40.0</LandingSpeed>
+    <AccelRate>40.0</AccelRate>
+    <SlowingRate>4.0</SlowingRate>
+    <BrakingRate>40.0</BrakingRate>
+    <TurnRate>1.5</TurnRate>
+    <OvershootTime>2.0</OvershootTime>
+    <FlyingHeight>80.0</FlyingHeight>
+    <ClimbRate>30.0</ClimbRate>
+    <DiesInWater>true</DiesInWater>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotionFlying>
+  <UnitAI>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
+  <Vision>
+    <Range>180</Range>
+  </Vision>
+</Entity>
