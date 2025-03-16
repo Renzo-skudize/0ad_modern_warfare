@@ -4,12 +4,12 @@
     <Ranged>
       <AttackName context="Gun">M230</AttackName>
       <Damage>
-        <Pierce>200</Pierce>
+        <Pierce>160</Pierce>
       </Damage>
-      <MaxRange>120</MaxRange>
+      <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
-      <PrepareTime>0</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>150</RepeatTime>
       <Projectile>
         <Speed>280</Speed>
         <Spread>0</Spread>
