@@ -5,7 +5,7 @@
       <AttackName context="Rocketlauncher">javelin</AttackName>
       <Damage>
         <Pierce>0</Pierce>
-        <Crush>330</Crush>
+        <Crush>450</Crush>
       </Damage>
       <MaxRange>120</MaxRange>
       <PrepareTime>2000</PrepareTime>
