@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>10</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>7000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <AttackName context="Rocket">AIM-260 JATM</AttackName>
+      <Bonuses>
+        <BonusPlane>
+          <Classes>Plane</Classes>
+          <Multiplier>10.0</Multiplier>
+        </BonusPlane>
+      </Bonuses>
+      <Damage>
+        <Crush>100</Crush>
+      </Damage>
+      <MaxRange>120</MaxRange>
+      <MinRange>0</MinRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>280</Speed>
+        <Spread>0</Spread>
+        <Gravity>1</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>300</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Plane</VisibleClasses>
+    <GenericName> </GenericName>
+  </Identity>
+  <Obstruction disable=""/>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>2.5</TurnRate>
+  </Position>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
+  <UnitAI>
+    <Formations datatype="tokens" replace=""/>
+  </UnitAI>
+  <UnitMotion disable=""/>
+  <UnitMotionFlying>
+    <MaxSpeed>150.0</MaxSpeed>
+    <TakeoffSpeed>40.0</TakeoffSpeed>
+    <LandingSpeed>35.0</LandingSpeed>
+    <AccelRate>50.0</AccelRate>
+    <SlowingRate>5.0</SlowingRate>
+    <BrakingRate>50.0</BrakingRate>
+    <TurnRate>1.5</TurnRate>
+    <OvershootTime>2.0</OvershootTime>
+    <FlyingHeight>80.0</FlyingHeight>
+    <ClimbRate>50.0</ClimbRate>
+    <DiesInWater>true</DiesInWater>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotionFlying>
+  <UnitAI>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
+  <Vision>
+    <Range>180</Range>
+  </Vision>
+</Entity>
