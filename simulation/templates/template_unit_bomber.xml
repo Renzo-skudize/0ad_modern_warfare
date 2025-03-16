@@ -50,6 +50,9 @@
   <Repairable>
     <RepairTimeRatio>3.0</RepairTimeRatio>
   </Repairable>
+  <Selectable>
+    <Overlay disable=""/>
+  </Selectable>
   <UnitAI>
     <Formations datatype="tokens" replace=""/>
   </UnitAI>
