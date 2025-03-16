@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fighter_single_engine">
+<Entity parent="template_unit_bomber">
   <Attack>
     <Ranged>
       <AttackName context="Bomb">Mark 82</AttackName>
@@ -11,6 +11,6 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/usa/F-35.xml</Actor>
+    <Actor>units/usa/B-21.xml</Actor>
   </VisualActor>
 </Entity>
