@@ -21,6 +21,15 @@
     </Ranged>
   </Attack>
   <Promotion disable=""/>
+    <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Vision>
     <Range>150</Range>
   </Vision>
