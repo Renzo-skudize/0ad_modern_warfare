@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName context="Bomb">Mark 82</AttackName>
       <Damage>
-        <Crush>280</Crush>
+        <Crush>200</Crush>
       </Damage>
       <MaxRange>150</MaxRange>
       <MinRange>0</MinRange>
