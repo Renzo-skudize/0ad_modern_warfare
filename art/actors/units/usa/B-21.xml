@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>structural/B-21.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/B-21.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
