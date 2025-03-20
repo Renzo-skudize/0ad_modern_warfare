@@ -8,7 +8,7 @@
   <Identity>
     <Civ>usa</Civ>
     <SpecificName>Boeing AH-64</SpecificName>
-    <Icon>units/usa/F-35.png</Icon>
+    <Icon>units/usa/AH-64.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/usa/AH-64.xml</Actor>
