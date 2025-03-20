@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_helicopter">
+  <Attack>
+    <Ranged>
+      <AttackName context="GUN">M230</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Boeing AH-64</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/AH-64.xml</Actor>
+  </VisualActor>
+</Entity>
