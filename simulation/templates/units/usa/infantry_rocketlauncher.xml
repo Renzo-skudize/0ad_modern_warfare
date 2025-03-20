@@ -9,7 +9,7 @@
     <Civ>usa</Civ>
     <GenericName>US Army Soldier</GenericName>
     <SpecificName>GI</SpecificName>
-    <Icon>units/usa/F-35.png</Icon>
+    <Icon>units/usa/infantry_rocketlauncher.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
