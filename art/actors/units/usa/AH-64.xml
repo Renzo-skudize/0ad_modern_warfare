@@ -5,7 +5,7 @@
     <variant>
       <mesh>structural/AH-64.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/rocket.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/AH-64.png" name="baseTex"/>
