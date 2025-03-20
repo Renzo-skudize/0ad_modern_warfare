@@ -33,6 +33,23 @@
     </variant>
   </group>
   <group>
+    <variant frequency="2" name="ptol_padded_agema_01">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="ptol_padded_agema_02">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="ptol_padded_agema_03">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant file="biped/base_crossbowman_ready.xml"/>
     <variant file="biped/carry_food_han.xml"/>
     <variant file="biped/carry_meat.xml"/>
