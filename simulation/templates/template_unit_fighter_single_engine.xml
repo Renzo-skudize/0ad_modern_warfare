@@ -41,10 +41,10 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Decay>
-    <SinkingAnim>true</SinkingAnim>
-    <DelayTime>0.0</DelayTime>
-    <SinkRate>3.0</SinkRate>
-    <SinkAccel>7.0</SinkAccel>
+    <SinkingAnim>false</SinkingAnim>
+    <DelayTime>10.0</DelayTime>
+    <SinkRate>0.01</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
     <Max>300</Max>
