@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Mark 45 Gun</AttackName>
       <Damage>
-        <Crush>400</Crush>
+        <Crush>750</Crush>
       </Damage>
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
@@ -17,7 +17,6 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
     </Ranged>
   </Attack>
     <Auras datatype="tokens">
@@ -33,7 +32,7 @@
     <Population>4</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>50</wood>
       <metal>250</metal>
     </Resources>
   </Cost>
