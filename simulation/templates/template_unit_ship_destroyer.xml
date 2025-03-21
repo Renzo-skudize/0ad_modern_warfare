@@ -68,6 +68,7 @@
   </Resistance>
   <Selectable>
     <Overlay>
+      <AlwaysVisible/>
       <Texture>
         <MainTexture>128x512/cartouche.png</MainTexture>
         <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
