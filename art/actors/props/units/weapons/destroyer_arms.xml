@@ -4,7 +4,7 @@
     <variant frequency="100" name="Base">
       <mesh>props/weapons/destroyer_arms.dae</mesh>
       <textures>
-        <texture file="props/rocket.png" name="baseTex"/>
+        <texture file="props/destroyer_arms.png" name="baseTex"/>
       </textures>
       <props>
         <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
