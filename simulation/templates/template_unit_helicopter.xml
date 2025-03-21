@@ -41,6 +41,11 @@
   <GarrisonHolder>
     <Max>50</Max>
     <List datatype="tokens">Organic</List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <BuffHeal>0.5</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
     <Max>300</Max>
