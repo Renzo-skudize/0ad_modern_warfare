@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>structural/destroyer.dae</mesh>
+      <mesh>structural/destroyer_hull.dae</mesh>
       <props>
         <prop actor="props/units/weapons/destroyer_arms.xml" attachpoint="root"/>
       </props>
