@@ -40,6 +40,14 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <wood>75</wood>
+      <metal>125</metal>
+    </Resources>
+  </Cost>
   <Decay>
     <SinkingAnim>false</SinkingAnim>
     <DelayTime>10.0</DelayTime>
