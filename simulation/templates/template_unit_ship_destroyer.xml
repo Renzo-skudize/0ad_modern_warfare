@@ -6,38 +6,35 @@
       <Damage>
         <Crush>400</Crush>
       </Damage>
-      <MaxRange>140</MaxRange>
+      <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Bonuses>
-        <BonusShip>
-          <Classes>Ship</Classes>
-          <Multiplier>3.0</Multiplier>
-        </BonusShip>
-      </Bonuses>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
-        <Gravity>50</Gravity>
+        <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
       <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
     </Ranged>
   </Attack>
+    <Auras datatype="tokens">
+    units/counterair
+  </Auras>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
-    <MaxArrowCount>13</MaxArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <MaxArrowCount>1</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Cavalry</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>3</Population>
+    <Population>5</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <metal>100</metal>
+      <wood>100</wood>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -49,18 +46,26 @@
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
-    <Tooltip>Garrison units for transport and to increase firepower. Deals triple damage against Ships.</Tooltip>
     <VisibleClasses datatype="tokens">Ranged Warship Trireme</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>140</xp>
-    <wood>40</wood>
-    <metal>20</metal>
+    <wood>5</wood>
+    <metal>10</metal>
   </Loot>
   <Position>
     <TurnRate>4</TurnRate>
   </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>25</Hack>
+        <Pierce>25</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Selectable>
     <Overlay>
       <Texture>
@@ -79,6 +84,6 @@
     <Acceleration op="mul">2</Acceleration>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range>180</Range>
   </Vision>
 </Entity>
