@@ -2,7 +2,7 @@
 	"type": "range",
 	"radius": 150,
 	"affects": ["Plane"],
-  "affectedPlayers": ["Enemy"],
+  	"affectedPlayers": ["Enemy"],
 	"modifications": [
 		{ "value": "Health/RegenRate", "add": -50 }
 	],
