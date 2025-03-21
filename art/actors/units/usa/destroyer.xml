@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>structural/destroyer_hull.dae</mesh>
+      <mesh>structural/destroyer.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/destroyer_arms.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/destroyer.png" name="baseTex"/>
