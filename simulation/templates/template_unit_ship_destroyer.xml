@@ -17,7 +17,7 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
     </Ranged>
   </Attack>
     <Auras datatype="tokens">
@@ -46,7 +46,7 @@
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Warship Trireme</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
