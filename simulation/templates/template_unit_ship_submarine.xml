@@ -8,14 +8,14 @@
       </Damage>
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <RepeatTime>2500</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Organic Plane Tank</RestrictedClasses>
       <Projectile>
         <Speed>160</Speed>
         <Spread>0.5</Spread>
         <Gravity>1</Gravity>
         <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="3"/>
+        <LaunchPoint y="0"/>
       </Projectile>
     </Ranged>
   </Attack>
