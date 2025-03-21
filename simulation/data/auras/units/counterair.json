@@ -6,7 +6,7 @@
 	"modifications": [
 		{ "value": "Health/RegenRate", "add": -50 }
 	],
-	"auraName": "Scythes",
-	"auraDescription": "The Enemies` Planes get -50 Health per Second.",
+	"auraName": "counter air defense",
+	"auraDescription": "The Enemies` aerial vehicles get -50 Health per Second.",
 	"overlayIcon": "art/textures/ui/session/auras/broken_sword.png"
 }
