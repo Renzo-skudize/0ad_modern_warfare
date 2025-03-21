@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship">
   <Attack>
     <Ranged>
-      <AttackName>Mark 45 Gun</AttackName>
+      <AttackName>Mk 48</AttackName>
       <Damage>
         <Crush>750</Crush>
       </Damage>
