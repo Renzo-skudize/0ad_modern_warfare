@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_destroyer">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">Mark 45 Gun</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Arleigh Burke-class guided missile destroyer</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/destroyer.xml</Actor>
+  </VisualActor>
+</Entity>
