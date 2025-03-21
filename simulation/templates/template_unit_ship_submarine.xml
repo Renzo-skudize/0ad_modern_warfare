@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>Mark 45 Gun</AttackName>
+      <Damage>
+        <Crush>400</Crush>
+      </Damage>
+      <MaxRange>150</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>2</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Ship Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+    <Auras datatype="tokens">
+    units/counterair
+  </Auras>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <MaxArrowCount>1</MaxArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <Population>5</Population>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>60</Max>
+    <List datatype="tokens">Support Soldier Siege</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>1400</Max>
+  </Health>
+  <Identity>
+    <GenericName>Medium Warship</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Warship Trireme</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>140</xp>
+    <wood>5</wood>
+    <metal>10</metal>
+  </Loot>
+  <Position>
+    <TurnRate>4</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>25</Hack>
+        <Pierce>25</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">3</WalkSpeed>
+    <Acceleration op="mul">2</Acceleration>
+  </UnitMotion>
+  <Vision>
+    <Range>180</Range>
+  </Vision>
+</Entity>
