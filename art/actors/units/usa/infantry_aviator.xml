@@ -50,7 +50,7 @@
     </variant>
     <variant frequency="1" name="ptol_padded_agema_02">
       <props>
-        <prop actor="props/units/heads/new/head_dudette.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
