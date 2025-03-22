@@ -35,7 +35,7 @@
     <variant frequency="3" name="ptol_padded_agema_01">
       <props>
         <prop actor="props/units/helmets/flight_helmet.xml" attachpoint="head"/>
-
+      </props>
     </variant>
     <variant frequency="2" name="ptol_padded_agema_02">
       <props>
