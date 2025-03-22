@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="helmet PASGT">
+      <mesh>props/helmet/flight_helmet.dae</mesh>
+      <textures><texture file="props/flight_helmet.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>
