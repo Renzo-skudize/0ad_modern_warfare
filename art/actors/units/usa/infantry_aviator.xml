@@ -5,8 +5,8 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="" attachpoint="head"/>
-        <prop actor="props/units/helmets/flight_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/G-36.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -35,22 +35,22 @@
   <group>
     <variant frequency="3" name="ptol_padded_agema_01">
       <props>
-        <prop actor="" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="2" name="ptol_padded_agema_02">
       <props>
-        <prop actor="" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_dude.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="2" name="ptol_padded_agema_03">
       <props>
-        <prop actor="" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="1" name="ptol_padded_agema_02">
       <props>
-        <prop actor="" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
