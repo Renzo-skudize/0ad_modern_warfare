@@ -33,19 +33,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="ptol_padded_agema_01">
+    <variant frequency="3" name="ptol_padded_agema_01">
       <props>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant frequency="1" name="ptol_padded_agema_02">
+    <variant frequency="2" name="ptol_padded_agema_02">
       <props>
         <prop actor="props/units/heads/new/head_dude.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant frequency="1" name="ptol_padded_agema_03">
+    <variant frequency="2" name="ptol_padded_agema_03">
       <props>
         <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="ptol_padded_agema_02">
+      <props>
+        <prop actor="props/units/heads/new/head_dudette.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
