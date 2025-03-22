@@ -5,14 +5,17 @@
       <AttackName context="Gun">M-16</AttackName>
     </Ranged>
   </Attack>
+  <Health>
+    <Max>78</Max>
+  </Health>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>US Airforce Aviator</GenericName>
-    <SpecificName>GI</SpecificName>
+    <SpecificName>Pilot</SpecificName>
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/usa/infantry_rifleman.xml</Actor>
+    <Actor>units/usa/infantry_aviator.xml</Actor>
   </VisualActor>
 </Entity>
