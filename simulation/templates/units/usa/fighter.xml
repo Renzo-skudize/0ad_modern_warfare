@@ -5,6 +5,9 @@
       <AttackName context="Rocket">AIM-260 JATM</AttackName>
     </Ranged>
   </Attack>
+  <Health>
+    <SpawnEntityOnDeath>units/usa/infantry_aviator</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>usa</Civ>
     <SpecificName>Lockheed Martin F-35</SpecificName>
