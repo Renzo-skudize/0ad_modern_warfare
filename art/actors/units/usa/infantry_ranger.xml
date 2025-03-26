@@ -55,7 +55,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_crossbowman_ready.xml"/>
+    <variant file="biped/base_crossbowman_relax.xml"/>
     <variant file="biped/carry_food_han.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
