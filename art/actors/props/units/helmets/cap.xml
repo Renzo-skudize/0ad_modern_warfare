@@ -12,17 +12,17 @@
   <group>
      <variant frequency="1" name="Kausia Cap 1">
       <textures>
-        <texture file="props/helmet/hele_kausia_cap_01.png" name="baseTex"/>
+        <texture file="props/PASGT.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Kausia Cap 2">
       <textures>
-        <texture file="props/helmet/hele_kausia_cap_02.png" name="baseTex"/>
+        <texture file="props/PASGT.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Kausia Cap 3">
       <textures>
-        <texture file="props/helmet/hele_kausia_cap_03.png" name="baseTex"/>
+        <texture file="props/PASGT.png" name="baseTex"/>
       </textures>
     </variant> 
   </group>
