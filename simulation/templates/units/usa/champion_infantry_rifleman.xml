@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">M-16</AttackName>
+      <Damage>
+        <Pierce>140</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>90</MaxRange>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>750</RepeatTime>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>2</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Promotion disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>128x128/arrow.png</MainTexture>
+        <MainTextureMask>128x128/arrow_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Vision>
+    <Range>125</Range>
+  </Vision>
+</Entity>
