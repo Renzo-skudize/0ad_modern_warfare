@@ -1,0 +1,2 @@
+Nearly all art files are based on 0ad code, like almost everything to be found under
+gui/~ or simulation/~.
