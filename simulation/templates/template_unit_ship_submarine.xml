@@ -41,7 +41,7 @@
     <List datatype="tokens">Soldier</List>
   </GarrisonHolder>
   <Health>
-    <Max>600</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
