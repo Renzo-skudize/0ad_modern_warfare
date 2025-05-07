@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship">
+<Entity parent="template_unit">
   <Attack>
     <Ranged>
-      <AttackName>Mark 45 Gun</AttackName>
+      <AttackName>M68A1</AttackName>
       <Damage>
         <Crush>400</Crush>
       </Damage>
@@ -18,9 +18,6 @@
       </Projectile>
     </Ranged>
   </Attack>
-    <Auras datatype="tokens">
-    units/counterair
-  </Auras>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <MaxArrowCount>1</MaxArrowCount>
