@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>M68A1</AttackName>
       <Damage>
-        <Crush>400</Crush>
+        <Crush>450</Crush>
       </Damage>
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
@@ -25,23 +25,20 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>5</Population>
-    <BuildTime>25</BuildTime>
+    <Population>2</Population>
+    <BuildTime>20</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>175</metal>
+      <wood>50</wood>
+      <food>50</food>
+      <metal>150</metal>
     </Resources>
   </Cost>
-  <GarrisonHolder>
-    <Max>60</Max>
-    <List datatype="tokens">Support Soldier Siege</List>
-  </GarrisonHolder>
   <Health>
-    <Max>1400</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
-    <GenericName>Medium Warship</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <GenericName>Medium Tank</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Siege</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
@@ -58,15 +55,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>128x512/cartouche.png</MainTexture>
-        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
