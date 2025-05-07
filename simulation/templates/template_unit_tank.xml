@@ -9,7 +9,6 @@
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
@@ -17,7 +16,6 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
     </Ranged>
   </Attack>
     <Auras datatype="tokens">
@@ -54,15 +52,12 @@
     <wood>5</wood>
     <metal>10</metal>
   </Loot>
-  <Position>
-    <TurnRate>4</TurnRate>
-  </Position>
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>25</Hack>
-        <Pierce>70</Pierce>
-        <Crush>70</Crush>
+        <Hack>0</Hack>
+        <Pierce>75</Pierce>
+        <Crush>0</Crush>
       </Damage>
     </Entity>
   </Resistance>
