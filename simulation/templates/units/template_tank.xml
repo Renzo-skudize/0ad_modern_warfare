@@ -1,0 +1,7 @@
+<Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>50</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
