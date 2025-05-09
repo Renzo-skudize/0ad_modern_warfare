@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_tank">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">Rh120</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>M 1 Abrahams</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/M1.xml</Actor>
+  </VisualActor>
+</Entity>
