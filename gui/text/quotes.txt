@@ -70,5 +70,6 @@
 ”It is obvious that the state is a work of nature and that man is by nature a state-building being.”\n— Aristotle (”Politics”, I,2)
 ”Freedom, too, must have its master. Without a leader, Rome and Sparta perished.”\n— Friedrich Schiller (The Robbers, 1st act)
 ”Cowards die many times before their deaths; The valiant never taste of death but once.”\n— William Shakespeare (”Julius Caesar”, Act II scene ii.)
-”To be or not to be, that is the question”\n— William Shakespeare (”Hamlet”, Act III scene i.)
-”There is nothing either good or bad, but thinking makes it so. (”Hamlet”, Act II scene ii.)
+”To be or not to be, that is the question” \n— William Shakespeare (”Hamlet”, Act III scene i.)
+”There is nothing either good or bad, but thinking makes it so.” \n— William Shakespeare (”Hamlet”, Act II scene ii.)
+”Love, and do what thou wilt.” \n— Augustine of Hippo (”In epistulam Ioannis ad Parthos”, tractatus VII, 8)
