@@ -1,6 +1,6 @@
 {
 	"type": "range",
-	"radius": 150,
+	"radius": 75,
 	"affects": ["Plane"],
   	"affectedPlayers": ["Enemy"],
 	"modifications": [
