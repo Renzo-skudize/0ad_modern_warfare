@@ -10,7 +10,7 @@ A 0AD Mod for modern warfare since 1990.
   - new structures like bunkers, aerial arsenals and launch pads for intercontinental ballic missiles
   - new AI setup
 ## Tipps:
-  - Bombers are
+  - You should have some Fighters to patrol at your critical infrastructure for preventing bombers destroying it.
   
 ## Aviable Factions:
 
