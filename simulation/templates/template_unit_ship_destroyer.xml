@@ -20,7 +20,7 @@
       <PreferredClasses datatype="tokens">Ship</PreferredClasses>
     </Ranged>
   </Attack>
-    <Auras datatype="tokens">
+  <Auras datatype="tokens">
     units/counterair
   </Auras>
   <BuildingAI>
