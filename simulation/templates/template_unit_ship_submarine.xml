@@ -46,7 +46,9 @@
   <Identity>
     <GenericName>Medium Warship</GenericName>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <xp>140</xp>
