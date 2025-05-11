@@ -20,7 +20,6 @@
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
-    <MaxArrowCount>1</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
@@ -39,7 +38,9 @@
   <Identity>
     <GenericName>Medium Tank</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <xp>140</xp>
