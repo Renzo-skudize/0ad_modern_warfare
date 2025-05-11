@@ -7,5 +7,4 @@
       <textures><texture file="props/PASGT.png" name="baseTex"/></textures>
     </variant>
   </group>
-  <material>playercolor_spec.xml</material>
 </actor>
