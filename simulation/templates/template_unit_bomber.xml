@@ -66,9 +66,9 @@
     <MaxSpeed>100.0</MaxSpeed>
     <TakeoffSpeed>50.0</TakeoffSpeed>
     <LandingSpeed>40.0</LandingSpeed>
-    <AccelRate>40.0</AccelRate>
-    <SlowingRate>4.0</SlowingRate>
-    <BrakingRate>40.0</BrakingRate>
+    <AccelRate>50.0</AccelRate>
+    <SlowingRate>5.0</SlowingRate>
+    <BrakingRate>50.0</BrakingRate>
     <TurnRate>1.5</TurnRate>
     <OvershootTime>2.0</OvershootTime>
     <FlyingHeight>80.0</FlyingHeight>
