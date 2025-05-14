@@ -1,2 +1,2 @@
-Nearly all art files are based on 0ad code, like almost everything to be found under
+Nearly all art files are based on 0ad's (or a few github-0ad-mods') code, like almost everything to be found under
 gui/~ or simulation/~.
