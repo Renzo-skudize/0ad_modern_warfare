@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_drone">
+  <Attack>
+    <Ranged>
+      <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Anduril YFQ-44</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/YFQ-44.xml</Actor>
+  </VisualActor>
+</Entity>
