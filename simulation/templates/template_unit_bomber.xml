@@ -10,7 +10,7 @@
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
-      <PreferredClasses datatype="tokens">CivilCentre</PreferredClasses>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>190</Speed>
