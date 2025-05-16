@@ -8,7 +8,7 @@
       </Damage>
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <RepeatTime>3000</RepeatTime>
       <Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
@@ -63,7 +63,7 @@
   </Sound>
   <UnitMotion>
     <WalkSpeed op="mul">3</WalkSpeed>
-    <Acceleration op="mul">2</Acceleration>
+    <Acceleration op="mul">0.5</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>180</Range>
