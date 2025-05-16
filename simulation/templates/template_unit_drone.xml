@@ -77,7 +77,7 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>140.0</MaxSpeed>
+    <MaxSpeed>160.0</MaxSpeed>
     <TakeoffSpeed>30.0</TakeoffSpeed>
     <LandingSpeed>30.0</LandingSpeed>
     <AccelRate>80.0</AccelRate>
