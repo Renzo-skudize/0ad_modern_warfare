@@ -6,21 +6,21 @@
         <Burning>
           <Interval>1000</Interval>
           <Damage>
-            <Fire>10</Fire>
+            <Fire>12</Fire>
           </Damage>
           <Stackability>Stack</Stackability>
-          <Duration>6000</Duration>
+          <Duration>7000</Duration>
         </Burning>
       </ApplyStatus>
       <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
       <Bonuses>
         <BonusPlane>
           <Classes>Plane</Classes>
-          <Multiplier>5.0</Multiplier>
+          <Multiplier>10.0</Multiplier>
         </BonusPlane>
       </Bonuses>
       <Damage>
-        <Crush>80</Crush>
+        <Crush>120</Crush>
       </Damage>
       <MaxRange>120</MaxRange>
       <MinRange>0</MinRange>
@@ -41,7 +41,7 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>0</Population>
+    <Population>1</Population>
     <BuildTime>20</BuildTime>
     <Resources>
       <wood>75</wood>
