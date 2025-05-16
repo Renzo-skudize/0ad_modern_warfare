@@ -1,1 +1,11 @@
-
+{
+	"type": "range",
+	"radius": 100,
+	"affects": ["Plane"],
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 }
+	],
+	"auraName": "Collaborative Combat Airsystem",
+	"auraDescription": "Aerial vehicles +20% Attack Damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
