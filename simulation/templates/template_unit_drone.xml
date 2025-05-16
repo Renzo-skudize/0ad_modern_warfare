@@ -12,7 +12,7 @@
           <Duration>6000</Duration>
         </Burning>
       </ApplyStatus>
-      <AttackName context="Rocket">AIM-260 JATM</AttackName>
+      <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
       <Bonuses>
         <BonusPlane>
           <Classes>Plane</Classes>
