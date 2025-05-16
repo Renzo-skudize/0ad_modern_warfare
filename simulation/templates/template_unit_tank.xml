@@ -9,6 +9,7 @@
       <MaxRange>150</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
