@@ -45,6 +45,7 @@
     <BuildTime>20</BuildTime>
     <Resources>
       <wood>50</wood>
+      <food>50</food>
       <metal>125</metal>
     </Resources>
   </Cost>
