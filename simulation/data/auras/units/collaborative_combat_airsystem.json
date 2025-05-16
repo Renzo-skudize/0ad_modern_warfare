@@ -1,6 +1,6 @@
 {
 	"type": "range",
-	"radius": 100,
+	"radius": 120,
 	"affects": ["Plane"],
 	"modifications": [
 		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 }
