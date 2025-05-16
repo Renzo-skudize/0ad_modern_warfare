@@ -67,7 +67,7 @@
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>0</FloatDepth>
-    <TurnRate>1</TurnRate>
+    <TurnRate>0.2</TurnRate>
   </Position>
   <Repairable>
     <RepairTimeRatio>3.0</RepairTimeRatio>
