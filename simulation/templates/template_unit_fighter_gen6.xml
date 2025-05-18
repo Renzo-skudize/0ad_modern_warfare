@@ -25,7 +25,7 @@
       <MaxRange>120</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
       <Projectile>
         <Speed>400</Speed>
         <Spread>0</Spread>
