@@ -22,7 +22,7 @@
       <Damage>
         <Crush>120</Crush>
       </Damage>
-      <MaxRange>120</MaxRange>
+      <MaxRange>150</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>2000</RepeatTime>
@@ -95,6 +95,6 @@
     <DefaultStance>violent</DefaultStance>
   </UnitAI>
   <Vision>
-    <Range>150</Range>
+    <Range>160</Range>
   </Vision>
 </Entity>
