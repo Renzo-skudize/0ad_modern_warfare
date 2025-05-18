@@ -6,7 +6,7 @@
       <Damage>
         <Crush>750</Crush>
       </Damage>
-      <MaxRange>160</MaxRange>
+      <MaxRange>175</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Unit -Ship</RestrictedClasses>
@@ -87,6 +87,6 @@
     <Acceleration op="mul">1.5</Acceleration>
   </UnitMotion>
   <Vision>
-    <Range>180</Range>
+    <Range>200</Range>
   </Vision>
 </Entity>
