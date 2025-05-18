@@ -34,9 +34,9 @@
   </Cost>
   <Decay>
     <SinkingAnim>false</SinkingAnim>
-    <DelayTime>10.0</DelayTime>
-    <SinkRate>0.01</SinkRate>
-    <SinkAccel>0</SinkAccel>
+    <DelayTime>5.0</DelayTime>
+    <SinkRate>1</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
   </Decay>
   <GarrisonHolder>
     <Max>50</Max>
