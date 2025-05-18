@@ -22,7 +22,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>10</DefaultArrowCount>
+    <DefaultArrowCount>14</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
@@ -63,7 +63,7 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>100.0</MaxSpeed>
+    <MaxSpeed>150.0</MaxSpeed>
     <TakeoffSpeed>50.0</TakeoffSpeed>
     <LandingSpeed>40.0</LandingSpeed>
     <AccelRate>50.0</AccelRate>
