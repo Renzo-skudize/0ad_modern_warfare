@@ -32,8 +32,9 @@
     <Population>4</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <metal>200</metal>
+      <wood>25</wood>
+      <stone>25</stone>
+      <metal>175</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
