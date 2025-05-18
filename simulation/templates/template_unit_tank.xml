@@ -33,6 +33,12 @@
       <metal>150</metal>
     </Resources>
   </Cost>
+  <Decay>
+    <SinkingAnim>false</SinkingAnim>
+    <DelayTime>5.0</DelayTime>
+    <SinkRate>1</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
+  </Decay>
   <Health>
     <Max>600</Max>
   </Health>
