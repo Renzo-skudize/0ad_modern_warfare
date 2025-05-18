@@ -44,7 +44,7 @@
   </Health>
   <Identity>
     <GenericName>Medium Tank</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Siege</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
