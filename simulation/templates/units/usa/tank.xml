@@ -6,7 +6,7 @@
     </Ranged>
   </Attack>
   <Health>
-    <SpawnEntityOnDeath>units/usa/tankcrew</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>units/usa/infantry_tankcrew</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>usa</Civ>
