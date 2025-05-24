@@ -35,9 +35,6 @@
       </Projectile>
     </Ranged>
   </Attack>
-  <Auras datatype="tokens">
-    units/collaborative_combat_airsystem
-  </Auras>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
