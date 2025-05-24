@@ -2,7 +2,7 @@
 <Entity parent="template_unit_drone">
   <Attack>
     <Ranged>
-      <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
+      <AttackName context="Rocket">AIM-260 JATM</AttackName>
     </Ranged>
   </Attack>
   <Identity>
