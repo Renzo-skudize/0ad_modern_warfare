@@ -90,7 +90,7 @@
     <TurnRate>2.0</TurnRate>
     <OvershootTime>2.0</OvershootTime>
     <FlyingHeight>80.0</FlyingHeight>
-    <ClimbRate>55.0</ClimbRate>
+    <ClimbRate>75.0</ClimbRate>
     <DiesInWater>true</DiesInWater>
     <PassabilityClass>unrestricted</PassabilityClass>
   </UnitMotionFlying>
