@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fighter_single_engine">
+<Entity parent="template_unit_fighter_gen6">
   <Attack>
     <Ranged>
       <AttackName context="Rocket">AIM-260 JATM</AttackName>
