@@ -16,7 +16,7 @@
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
-        <ImpactActorNameName>particle/bigflame.xml</ImpactActorName>
+        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
 	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
       <PreferredClasses datatype="tokens">Ship</PreferredClasses>
