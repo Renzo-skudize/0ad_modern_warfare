@@ -7,7 +7,7 @@
   </Attack>
   <Identity>
     <Civ>usa</Civ>
-    <GenericName>US Army Soldier</GenericName>
+    <GenericName>Infantry Soldier with Javelin</GenericName>
     <SpecificName>GI</SpecificName>
     <Icon>units/usa/infantry_rocketlauncher.png</Icon>
   </Identity>
