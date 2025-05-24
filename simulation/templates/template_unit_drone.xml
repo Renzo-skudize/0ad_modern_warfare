@@ -29,6 +29,8 @@
       <Projectile>
         <Speed>400</Speed>
         <Spread>0</Spread>
+        <ImpactActorNameName>particle/bigflame.xml</ImpactActorName>
+				<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
         <Gravity>1</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
