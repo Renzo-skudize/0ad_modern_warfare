@@ -32,8 +32,8 @@
         <Gravity>1</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
-        <ImpactActorNameName>particle/bigflame.xml</ImpactActorName>
-				<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
+	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
     </Ranged>
   </Attack>
