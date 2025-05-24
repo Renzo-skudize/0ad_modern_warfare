@@ -10,8 +10,8 @@
   </Health>
   <Identity>
     <Civ>usa</Civ>
-    <GenericName>US Army tank commander</GenericName>
-    <SpecificName> </SpecificName>
+    <GenericName>Tank Crew</GenericName>
+    <SpecificName>US Army Tank Commander</SpecificName>
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <Promotion disable=""/>
