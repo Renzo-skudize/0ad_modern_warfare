@@ -5,9 +5,6 @@
       <AttackName context="Gun">Rh120</AttackName>
     </Ranged>
   </Attack>
-  <Health>
-    <SpawnEntityOnDeath>units/usa/infantry_tankcrew</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Tank</GenericName>
