@@ -86,7 +86,7 @@
     <LandingSpeed>40.0</LandingSpeed>
     <AccelRate>80.0</AccelRate>
     <SlowingRate>8</SlowingRate>
-    <BrakingRate>80.0</BrakingRate>
+    <BrakingRate>85.0</BrakingRate>
     <TurnRate>2.0</TurnRate>
     <OvershootTime>2.0</OvershootTime>
     <FlyingHeight>80.0</FlyingHeight>
