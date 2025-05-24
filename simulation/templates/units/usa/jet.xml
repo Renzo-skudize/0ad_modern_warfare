@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fighter_single_engine">
+  <Attack>
+    <Ranged>
+      <AttackName context="Rocket">AIM-260 JATM</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Boeing F-47</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/F-47.xml</Actor>
+  </VisualActor>
+</Entity>
