@@ -19,13 +19,16 @@
       </Projectile>
     </Ranged>
   </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
   <Promotion disable=""/>
   <Selectable>
     <Overlay>
       <AlwaysVisible/>
       <Texture>
-        <MainTexture>128x128/ellipse.png</MainTexture>
-        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+        <MainTexture>128x128/arrow.png</MainTexture>
+        <MainTextureMask>128x128/arrow_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
