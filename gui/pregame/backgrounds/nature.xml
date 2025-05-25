@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sprites>
-	<sprite name="AeneasAchilles">
+	<sprite name="nature">
 		<image
 			texture="pregame/backgrounds/nature.png"
 			fixed_h_aspect_ratio="2"
