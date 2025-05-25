@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="submarine">
+		<image
+			texture="pregame/backgrounds/submarine.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+</sprites>
