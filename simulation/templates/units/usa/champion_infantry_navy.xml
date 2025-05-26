@@ -3,8 +3,35 @@
   <Attack>
     <Ranged>
       <AttackName context="Gun">M-16</AttackName>
+      <Damage>
+        <Pierce>150</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>90</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>2</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
     </Ranged>
   </Attack>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>25</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Champion Infantry Naval</GenericName>
