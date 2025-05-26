@@ -42,6 +42,6 @@
     </Overlay>
   </Selectable>
   <Vision>
-    <Range>160</Range>
+    <Range>161</Range>
   </Vision>
 </Entity>
