@@ -7,7 +7,7 @@
         <Pierce>0</Pierce>
         <Crush>450</Crush>
       </Damage>
-      <MaxRange>120</MaxRange>
+      <MaxRange>130</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
       <PreferredClasses datatype="tokens">Unit !Organic</PreferredClasses>
@@ -42,6 +42,6 @@
     </Overlay>
   </Selectable>
   <Vision>
-    <Range>150</Range>
+    <Range>160</Range>
   </Vision>
 </Entity>
