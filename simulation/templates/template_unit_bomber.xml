@@ -24,7 +24,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>15</DefaultArrowCount>
+    <DefaultArrowCount>4</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
