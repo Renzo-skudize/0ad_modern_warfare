@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName context="Gun">M83</AttackName>
       <Damage>
-        <Pierce>180</Pierce>
+        <Pierce>250</Pierce>
         <Crush>0</Crush>
       </Damage>
       <MaxRange>160</MaxRange>
