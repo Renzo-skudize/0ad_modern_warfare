@@ -24,6 +24,7 @@
         <prop actor="flora/bush_desert_dry_a.xml" attachpoint="helmet"/>
         <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="back"/>
         <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
       </textures>
