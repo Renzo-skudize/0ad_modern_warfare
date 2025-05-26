@@ -27,7 +27,7 @@
     <Entity>
       <Damage>
         <Hack>4</Hack>
-        <Pierce>15</Pierce>
+        <Pierce>5</Pierce>
         <Crush>4</Crush>
       </Damage>
     </Entity>
