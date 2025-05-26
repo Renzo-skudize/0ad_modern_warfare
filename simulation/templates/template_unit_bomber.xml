@@ -30,7 +30,7 @@
   </BuildingAI>
   <Cost>
     <Population>3</Population>
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
       <wood>100</wood>
       <metal>150</metal>
