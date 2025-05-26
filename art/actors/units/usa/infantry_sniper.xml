@@ -27,9 +27,6 @@
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
-        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="helmet"/>
-        <prop actor="flora/bushes/medit_scrub_01.xml" attachpoint="back"/>
-        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="root"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-02">
@@ -40,10 +37,12 @@
     <variant name="Han-Armor-Lamellar-02-Lacqurered-03">
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
-        <prop actor="flora/bushes/medit_scrub_01.xml" attachpoint="helmet"/>
-        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="back"/>
-        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="root"/>
       </textures>
+      <props>
+        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="helmet"/>
+        <prop actor="flora/bushes/medit_scrub_01.xml" attachpoint="back"/>
+        <prop actor="flora/bushes/medit_scrub_02.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
