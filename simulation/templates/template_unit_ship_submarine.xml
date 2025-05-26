@@ -6,7 +6,7 @@
       <Damage>
         <Crush>750</Crush>
       </Damage>
-      <MaxRange>175</MaxRange>
+      <MaxRange>180</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Unit !Ship</RestrictedClasses>
