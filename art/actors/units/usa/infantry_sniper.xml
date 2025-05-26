@@ -9,6 +9,7 @@
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
         <prop actor="props/flora/bush_medit_me.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/M83.xml" attachpoint="weapon_R"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="specTex"/>
@@ -19,7 +20,9 @@
   <group>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-01">
       <props>
-        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_tempe_me.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
@@ -36,6 +39,8 @@
       </textures>
       <props>
         <prop actor="props/flora/bush_tempe_me.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
