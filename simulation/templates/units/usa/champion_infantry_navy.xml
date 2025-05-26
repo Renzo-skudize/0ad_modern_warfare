@@ -49,6 +49,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/usa/infantry_navy.xml</Actor>
+    <Actor>units/usa/infantry_seal.xml</Actor>
   </VisualActor>
 </Entity>
