@@ -396,3 +396,319 @@ UnitMotionFlying.prototype.SetDebugOverlay = function(enabled)
 };
 
 Engine.RegisterComponentType(IID_UnitMotion, "UnitMotionFlying", UnitMotionFlying);
+Almost all art files are based on code from 0ad (or some GitHub 0ad mods), 
+like almost everything found in gui/~ or simulation/~, with the exception 
+of one file from the OpenRA source code.
+
+
+// Copyright & License Information
+/*
+ * Copyright (c) The OpenRA Developers and Contributors
+ * This file is part of OpenRA, which is free software. It is made
+ * available to you under the terms of the GNU General Public License
+ * as published by the Free Software Foundation, either version 3 of
+ * the License, or (at your option) any later version. For more
+ * information, see COPYING.
+ */
+
+// Required imports - these would need to be adjusted based on the actual JavaScript module structure
+import { Activity } from '../Activities/Activity.js';
+import { Aircraft } from '../Traits/Aircraft.js';
+import { AttackAircraft } from '../Traits/AttackAircraft.js';
+import { Rearmable } from '../Traits/Rearmable.js';
+import { Target, TargetType } from '../Primitives/Target.js';
+import { WDist } from '../Primitives/WDist.js';
+import { Color } from '../Primitives/Color.js';
+import { BitSet } from '../Primitives/BitSet.js';
+import { TargetLineNode } from '../Primitives/TargetLineNode.js';
+import { AttackSource, AirAttackType, UnitStance } from '../Traits/Enums.js';
+import { TakeOff } from './TakeOff.js';
+import { ReturnToBase } from './ReturnToBase.js';
+import { Fly } from './Fly.js';
+import { FlyForward } from './FlyForward.js';
+import { Util } from '../Util.js';
+
+export class FlyAttack extends Activity {
+	constructor(self, source, target, forceAttack, targetLineColor) {
+		super();
+		
+		// readonly fields
+		this.aircraft = self.trait('Aircraft');
+		this.attackAircraft = self.trait('AttackAircraft');
+		this.rearmable = self.traitOrDefault('Rearmable');
+		this.source = source;
+		this.forceAttack = forceAttack;
+		this.targetLineColor = targetLineColor;
+		this.strafeDistance = this.attackAircraft.info.strafeRunLength;
+		
+		// Instance fields
+		this.target = target;
+		this.lastVisibleTarget = null;
+		this.lastVisibleMaximumRange = null;
+		this.lastVisibleTargetTypes = null;
+		this.lastVisibleOwner = null;
+		this.useLastVisibleTarget = false;
+		this.hasTicked = false;
+		this.returnToBase = false;
+		
+		this.childHasPriority = false;
+
+		// The target may become hidden between the initial order request and the first tick (e.g. if queued)
+		// Moving to any position (even if quite stale) is still better than immediately giving up
+		if ((target.type === TargetType.Actor && target.actor.canBeViewedByPlayer(self.owner))
+			|| target.type === TargetType.FrozenActor || target.type === TargetType.Terrain) {
+			
+			this.lastVisibleTarget = Target.fromPos(target.centerPosition);
+			this.lastVisibleMaximumRange = this.attackAircraft.getMaximumRangeVersusTarget(target);
+
+			if (target.type === TargetType.Actor) {
+				this.lastVisibleOwner = target.actor.owner;
+				this.lastVisibleTargetTypes = target.actor.getEnabledTargetTypes();
+			} else if (target.type === TargetType.FrozenActor) {
+				this.lastVisibleOwner = target.frozenActor.owner;
+				this.lastVisibleTargetTypes = target.frozenActor.targetTypes;
+			}
+		}
+	}
+
+	tick(self) {
+		if (!this.isCanceling && !this.hasArmamentsFor(this.target)) {
+			this.cancel(self, true);
+		}
+
+		if (!this.tickChild(self)) {
+			return false;
+		}
+
+		this.returnToBase = false;
+
+		// Refuse to take off if it would land immediately again.
+		if (this.aircraft.forceLanding) {
+			this.cancel(self);
+		}
+
+		if (this.isCanceling) {
+			return true;
+		}
+
+		// Check that AttackFollow hasn't cancelled the target by modifying attack.Target
+		// Having both this and AttackFollow modify that field is a horrible hack.
+		if (this.hasTicked && this.attackAircraft.requestedTarget.type === TargetType.Invalid) {
+			return true;
+		}
+
+		if (this.attackAircraft.isTraitPaused) {
+			return false;
+		}
+
+		const recalculateResult = this.target.recalculate(self.owner);
+		this.target = recalculateResult.target;
+		const targetIsHiddenActor = recalculateResult.isHidden;
+		
+		this.attackAircraft.setRequestedTarget(this.target, this.forceAttack);
+		this.hasTicked = true;
+
+		if (!targetIsHiddenActor && this.target.type === TargetType.Actor) {
+			this.lastVisibleTarget = Target.fromTargetPositions(this.target);
+			this.lastVisibleMaximumRange = this.attackAircraft.getMaximumRangeVersusTarget(this.target);
+			this.lastVisibleOwner = this.target.actor.owner;
+			this.lastVisibleTargetTypes = this.target.actor.getEnabledTargetTypes();
+		}
+
+		// The target may become hidden in the same tick the FlyAttack constructor is called,
+		// causing lastVisible* to remain uninitialized.
+		// Fix the fallback values based on the frozen actor properties
+		else if (this.target.type === TargetType.FrozenActor && !this.lastVisibleTarget.isValidFor(self)) {
+			this.lastVisibleTarget = Target.fromTargetPositions(this.target);
+			this.lastVisibleMaximumRange = this.attackAircraft.getMaximumRangeVersusTarget(this.target);
+			this.lastVisibleOwner = this.target.frozenActor.owner;
+			this.lastVisibleTargetTypes = this.target.frozenActor.targetTypes;
+		}
+
+		this.useLastVisibleTarget = targetIsHiddenActor || !this.target.isValidFor(self);
+
+		// Target is hidden or dead, and we don't have a fallback position to move towards
+		if (this.useLastVisibleTarget && !this.lastVisibleTarget.isValidFor(self)) {
+			return true;
+		}
+
+		// If all valid weapons have depleted their ammo and Rearmable trait exists, return to RearmActor to reload
+		// and resume the activity after reloading if AbortOnResupply is set to 'false'
+		if (this.rearmable !== null && !this.useLastVisibleTarget && this.attackAircraft.armaments.every(x => x.isTraitPaused || !x.weapon.isValidAgainst(this.target, self.world, self))) {
+			// Attack moves never resupply
+			if (this.source === AttackSource.AttackMove) {
+				return true;
+			}
+
+			// AbortOnResupply cancels the current activity (after resupplying) plus any queued activities
+			if (this.attackAircraft.info.abortOnResupply) {
+				this.nextActivity?.cancel(self);
+			}
+
+			this.queueChild(new ReturnToBase(self));
+			this.returnToBase = true;
+			return this.attackAircraft.info.abortOnResupply;
+		}
+
+		const pos = self.centerPosition;
+		const checkTarget = this.useLastVisibleTarget ? this.lastVisibleTarget : this.target;
+
+		const minimumRange = this.attackAircraft.info.attackType === AirAttackType.Strafe ? WDist.zero : this.attackAircraft.getMinimumRangeVersusTarget(this.target);
+
+		if (this.lastVisibleMaximumRange === WDist.zero || this.lastVisibleMaximumRange < minimumRange) {
+			return true;
+		}
+
+		const delta = this.attackAircraft.getTargetPosition(pos, this.target).subtract(pos);
+		const desiredFacing = delta.horizontalLengthSquared !== 0 ? delta.yaw : this.aircraft.facing;
+
+		this.queueChild(new TakeOff(self));
+
+		// Move into range of the target.
+		if (!checkTarget.isInRange(pos, this.lastVisibleMaximumRange) || checkTarget.isInRange(pos, minimumRange)) {
+			this.queueChild(this.aircraft.moveWithinRange(this.target, minimumRange, this.lastVisibleMaximumRange, checkTarget.centerPosition, Color.red));
+		}
+
+		// We've reached the assumed position but it is not there - give up
+		else if (this.useLastVisibleTarget) {
+			return true;
+		}
+
+		// The aircraft must keep moving forward even if it is already in an ideal position.
+		else if (this.attackAircraft.info.attackType === AirAttackType.Strafe) {
+			this.queueChild(new StrafeAttackRun(this.attackAircraft, this.aircraft, this.target, this.strafeDistance !== WDist.zero ? this.strafeDistance : this.lastVisibleMaximumRange));
+		} else if (this.attackAircraft.info.attackType === AirAttackType.Default && !this.aircraft.info.canHover) {
+			this.queueChild(new FlyAttackRun(this.target, this.lastVisibleMaximumRange, this.attackAircraft));
+		}
+
+		// Turn to face the target if required.
+		else if (!this.attackAircraft.targetInFiringArc(self, this.target, this.attackAircraft.info.facingTolerance)) {
+			this.aircraft.facing = Util.tickFacing(this.aircraft.facing, desiredFacing, this.aircraft.turnSpeed);
+		}
+
+		return false;
+	}
+
+	onLastRun(self) {
+		// Cancel the requested target, but keep firing on it while in range
+		this.attackAircraft.clearRequestedTarget();
+	}
+
+	// IActivityNotifyStanceChanged implementation
+	stanceChanged(self, autoTarget, oldStance, newStance) {
+		// Cancel non-forced targets when switching to a more restrictive stance if they are no longer valid for auto-targeting
+		if (newStance > oldStance || this.forceAttack) {
+			return;
+		}
+
+		// If lastVisibleTarget is invalid we could never view the target in the first place, so we just drop it here too
+		if (!this.lastVisibleTarget.isValidFor(self) || !autoTarget.hasValidTargetPriority(self, this.lastVisibleOwner, this.lastVisibleTargetTypes)) {
+			this.attackAircraft.clearRequestedTarget();
+		}
+	}
+
+	*targetLineNodes(self) {
+		if (this.targetLineColor !== null) {
+			if (this.returnToBase) {
+				yield* this.childActivity.targetLineNodes(self);
+			}
+			if (!this.returnToBase || !this.attackAircraft.info.abortOnResupply) {
+				yield new TargetLineNode(this.useLastVisibleTarget ? this.lastVisibleTarget : this.target, this.targetLineColor);
+			}
+		}
+	}
+
+	hasArmamentsFor(target) {
+		return !this.attackAircraft.isTraitDisabled && this.attackAircraft.chooseArmamentsForTarget(target, this.forceAttack).length > 0;
+	}
+}
+
+export class FlyAttackRun extends Activity {
+	constructor(target, exitRange, attack) {
+		super();
+		
+		this.childHasPriority = false;
+		
+		this.target = target;
+		this.exitRange = exitRange;
+		this.attack = attack;
+		this.targetIsVisibleActor = false;
+	}
+
+	onFirstRun(self) {
+		// The target may have died while this activity was queued
+		if (this.target.isValidFor(self)) {
+			this.queueChild(new Fly(self, this.target, this.target.centerPosition));
+
+			// Fly a single tick forward so we have passed the target and start flying out of range facing away from it
+			this.queueChild(new FlyForward(self, 1));
+			this.queueChild(new Fly(self, this.target, this.exitRange, WDist.maxValue, this.target.centerPosition));
+		} else {
+			this.cancel(self);
+		}
+	}
+
+	tick(self) {
+		if (this.tickChild(self) || this.isCanceling) {
+			return true;
+		}
+
+		// Cancel the run if the target become invalid (e.g. killed) while visible
+		const targetWasVisibleActor = this.targetIsVisibleActor;
+		const recalculateResult = this.target.recalculate(self.owner);
+		this.target = recalculateResult.target;
+		const targetIsHiddenActor = recalculateResult.isHidden;
+		this.targetIsVisibleActor = this.target.type === TargetType.Actor && !targetIsHiddenActor;
+
+		if (targetWasVisibleActor && (!this.target.isValidFor(self) || !this.attack.hasAnyValidWeapons(this.target))) {
+			this.cancel(self);
+		}
+
+		return false;
+	}
+}
+
+export class StrafeAttackRun extends Activity {
+	constructor(attackAircraft, aircraft, target, exitRange) {
+		super();
+		
+		this.childHasPriority = false;
+		
+		this.target = target;
+		this.attackAircraft = attackAircraft;
+		this.aircraft = aircraft;
+		this.exitRange = exitRange;
+	}
+
+	onFirstRun(self) {
+		// The target may have died while this activity was queued
+		if (this.target.isValidFor(self)) {
+			this.queueChild(new Fly(self, this.target, this.target.centerPosition));
+			this.queueChild(new FlyForward(self, this.exitRange));
+
+			// Exit the range and then fly enough to turn towards the target for another run
+			const distanceToTurn = new WDist(this.aircraft.info.speed * 256 / this.aircraft.info.turnSpeed.angle);
+			this.queueChild(new Fly(self, this.target, this.exitRange.add(distanceToTurn), WDist.maxValue, this.target.centerPosition));
+		} else {
+			this.cancel(self);
+		}
+	}
+
+	tick(self) {
+		if (this.tickChild(self) || this.isCanceling) {
+			return true;
+		}
+
+		// Strafe attacks target the ground below the original target
+		// Update the position if we seen the target move; keep the previous one if it dies or disappears
+		const recalculateResult = this.target.recalculate(self.owner);
+		this.target = recalculateResult.target;
+		const targetIsHiddenActor = recalculateResult.isHidden;
+		
+		if (!targetIsHiddenActor && this.target.type === TargetType.Actor) {
+			this.attackAircraft.setRequestedTarget(Target.fromTargetPositions(this.target), true);
+		}
+
+		return false;
+	}
+}
