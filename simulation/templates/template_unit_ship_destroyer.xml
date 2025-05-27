@@ -20,6 +20,16 @@
 	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
       <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+      <Splash>
+	<Shape>Circular</Shape>
+	<Range>15</Range>
+	<FriendlyFire>true</FriendlyFire>
+	<Damage>
+		<Hack>0.0</Hack>
+		<Pierce>25.0</Pierce>
+		<Crush>60.0</Crush>
+	</Damage>
+      </Splash>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
