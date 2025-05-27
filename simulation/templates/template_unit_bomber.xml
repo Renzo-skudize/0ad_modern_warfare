@@ -21,6 +21,16 @@
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
 	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
+      <Splash>
+	<Shape>Circular</Shape>
+		<Range>10</Range>
+		<FriendlyFire>true</FriendlyFire>
+		<Damage>
+			<Hack>0.0</Hack>
+			<Pierce>20.0</Pierce>
+			<Crush>50.0</Crush>
+		</Damage>
+      </Splash>
     </Ranged>
   </Attack>
   <BuildingAI>
