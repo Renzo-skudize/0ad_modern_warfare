@@ -71,6 +71,7 @@
   <UnitMotion disable=""/>
   <UnitMotionFlying>
     <MaxSpeed>60.0</MaxSpeed>
+    <StationaryDistance>5</StationaryDistance>
     <TakeoffSpeed>5.0</TakeoffSpeed>
     <LandingSpeed>5.0</LandingSpeed>
     <AccelRate>50.0</AccelRate>
