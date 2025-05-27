@@ -396,11 +396,6 @@ UnitMotionFlying.prototype.SetDebugOverlay = function(enabled)
 };
 
 Engine.RegisterComponentType(IID_UnitMotion, "UnitMotionFlying", UnitMotionFlying);
-Almost all art files are based on code from 0ad (or some GitHub 0ad mods), 
-like almost everything found in gui/~ or simulation/~, with the exception 
-of one file from the OpenRA source code.
-
-
 // Copyright & License Information
 /*
  * Copyright (c) The OpenRA Developers and Contributors
