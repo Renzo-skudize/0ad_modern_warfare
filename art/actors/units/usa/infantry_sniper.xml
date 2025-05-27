@@ -8,7 +8,9 @@
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
         <prop actor="props/flora/bush_medit_sm.xml" attachpoint="back"/>
-        <prop actor="props/units/weapons/M83.xml" attachpoint="weapon_R"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/M83.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/units/weapons/M83.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_medit_sm.xml" attachpoint="helmet"/>
       </props>
       <textures>
@@ -21,6 +23,8 @@
     <variant name="Han-Armor-Lamellar-02-Lacqurered-01">
       <props>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
       </props>
@@ -39,6 +43,8 @@
       </textures>
       <props>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
       </props>
