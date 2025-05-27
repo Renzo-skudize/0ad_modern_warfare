@@ -35,6 +35,16 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
+      <Splash>
+	<Shape>Circular</Shape>
+	<Range>10</Range>
+	<FriendlyFire>true</FriendlyFire>
+	<Damage>
+		<Hack>0.0</Hack>
+		<Pierce>15.0</Pierce>
+		<Crush>40.0</Crush>
+	</Damage>
+      </Splash>
     </Ranged>
   </Attack>
   <BuildingAI>
