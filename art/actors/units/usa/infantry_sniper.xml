@@ -7,10 +7,11 @@
       <props>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
-        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="back"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/units/weapons/M83.xml" attachpoint="weapon_R"/>
         <prop actor="props/flora/bush_medit_sm.xml" attachpoint="root"/>
-        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="specTex"/>
@@ -21,10 +22,10 @@
   <group>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-01">
       <props>
-        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="root"/>
-        <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
-        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
@@ -40,10 +41,10 @@
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
       </textures>
       <props>
-        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="root"/>
-        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
