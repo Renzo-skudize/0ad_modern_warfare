@@ -12,6 +12,7 @@
         <prop actor="props/units/weapons/M83.xml" attachpoint="weapon_R"/>
         <prop actor="props/flora/bush_medit_sm.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_medit_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_medit_sm.xml" attachpoint="back"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="specTex"/>
@@ -26,6 +27,7 @@
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
       </props>
       <textures>
         <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
@@ -45,6 +47,7 @@
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="sheath_01_L"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="helmet"/>
+        <prop actor="props/flora/bush_tempe_sm.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
