@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_ranged_sniper">
   <Attack>
     <Ranged>
-      <AttackName context="Gun">M83</AttackName>
+      <AttackName context="Gun">M-83</AttackName>
     </Ranged>
   </Attack>
   <Identity>
