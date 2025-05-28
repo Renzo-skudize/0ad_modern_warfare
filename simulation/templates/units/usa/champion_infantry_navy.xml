@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_ranged_rifleman">
   <Attack>
     <Ranged>
-      <AttackName context="Gun">M-16</AttackName>
+      <AttackName context="Gun">M-27</AttackName>
       <Damage>
         <Pierce>160</Pierce>
         <Crush>0</Crush>
