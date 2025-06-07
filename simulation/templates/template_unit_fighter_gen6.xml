@@ -41,8 +41,8 @@
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
-		<Pierce>15.0</Pierce>
-		<Crush>40.0</Crush>
+		<Pierce>20.0</Pierce>
+		<Crush>00.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
