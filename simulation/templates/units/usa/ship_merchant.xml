@@ -10,6 +10,6 @@
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/usa/containership.xml</Actor>
+    <Actor>units/usa/containership.xml</Actor>
   </VisualActor>
 </Entity>
