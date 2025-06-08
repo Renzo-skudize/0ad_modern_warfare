@@ -5,7 +5,7 @@
     <variant>
       <mesh>structural/containership.dae</mesh>
       <textures>
-        <texture file="structural/containership_new.png" name="baseTex"/>
+        <texture file="structural/containership.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
