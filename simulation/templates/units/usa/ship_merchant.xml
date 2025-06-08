@@ -5,9 +5,9 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>iber</Civ>
-    <SpecificName>Merkataritza Itsasontzi</SpecificName>
-    <Icon>units/iber/ship_merchant.png</Icon>
+    <Civ>usa</Civ>
+    <SpecificName>Containership</SpecificName>
+    <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/usa/containership.xml</Actor>
