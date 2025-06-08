@@ -36,7 +36,6 @@
   </Selectable>
   <Trader>
     <GainMultiplier>5</GainMultiplier>
-    <GarrisonGainMultiplier>0</GarrisonGainMultiplier>
   </Trader>
   <TreasureCollector>
     <MaxDistance>40</MaxDistance>
