@@ -11,7 +11,7 @@
     <List datatype="tokens">Support Cavalry Relic Infantry</List>
   </GarrisonHolder>
   <Health>
-    <Max>240</Max>
+    <Max>2000</Max>
   </Health>
   <Identity>
     <GenericName>Merchantman</GenericName>
