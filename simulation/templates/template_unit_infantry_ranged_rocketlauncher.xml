@@ -51,6 +51,10 @@
       </Texture>
     </Overlay>
   </Selectable>
+  <UnitMotion>
+    <WalkSpeed op="add">-3</WalkSpeed>
+    <Acceleration op="add">-5</Acceleration>
+  </UnitMotion>
   <Vision>
     <Range>160</Range>
   </Vision>
