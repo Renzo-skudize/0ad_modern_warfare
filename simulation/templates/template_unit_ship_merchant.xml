@@ -49,7 +49,7 @@
   <UnitMotion>
     <PassabilityClass>ship</PassabilityClass>
     <WalkSpeed op="mul">1.8</WalkSpeed>
-    <Acceleration op="mul">0.7</Acceleration>
+    <Acceleration op="mul">0.8</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>80</Range>
