@@ -3,7 +3,7 @@
   <Cost>
     <BuildTime>20</BuildTime>
     <Resources>
-      <metal>100</metal>
+      <metal>120</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -35,7 +35,7 @@
     </Overlay>
   </Selectable>
   <Trader>
-    <GainMultiplier>4</GainMultiplier>
+    <GainMultiplier>5</GainMultiplier>
     <GarrisonGainMultiplier>0</GarrisonGainMultiplier>
   </Trader>
   <TreasureCollector>
