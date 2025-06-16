@@ -21,12 +21,7 @@
   </Attack>
   <Cost>
     <Population>1</Population>
-    <BuildTime>25</BuildTime>
-    <Resources>
-      <wood>80</wood>
-      <food>80</food>
-      <metal>80</metal>
-    </Resources>
+    <BuildTime>20</BuildTime>
   </Cost>
   <Health>
     <Max>150</Max>
