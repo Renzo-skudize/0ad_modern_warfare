@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName context="Gun">M-27</AttackName>
       <Damage>
-        <Pierce>160</Pierce>
+        <Pierce>180</Pierce>
         <Crush>0</Crush>
       </Damage>
       <MaxRange>90</MaxRange>
@@ -19,10 +19,6 @@
       </Projectile>
     </Ranged>
   </Attack>
-  <Cost>
-    <Population>1</Population>
-    <BuildTime>25</BuildTime>
-  </Cost>
   <Health>
     <Max>120</Max>
   </Health>
@@ -34,6 +30,9 @@
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <Promotion disable=""/>
+  <UnitMotion>
+    <WalkSpeed op="add">2.5</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/usa/infantry_seal.xml</Actor>
   </VisualActor>
