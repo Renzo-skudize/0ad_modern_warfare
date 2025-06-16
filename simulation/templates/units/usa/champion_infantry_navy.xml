@@ -21,21 +21,12 @@
   </Attack>
   <Cost>
     <Population>1</Population>
-    <BuildTime>20</BuildTime>
+    <BuildTime>25</BuildTime>
   </Cost>
   <Health>
-    <Max>150</Max>
+    <Max>120</Max>
   </Health>
   <Promotion disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>9</Pierce>
-        <Crush>5</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Champion Infantry Naval</GenericName>
