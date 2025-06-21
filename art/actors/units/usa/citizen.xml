@@ -29,7 +29,23 @@
         <texture file="skeletal/usa/citizen_NYC_02.png" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="NYC_03">
+      <textures>
+        <texture file="skeletal/usa/citizen_NYC_01.png" name="baseTex"/>
+      </textures>
+      <props>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="NYC_04">
+      <textures>
+        <texture file="skeletal/usa/citizen_NYC_02.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
