@@ -5,7 +5,7 @@
     <Lang>latin</Lang>
     <SpecificName>American Citizen</SpecificName>
     <GenericName>Civilian</GenericName>
-    <Icon>units/rome/support_female_citizen.png</Icon>
+    <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/usa/citizen.xml</Actor>
