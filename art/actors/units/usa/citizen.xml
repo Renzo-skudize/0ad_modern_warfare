@@ -33,19 +33,21 @@
       </props>
     </variant>
     <variant name="NYC_03">
+      <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_NYC_01.png" name="baseTex"/>
       </textures>
       <props>
-        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant name="NYC_04">
+      <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_NYC_02.png" name="baseTex"/>
       </textures>
       <props>
-        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
