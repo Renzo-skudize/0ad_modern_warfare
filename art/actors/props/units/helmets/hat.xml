@@ -13,7 +13,7 @@
   <group>
     <variant frequency="1" name="Straw-01">
       <textures>
-        <texture file="props/PASGT.png" name="baseTex"/>
+        <texture file="props/helmet/PASGT.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
