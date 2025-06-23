@@ -12,6 +12,9 @@
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
   <Promotion disable=""/>
+  <UnitMotion>
+    <WalkSpeed op="add">0.5</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/usa/infantry_police.xml</Actor>
   </VisualActor>
