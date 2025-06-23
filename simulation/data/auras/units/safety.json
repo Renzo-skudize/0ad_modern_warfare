@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Worker"],
+	"modifications": [
+    { "value": "Builder/Rate", "multiply": 1.2 },
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.2 }
+	],
+	"auraName": "Feeling of Safety",
+	"auraDescription": "Workers +20% gathering and building rate.",
+	"overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
+	"stackable": true
+}
