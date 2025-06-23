@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
-    <Civ>rome</Civ>
-    <Lang>latin</Lang>
+    <Civ>usa</Civ>
     <SpecificName>American Citizen</SpecificName>
     <GenericName>Civilian</GenericName>
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <VisualActor>
     <Actor>units/usa/citizen.xml</Actor>
   </VisualActor>
