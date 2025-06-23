@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/usa/infantry_ranger.xml</Actor>
+    <Actor>units/usa/infantry_delta.xml</Actor>
   </VisualActor>
 </Entity>
