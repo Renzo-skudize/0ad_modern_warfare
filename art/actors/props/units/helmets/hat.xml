@@ -5,8 +5,8 @@
     <variant name="straw-01">
       <mesh>props/helmet/hele_straw_01.dae</mesh>
       <textures>
-        <texture file="props/helmet/PASGT.png" name="normTex"/>
-        <texture file="props/helmet/PASGT.png" name="specTex"/>
+        <texture file="props/PASGT.png" name="normTex"/>
+        <texture file="props/PASGT.png" name="specTex"/>
       </textures>
     </variant>
   </group>
