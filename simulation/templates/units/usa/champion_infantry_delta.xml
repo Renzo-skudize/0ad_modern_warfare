@@ -2,8 +2,14 @@
 <Entity parent="template_unit_champion_infantry_ranged_rifleman">
   <Attack>
     <Ranged>
-      <AttackName context="Gun">M-27</AttackName>
+      <AttackName context="Gun">HK 416</AttackName>
     </Ranged>
+    <Bonuses>
+        <BonusInfMelee>
+          <Classes>Infantry</Classes>
+          <Multiplier>1.6</Multiplier>
+        </BonusInfMelee>
+    </Bonuses>
   </Attack>
   <Identity>
     <Civ>usa</Civ>
