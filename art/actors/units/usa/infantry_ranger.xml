@@ -48,7 +48,7 @@
         <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant frequency="1" name="ptol_padded_agema_02"
+    <variant frequency="1" name="ptol_padded_agema_04">
       <mesh>skeletal/new/f_armor_tunic_short_boudicca.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
