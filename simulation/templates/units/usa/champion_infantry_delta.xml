@@ -3,13 +3,13 @@
   <Attack>
     <Ranged>
       <AttackName context="Gun">HK 416</AttackName>
-    </Ranged>
-    <Bonuses>
+      <Bonuses>
         <BonusInfMelee>
           <Classes>Infantry</Classes>
           <Multiplier>1.6</Multiplier>
         </BonusInfMelee>
-    </Bonuses>
+      </Bonuses>
+    </Ranged>
   </Attack>
   <Identity>
     <Civ>usa</Civ>
