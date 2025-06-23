@@ -6,7 +6,7 @@
       <Bonuses>
         <BonusInfMelee>
           <Classes>Infantry</Classes>
-          <Multiplier>1.6</Multiplier>
+          <Multiplier>2</Multiplier>
         </BonusInfMelee>
       </Bonuses>
     </Ranged>
