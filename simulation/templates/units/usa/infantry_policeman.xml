@@ -5,6 +5,9 @@
       <AttackName context="Gun">M-16</AttackName>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    units/counterair
+  </Auras>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Light Police Infantry</GenericName>
