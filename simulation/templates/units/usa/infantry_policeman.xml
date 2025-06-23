@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_rifleman">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">M-16</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <GenericName>Light Police Infantry</GenericName>
+    <SpecificName>Policeman</SpecificName>
+    <Icon>units/usa/infantry_rifleman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/usa/infantry_police.xml</Actor>
+  </VisualActor>
+</Entity>
