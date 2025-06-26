@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_ranged_rifleman">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">M4 Carbine</AttackName>
+      <Bonuses>
+        <BonusInfMelee>
+          <Classes>Infantry</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusInfMelee>
+      </Bonuses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <GenericName>Champion Infantry Anti Infantry</GenericName>
+    <SpecificName>Special Weapons and Tactics Member</SpecificName>
+    <Icon>units/usa/infantry_rifleman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/usa/infantry_swat.xml</Actor>
+  </VisualActor>
+</Entity>
