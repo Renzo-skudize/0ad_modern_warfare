@@ -9,11 +9,18 @@
           <Multiplier>1.5</Multiplier>
         </BonusInfMelee>
       </Bonuses>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>1.75</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
     </Ranged>
   </Attack>
   <Identity>
     <Civ>usa</Civ>
-    <GenericName>Champion Infantry Anti Infantry</GenericName>
+    <GenericName>Champion Anti Infantry</GenericName>
     <SpecificName>Special Weapons and Tactics Member</SpecificName>
     <Icon>units/usa/infantry_rifleman.png</Icon>
   </Identity>
