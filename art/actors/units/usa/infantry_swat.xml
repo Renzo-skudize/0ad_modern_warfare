@@ -18,40 +18,40 @@
   <group>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-01">
       <textures>
-        <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/usa/cardiopylax_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-02">
       <textures>
-        <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/usa/cardiopylax_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-03">
       <textures>
-        <texture file="skeletal/usa/cardiopylax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/usa/cardiopylax_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="3" name="ptol_padded_agema_01">
       <props>
-        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_ninja_fem.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="2" name="ptol_padded_agema_02">
       <props>
-        <prop actor="props/units/heads/new/head_dude.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_ninja_fem.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="2" name="ptol_padded_agema_03">
       <props>
-        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_ninja_fem.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="1" name="ptol_padded_agema_04">
       <mesh>skeletal/new/f_armor_tunic_short_boudicca.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_ninja_fem.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
