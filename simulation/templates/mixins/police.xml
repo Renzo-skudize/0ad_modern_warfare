@@ -3,9 +3,6 @@
   <Auras datatype="tokens">
     units/safety
   </Auras>
-  <Identity>
-    <SpecificName>Policeman</SpecificName>
-  </Identity>
   <Health>
     <Max op="mul">0.8</Max>
   </Health>
