@@ -6,7 +6,7 @@
       <Bonuses>
         <BonusInfMelee>
           <Classes>Infantry</Classes>
-          <Multiplier>1.5</Multiplier>
+          <Multiplier>1.25</Multiplier>
         </BonusInfMelee>
       </Bonuses>
       <Projectile>
