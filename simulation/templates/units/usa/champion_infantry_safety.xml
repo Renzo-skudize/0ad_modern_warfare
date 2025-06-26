@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_ranged_rifleman">
+<Entity parent="police|template_unit_champion_infantry_ranged_rifleman">
   <Attack>
     <Ranged>
       <AttackName context="Gun">M4 Carbine</AttackName>
