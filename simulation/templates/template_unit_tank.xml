@@ -6,7 +6,7 @@
       <Damage>
         <Crush>450</Crush>
       </Damage>
-      <MaxRange>150</MaxRange>
+      <MaxRange>145</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
