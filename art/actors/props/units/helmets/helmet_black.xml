@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="helmet PASGT">
       <mesh>props/helmet/PASGT.dae</mesh>
-        <texture file="skeletal/ninja_female.png" name="baseTex"/>
+        <texture file="null_black.dds" name="baseTex"/>
     </variant>
   </group>
 </actor>
