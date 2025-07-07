@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="battle">
+		<image
+			texture="pregame/backgrounds/battle.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+</sprites>
