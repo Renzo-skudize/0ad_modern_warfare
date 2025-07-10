@@ -9,7 +9,7 @@
       <MaxRange>180</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Structure Unit !Ship</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Structure Organic Siege Tank Plane</RestrictedClasses>
       <Projectile>
         <Speed>160</Speed>
         <Spread>0</Spread>
