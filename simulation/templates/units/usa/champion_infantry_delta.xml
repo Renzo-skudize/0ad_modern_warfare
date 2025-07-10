@@ -17,6 +17,7 @@
         <LaunchPoint y="3"/>
       </Projectile>
     </Ranged>
+  <Attack>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Champion Infantry Anti Infantry</GenericName>
