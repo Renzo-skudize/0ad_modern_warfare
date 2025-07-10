@@ -6,7 +6,7 @@
       <authoring_tool>Blender 3.4.1</authoring_tool>
     </contributor>
     <unit meter="1" />
-    <up_axis>Y_UP</up_axis>
+    <up_axis>Z_UP</up_axis>
   </asset>
   <library_lights />
   <library_materials />
