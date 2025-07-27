@@ -11,9 +11,9 @@
       <RepeatTime>10000</RepeatTime>
       <RestrictedClasses datatype="tokens">Unit</RestrictedClasses>
       <Projectile>
-        <Speed>25</Speed>
+        <Speed>100</Speed>
         <Spread>0</Spread>
-        <Gravity>5000</Gravity>
+        <Gravity>2500</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="0"/>
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
