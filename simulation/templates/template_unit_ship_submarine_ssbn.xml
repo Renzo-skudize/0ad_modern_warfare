@@ -26,7 +26,7 @@
 	<Damage>
 		<Hack>0.0</Hack>
 		<Pierce>0.0</Pierce>
-		<Crush>3500.0</Crush>
+		<Crush>10000.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
