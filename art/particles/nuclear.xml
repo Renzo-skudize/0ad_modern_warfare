@@ -13,7 +13,7 @@
     <uniform name="position.z" min="-5" max="5"/>
     <uniform name="position.y" min="0.5" max="2.5"/>
 
-    <uniform name="angle" min="-3.14" max="3.14"/>
+    <uniform name="angle" min="-180" max="180"/>
 
     <uniform name="velocity.x" min="-1.0" max="1.0"/>
     <uniform name="velocity.y" min="10.0" max="30.0"/>
@@ -27,6 +27,6 @@
     <copy name="color.b" from="color.g"/>
 
     <force y="-15.0"/>
-    <force x="-10.0"/>
+    <force x="-15.0"/>
 
 </particles>
