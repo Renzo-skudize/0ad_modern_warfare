@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/projectile-bolt.dae</mesh>
+      <mesh>props/weapons/minuteman.dae</mesh>
       <props>
         <prop actor="particle/smoke_catapult.xml" attachpoint="root"/>
         <prop actor="particle/flame_catapult.xml" attachpoint="root"/>
