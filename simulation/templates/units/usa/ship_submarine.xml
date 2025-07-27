@@ -10,6 +10,9 @@
     <SpecificName>Los Angeles-class submarine</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/usa/ship_submarine_a</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/usa/submarine.xml</Actor>
   </VisualActor>
