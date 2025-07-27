@@ -10,6 +10,18 @@
     <SpecificName>Los Angeles-class submarine</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
+  <Upgrade>
+    <Strategical>
+      <Entity>units/usa/ship_submarine_ssbn</Entity>
+      <Tooltip>Submarine is able to launch slbm's with high damage. Can't attack units,therefore high vulnerability</Tooltip>
+      <Cost>
+        <food>0</food>
+        <metal>0</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>6</Time>
+    </Strategical>
+  </Upgrade>
   <VisualActor>
     <Actor>units/usa/submarine.xml</Actor>
   </VisualActor>
