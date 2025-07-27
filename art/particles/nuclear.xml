@@ -6,12 +6,12 @@
 
     <start_full/>
 
-    <constant name="emissionrate" value="10000.0"/>
+    <constant name="emissionrate" value="100000.0"/>
     <uniform name="lifetime" min="0.1" max="0.8"/>
 
     <uniform name="position.x" min="-25" max="25"/>
     <uniform name="position.z" min="-20" max="20"/>
-    <uniform name="position.y" min="0.5" max="50"/>
+    <uniform name="position.y" min="0.5" max="100"/>
 
     <uniform name="angle" min="-3.14" max="3.14"/>
 
