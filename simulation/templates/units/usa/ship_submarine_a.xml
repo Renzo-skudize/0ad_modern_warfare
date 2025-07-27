@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_submarine">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">Mk 48</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Los Angeles-class submarine</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/submarine.xml</Actor>
+  </VisualActor>
+</Entity>
