@@ -16,8 +16,8 @@
         <Gravity>2500</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="0"/>
-        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
-	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <ImpactActorName>particle/nuclear.xml</ImpactActorName>
+	<ImpactAnimationLifetime>15</ImpactAnimationLifetime>
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
