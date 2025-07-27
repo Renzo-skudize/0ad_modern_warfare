@@ -17,7 +17,7 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="0"/>
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
-	      <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
     </Ranged>
   </Attack>
