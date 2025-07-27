@@ -15,7 +15,7 @@
         <metal>0</metal>
       </Cost>
       <Variant>upgrading</Variant>
-      <Time>6</Time>
+      <Time>4</Time>
     </Release>
   </Upgrade>
   <VisualActor>
