@@ -6,6 +6,18 @@
     <SpecificName>Ohio-class submarine</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
+  <Upgrade>
+    <Release>
+      <Entity>units/usa/ssbn</Entity>
+      <Tooltip>Releases the submarine's nuclear arsenal.</Tooltip>
+      <Cost>
+        <food>0</food>
+        <metal>0</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>6</Time>
+    </Release>
+  </Upgrade>
   <VisualActor>
     <Actor>units/usa/submarine_ssbn.xml</Actor>
   </VisualActor>
