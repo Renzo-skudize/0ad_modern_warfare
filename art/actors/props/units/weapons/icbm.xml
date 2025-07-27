@@ -5,8 +5,8 @@
     <variant>
       <mesh>props/weapons/minuteman.dae</mesh>
       <props>
-        <prop actor="particle/smoke_catapult.xml" attachpoint="root"/>
-        <prop actor="particle/flame_catapult.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/bigflame.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
