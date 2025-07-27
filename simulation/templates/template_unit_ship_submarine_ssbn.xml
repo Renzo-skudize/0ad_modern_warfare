@@ -7,8 +7,8 @@
         <Crush>10000</Crush>
       </Damage>
       <MaxRange>220</MaxRange>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>7500</RepeatTime>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
       <RestrictedClasses datatype="tokens">Unit</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
@@ -19,6 +19,16 @@
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
 	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
       </Projectile>
+      <Splash>
+	<Shape>Circular</Shape>
+	<Range>100</Range>
+	<FriendlyFire>true</FriendlyFire>
+	<Damage>
+		<Hack>0.0</Hack>
+		<Pierce>0.0</Pierce>
+		<Crush>3500.0</Crush>
+	</Damage>
+      </Splash>
     </Ranged>
   </Attack>
   <Cost>
