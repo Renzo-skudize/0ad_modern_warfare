@@ -11,7 +11,7 @@
       <RepeatTime>10000</RepeatTime>
       <RestrictedClasses datatype="tokens">Unit</RestrictedClasses>
       <Projectile>
-        <Speed>200</Speed>
+        <Speed>150</Speed>
         <Spread>0</Spread>
         <Gravity>2500</Gravity>
         <FriendlyFire>true</FriendlyFire>
