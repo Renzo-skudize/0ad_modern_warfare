@@ -17,7 +17,7 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="0"/>
         <ImpactActorName>particle/nuclear.xml</ImpactActorName>
-	<ImpactAnimationLifetime>15</ImpactAnimationLifetime>
+	<ImpactAnimationLifetime>1.5</ImpactAnimationLifetime>
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
