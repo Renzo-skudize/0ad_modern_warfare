@@ -25,7 +25,7 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>3</Population>
+    <Population>2</Population>
     <BuildTime>20</BuildTime>
     <Resources>
       <wood>75</wood>
@@ -39,7 +39,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <GarrisonHolder>
-    <Max>50</Max>
+    <Max>2</Max>
     <List datatype="tokens">Organic</List>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
