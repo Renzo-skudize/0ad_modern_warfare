@@ -11,12 +11,12 @@
 
     <uniform name="position.x" min="-25" max="25"/>
     <uniform name="position.z" min="-20" max="20"/>
-    <uniform name="position.y" min="0.5" max="25"/>
+    <uniform name="position.y" min="0.5" max="50"/>
 
     <uniform name="angle" min="-3.14" max="3.14"/>
 
     <uniform name="velocity.x" min="-1.0" max="1.0"/>
-    <uniform name="velocity.y" min="20.0" max="80.0"/>
+    <uniform name="velocity.y" min="25.0" max="100.0"/>
     <uniform name="velocity.z" min="-1.0" max="1.0"/>
     <uniform name="velocity.angle" min="-1.0" max="1.0"/>
 
