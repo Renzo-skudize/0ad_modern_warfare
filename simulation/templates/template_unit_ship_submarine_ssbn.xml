@@ -6,7 +6,7 @@
       <Damage>
         <Crush>10000</Crush>
       </Damage>
-      <MaxRange>220</MaxRange>
+      <MaxRange>250</MaxRange>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>10000</RepeatTime>
       <RestrictedClasses datatype="tokens">Unit</RestrictedClasses>
