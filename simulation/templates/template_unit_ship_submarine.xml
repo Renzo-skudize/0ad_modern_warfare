@@ -21,15 +21,6 @@
       </Projectile>
     </Ranged>
   </Attack>
-    <Auras datatype="tokens">
-    units/counterair
-  </Auras>
-  <BuildingAI>
-    <DefaultArrowCount>2</DefaultArrowCount>
-    <MaxArrowCount>2</MaxArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
-  </BuildingAI>
   <Cost>
     <Population>4</Population>
     <BuildTime>25</BuildTime>
@@ -40,7 +31,7 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>0</Max>
     <List datatype="tokens">Soldier</List>
   </GarrisonHolder>
   <Health>
