@@ -13,7 +13,7 @@
       <Projectile>
         <Speed>200</Speed>
         <Spread>0</Spread>
-        <Gravity>10000</Gravity>
+        <Gravity>5000</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="0"/>
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
