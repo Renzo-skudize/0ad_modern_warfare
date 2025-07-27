@@ -11,7 +11,7 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/usa/ship_submarine_a</Entity>
+    <Entity>units/usa/ship_submarine_ssbn</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/usa/submarine.xml</Actor>
