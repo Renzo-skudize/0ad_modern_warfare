@@ -78,90 +78,90 @@ UnitMotionFlying.prototype.OnUpdate = function(msg)
 	let newangle = angle;
 	let canTurn = true;
 	let distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
-	if (this.landing)
-	{
-		if (this.speed > 0 && this.onGround)
-		{
-			if (pos.y <= cmpWaterManager.GetWaterLevel(pos.x, pos.z) && this.template.DiesInWater == "true")
-				this.waterDeath = true;
-			this.pitch = 0;
-			// Deaccelerate forwards...at a very reduced pace.
-			if (this.waterDeath)
-				this.speed = Math.max(0, this.speed - turnLength * this.template.BrakingRate * 10);
-			else
-				this.speed = Math.max(0, this.speed - turnLength * this.template.BrakingRate);
-			canTurn = false;
-			// Clamp to ground if below it, or descend if above.
-			if (pos.y < ground)
-				pos.y = ground;
-			else if (pos.y > ground)
-				pos.y = Math.max(ground, pos.y - turnLength * this.template.ClimbRate);
-		}
-		else if (this.speed == 0 && this.onGround)
-		{
-			let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
-			if (this.waterDeath && cmpHealth)
-				cmpHealth.Kill();
-			else
-			{
-				this.pitch = 0;
-				// We've stopped.
-				if (cmpGarrisonHolder)
-					cmpGarrisonHolder.AllowGarrisoning(true, "UnitMotionFlying");
-				canTurn = false;
-				this.hasTarget = false;
-				this.landing = false;
-				// Summon planes back from the edge of the map.
-				let terrainSize = cmpTerrain.GetMapSize();
-				let cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
-				if (cmpRangeManager.GetLosCircular())
-				{
-					let mapRadius = terrainSize/2;
-					let x = pos.x - mapRadius;
-					let z = pos.z - mapRadius;
-					let div = (mapRadius - 12) / Math.sqrt(x*x + z*z);
-					if (div < 1)
-					{
-						pos.x = mapRadius + x*div;
-						pos.z = mapRadius + z*div;
-						newangle += Math.PI;
-						distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
-					}
-				}
-				else
-				{
-					pos.x = Math.max(Math.min(pos.x, terrainSize - 12), 12);
-					pos.z = Math.max(Math.min(pos.z, terrainSize - 12), 12);
-					newangle += Math.PI;
-					distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
-				}
-			}
-		}
-		else
-		{
-			// Final Approach.
-			// We need to slow down to land!
-			this.speed = Math.max(this.template.LandingSpeed, this.speed - turnLength * this.template.SlowingRate);
-			canTurn = false;
-			let targetHeight = ground;
-			// Steep, then gradual descent.
-			if ((pos.y - targetHeight) / this.template.FlyingHeight > 1 / SHORT_FINAL)
-				this.pitch = -Math.PI / 18;
-			else
-				this.pitch = Math.PI / 18;
-			let descentRate = ((pos.y - targetHeight) / this.template.FlyingHeight * this.template.ClimbRate + SHORT_FINAL) * SHORT_FINAL;
-			if (pos.y < targetHeight)
-				pos.y = Math.max(targetHeight, pos.y + turnLength * descentRate);
-			else if (pos.y > targetHeight)
-				pos.y = Math.max(targetHeight, pos.y - turnLength * descentRate);
-			if (targetHeight == pos.y)
-			{
-				this.onGround = true;
-				if (targetHeight == cmpWaterManager.GetWaterLevel(pos.x, pos.z) && this.template.DiesInWater)
-					this.waterDeath = true;
-			}
-		}
-	}
+	//if (this.landing)
+	//{
+	//	if (this.speed > 0 && this.onGround)
+	//	{
+	//		if (pos.y <= cmpWaterManager.GetWaterLevel(pos.x, pos.z) && this.template.DiesInWater == "true")
+	//			this.waterDeath = true;
+	//		this.pitch = 0;
+	//		// Deaccelerate forwards...at a very reduced pace.
+	//		if (this.waterDeath)
+	//			this.speed = Math.max(0, this.speed - turnLength * this.template.BrakingRate * 10);
+	//		else
+	//			this.speed = Math.max(0, this.speed - turnLength * this.template.BrakingRate);
+	//		canTurn = false;
+	//		// Clamp to ground if below it, or descend if above.
+	//		if (pos.y < ground)
+	//			pos.y = ground;
+	//		else if (pos.y > ground)
+	//			pos.y = Math.max(ground, pos.y - turnLength * this.template.ClimbRate);
+	//	}
+	//	else if (this.speed == 0 && this.onGround)
+	//	{
+	//		let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
+	//		if (this.waterDeath && cmpHealth)
+	//			cmpHealth.Kill();
+	//		else
+	//		{
+	//			this.pitch = 0;
+	//			// We've stopped.
+	//			if (cmpGarrisonHolder)
+	//				cmpGarrisonHolder.AllowGarrisoning(true, "UnitMotionFlying");
+	//			canTurn = false;
+	//			this.hasTarget = false;
+	//			this.landing = false;
+	//			// Summon planes back from the edge of the map.
+	//			let terrainSize = cmpTerrain.GetMapSize();
+	//			let cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
+	//			if (cmpRangeManager.GetLosCircular())
+	//			{
+	//				let mapRadius = terrainSize/2;
+	//				let x = pos.x - mapRadius;
+	//				let z = pos.z - mapRadius;
+	//				let div = (mapRadius - 12) / Math.sqrt(x*x + z*z);
+	//				if (div < 1)
+	//				{
+	//					pos.x = mapRadius + x*div;
+	//					pos.z = mapRadius + z*div;
+	//					newangle += Math.PI;
+	//					distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
+	//				}
+	//			}
+	//			else
+	//			{
+	//				pos.x = Math.max(Math.min(pos.x, terrainSize - 12), 12);
+	//				pos.z = Math.max(Math.min(pos.z, terrainSize - 12), 12);
+	//				newangle += Math.PI;
+	//				distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
+	//			}
+	//		}
+	//	}
+	//	else
+	//	{
+	//		// Final Approach.
+	//		// We need to slow down to land!
+	//		this.speed = Math.max(this.template.LandingSpeed, this.speed - turnLength * this.template.SlowingRate);
+	//		canTurn = false;
+	//		let targetHeight = ground;
+	//		// Steep, then gradual descent.
+	//		if ((pos.y - targetHeight) / this.template.FlyingHeight > 1 / SHORT_FINAL)
+	//			this.pitch = -Math.PI / 18;
+	//		else
+	//			this.pitch = Math.PI / 18;
+	//		let descentRate = ((pos.y - targetHeight) / this.template.FlyingHeight * this.template.ClimbRate + SHORT_FINAL) * SHORT_FINAL;
+	//		if (pos.y < targetHeight)
+	//			pos.y = Math.max(targetHeight, pos.y + turnLength * descentRate);
+	//		else if (pos.y > targetHeight)
+	//			pos.y = Math.max(targetHeight, pos.y - turnLength * descentRate);
+	//		if (targetHeight == pos.y)
+	//		{
+	//			this.onGround = true;
+	//			if (targetHeight == cmpWaterManager.GetWaterLevel(pos.x, pos.z) && this.template.DiesInWater)
+	//				this.waterDeath = true;
+	//		}
+	//	}
+	//}
 	else
 	{
 		if (this.template.StationaryDistance && distanceToTargetSquared <= +this.template.StationaryDistance * +this.template.StationaryDistance)
