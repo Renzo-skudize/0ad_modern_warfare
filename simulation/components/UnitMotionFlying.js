@@ -78,8 +78,8 @@ UnitMotionFlying.prototype.OnUpdate = function(msg)
 	let newangle = angle;
 	let canTurn = true;
 	let distanceToTargetSquared = Math.euclidDistance2DSquared(pos.x, pos.z, this.targetX, this.targetZ);
-	//if (this.landing)
-	//{
+	if (this.landing)
+	{
 	//	if (this.speed > 0 && this.onGround)
 	//	{
 	//		if (pos.y <= cmpWaterManager.GetWaterLevel(pos.x, pos.z) && this.template.DiesInWater == "true")
@@ -161,7 +161,7 @@ UnitMotionFlying.prototype.OnUpdate = function(msg)
 	//				this.waterDeath = true;
 	//		}
 	//	}
-	//}
+	}
 	else
 	{
 		if (this.template.StationaryDistance && distanceToTargetSquared <= +this.template.StationaryDistance * +this.template.StationaryDistance)
