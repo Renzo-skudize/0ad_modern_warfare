@@ -14,7 +14,7 @@
     </variant>
   </group>
   <group>
-    <variant name="NYC_01">
+    <variant name="NYC_01" frequency="3">
       <textures>
         <texture file="skeletal/usa/citizen_NYC_01.png" name="baseTex"/>
       </textures>
@@ -22,7 +22,7 @@
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="NYC_02">
+    <variant name="NYC_02" frequency="1">
       <textures>
         <texture file="skeletal/usa/citizen_NYC_02.png" name="baseTex"/>
       </textures>
@@ -30,7 +30,7 @@
         <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="NYC_03">
+    <variant name="NYC_03" frequency="3">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_NYC_01.png" name="baseTex"/>
@@ -39,7 +39,7 @@
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="NYC_04">
+    <variant name="NYC_04" frequency="1">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_NYC_02.png" name="baseTex"/>
@@ -48,7 +48,7 @@
         <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="LA_01">
+    <variant name="LA_01" frequency="3">
       <textures>
         <texture file="skeletal/usa/citizen_california_01.png" name="baseTex"/>
       </textures>
@@ -56,7 +56,7 @@
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="LA_02">
+    <variant name="LA_02" frequency="2">
       <textures>
         <texture file="skeletal/usa/citizen_california_02.png" name="baseTex"/>
       </textures>
@@ -64,7 +64,7 @@
         <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="LA_03">
+    <variant name="LA_03" frequency="3">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_california_01.png" name="baseTex"/>
@@ -73,7 +73,7 @@
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="LA_04">
+    <variant name="LA_04" frequency="3">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_california_02.png" name="baseTex"/>
@@ -82,7 +82,7 @@
         <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="west_01">
+    <variant name="west_01" frequency="2">
       <textures>
         <texture file="skeletal/usa/citizen_middle_west.png" name="baseTex"/>
       </textures>
@@ -90,13 +90,81 @@
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="west_02">
+    <variant name="west_02" frequency="2">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/usa/citizen_middle_west.png" name="baseTex"/>
       </textures>
       <props>
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="overall_01" frequency="3">
+      <textures>
+        <texture file="skeletal/usa/citizen_overall_01.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="overall_02" frequency="1">
+      <textures>
+        <texture file="skeletal/usa/citizen_overall_02.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="overall_03" frequency="1">
+      <mesh>skeletal/new/f_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/usa/citizen_overall_01.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="overall_04" frequency="1">
+      <mesh>skeletal/new/f_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/usa/citizen_overall_02.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="orange_01" frequency="2">
+      <textures>
+        <texture file="skeletal/usa/citizen_orange_01.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="orange_02" frequency="2">
+      <textures>
+        <texture file="skeletal/usa/citizen_orange_02.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="orange_03" frequency="1">
+      <mesh>skeletal/new/f_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/usa/citizen_orange_01.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant name="orange_04" frequency="1">
+      <mesh>skeletal/new/f_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/usa/citizen_orange_02.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
