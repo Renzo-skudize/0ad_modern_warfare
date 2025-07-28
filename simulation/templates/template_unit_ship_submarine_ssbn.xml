@@ -21,7 +21,7 @@
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
-	<Range>100</Range>
+	<Range>80</Range>
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
