@@ -34,7 +34,7 @@
     <Max>400</Max>
   </Health>
   <Identity>
-    <GenericName>Medium Warship</GenericName>
+    <GenericName>Medium Submarine</GenericName>
     <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
