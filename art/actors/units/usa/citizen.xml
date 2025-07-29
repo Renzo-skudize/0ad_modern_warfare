@@ -99,7 +99,7 @@
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="overall_01" frequency="3">
+    <variant name="overall_01" frequency="2">
       <textures>
         <texture file="skeletal/usa/citizen_overall_01.png" name="baseTex"/>
       </textures>
@@ -138,6 +138,7 @@
         <texture file="skeletal/usa/citizen_orange_01.png" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/helmets/helmet_orange.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
       </props>
     </variant>
@@ -146,6 +147,7 @@
         <texture file="skeletal/usa/citizen_orange_02.png" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/helmets/helmet_orange.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_african_1.xml" attachpoint="head"/>
       </props>
     </variant>
@@ -155,6 +157,7 @@
         <texture file="skeletal/usa/citizen_orange_01.png" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/helmets/helmet_orange.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
       </props>
     </variant>
@@ -164,6 +167,7 @@
         <texture file="skeletal/usa/citizen_orange_02.png" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/helmets/helmet_orange.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
