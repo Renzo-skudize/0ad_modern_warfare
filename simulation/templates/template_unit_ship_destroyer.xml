@@ -89,6 +89,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
+    <PassabilityClass>ship-large</PassabilityClass>
     <WalkSpeed op="mul">3</WalkSpeed>
     <Acceleration op="mul">2</Acceleration>
   </UnitMotion>
