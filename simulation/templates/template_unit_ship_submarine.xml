@@ -72,6 +72,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
+    <PassabilityClass>ship-large</PassabilityClass>
     <WalkSpeed op="mul">2</WalkSpeed>
     <Acceleration op="mul">1.5</Acceleration>
   </UnitMotion>
