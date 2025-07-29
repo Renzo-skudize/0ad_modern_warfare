@@ -18,7 +18,7 @@
   </Identity>
   <Upgrade>
     <Release>
-      <Entity>units/usa/ssbn</Entity>
+      <Entity>units/usa/ship_submarine_ssbn</Entity>
       <Tooltip>Releases the submarine's nuclear arsenal.</Tooltip>
       <Cost>
         <food>0</food>
