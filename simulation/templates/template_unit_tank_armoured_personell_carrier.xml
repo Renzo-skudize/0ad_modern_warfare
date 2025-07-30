@@ -25,9 +25,9 @@
     <Population>2</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <food>50</food>
-      <metal>150</metal>
+      <wood>30</wood>
+      <food>40</food>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -37,10 +37,10 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>600</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
-    <GenericName>Medium Tank</GenericName>
+    <GenericName>Light Armoured Vehicle</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
