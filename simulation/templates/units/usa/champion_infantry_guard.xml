@@ -4,9 +4,9 @@
     <Population>1</Population>
     <BuildTime>16</BuildTime>
     <Resources>
-      <wood>60</wood>
-      <wood>60</wood>
-      <metal>60</metal>
+      <food>50</food>
+      <wood>50</wood>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Identity>
