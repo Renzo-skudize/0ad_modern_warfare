@@ -29,6 +29,6 @@
     </Release>
   </Upgrade>
   <VisualActor>
-    <Actor>units/usa/submarine_ssbn.xml</Actor>
+    <Actor>units/usa/submarine_ssbn_secure.xml</Actor>
   </VisualActor>
 </Entity>
