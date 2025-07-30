@@ -32,6 +32,13 @@
       </Splash>
     </Ranged>
   </Attack>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>25</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
   <Promotion disable=""/>
   <Resistance>
     <Entity>
