@@ -47,16 +47,17 @@
     </Requirements>
   </Identity>
   <Loot>
-    <xp>140</xp>
-    <wood>5</wood>
+    <xp>100</xp>
+    <food>4</food>
+    <wood>3</wood>
     <metal>10</metal>
   </Loot>
   <Resistance>
     <Entity>
       <Damage>
         <Hack>0</Hack>
-        <Pierce>75</Pierce>
-        <Crush>0</Crush>
+        <Pierce>35</Pierce>
+        <Crush>4</Crush>
       </Damage>
     </Entity>
   </Resistance>
