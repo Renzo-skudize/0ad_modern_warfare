@@ -55,7 +55,7 @@
     <Max>600</Max>
   </Health>
   <Identity>
-    <GenericName>Medium Tank</GenericName>
+    <GenericName>Main Battle Tank</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
