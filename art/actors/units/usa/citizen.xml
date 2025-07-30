@@ -14,7 +14,7 @@
     </variant>
   </group>
   <group>
-    <variant name="NYC_01" frequency="3">
+    <variant name="NYC_01" frequency="2">
       <textures>
         <texture file="skeletal/usa/citizen_NYC_01.png" name="baseTex"/>
       </textures>
@@ -48,7 +48,7 @@
         <prop actor="props/units/heads/new/africa_fem_1.xml" attachpoint="head"/>
       </props>
     </variant>
-    <variant name="LA_01" frequency="3">
+    <variant name="LA_01" frequency="2">
       <textures>
         <texture file="skeletal/usa/citizen_california_01.png" name="baseTex"/>
       </textures>
