@@ -6,9 +6,9 @@
       <Damage>
         <Pierce>180</Pierce>
       </Damage>
-      <MaxRange>145</MaxRange>
+      <MaxRange>80</MaxRange>
       <PrepareTime>1000</PrepareTime>
-      <RepeatTime>500</RepeatTime>
+      <RepeatTime>250</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
@@ -16,29 +16,14 @@
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
-        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
-	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
+	<ImpactAnimationLifetime>1</ImpactAnimationLifetime>
       </Projectile>
-      <Splash>
-	<Shape>Circular</Shape>
-	<Range>10</Range>
-	<FriendlyFire>true</FriendlyFire>
-	<Damage>
-		<Hack>0.0</Hack>
-		<Pierce>15.0</Pierce>
-		<Crush>40.0</Crush>
-	</Damage>
-      </Splash>
     </Ranged>
   </Attack>
-  <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
-  </BuildingAI>
   <Cost>
     <Population>2</Population>
-    <BuildTime>20</BuildTime>
+    <BuildTime>25</BuildTime>
     <Resources>
       <wood>50</wood>
       <food>50</food>
