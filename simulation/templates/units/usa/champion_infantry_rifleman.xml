@@ -13,7 +13,7 @@
   </Identity>
   <Promotion disable=""/>
   <UnitMotion>
-    <WalkSpeed op="add">2.5</WalkSpeed>
+    <WalkSpeed op="add">3</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/usa/infantry_ranger.xml</Actor>
