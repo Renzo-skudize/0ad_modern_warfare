@@ -15,7 +15,7 @@
         <Spread>2</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="6"/>
+        <LaunchPoint y="9"/>
         <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
 	<ImpactAnimationLifetime>1</ImpactAnimationLifetime>
       </Projectile>
