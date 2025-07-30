@@ -12,7 +12,7 @@
       <RepeatTime>500</RepeatTime>
       <Projectile>
         <Speed>300</Speed>
-        <Spread>1.5</Spread>
+        <Spread>1.75</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
@@ -31,7 +31,7 @@
   </Identity>
   <Promotion disable=""/>
   <UnitMotion>
-    <WalkSpeed op="add">2.5</WalkSpeed>
+    <WalkSpeed op="add">1</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/usa/infantry_seal.xml</Actor>
