@@ -2,10 +2,11 @@
 <Entity parent="police|template_unit_champion_infantry_ranged_rifleman">
   <Cost>
     <Population>1</Population>
-    <BuildTime op=mul>0.8</BuildTime>
+    <BuildTime>16</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>150</metal>
+      <wood>60</wood>
+      <wood>60</wood>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Identity>
