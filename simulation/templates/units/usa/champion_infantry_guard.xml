@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="police|template_unit_champion_infantry_ranged_rifleman">
+  <Cost>
+    <Population>1</Population>
+    <BuildTime op=mul>0.8</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Champion Infantry Guard</GenericName>
