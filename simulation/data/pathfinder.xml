@@ -71,7 +71,7 @@
     <ship-large>
       <Obstructions>pathfinding</Obstructions>
       <MinWaterDepth>3</MinWaterDepth>
-      <Clearance>30.0</Clearance>
+      <Clearance>45.0</Clearance>
     </ship-large>
     <ship-small>
       <Obstructions>pathfinding</Obstructions>
