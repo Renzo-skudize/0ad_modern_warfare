@@ -19,6 +19,13 @@
       </Projectile>
     </Ranged>
   </Attack>
+  <Cost>
+    <Resources>
+      <food>40</food>
+      <wood>20</wood>
+      <metal>20</metal>
+    </Resources>
+  </Cost>
   <Promotion disable=""/>
   <Resistance>
     <Entity>
