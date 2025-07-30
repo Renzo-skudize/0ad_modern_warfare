@@ -7,7 +7,7 @@
         <Pierce>180</Pierce>
       </Damage>
       <MaxRange>80</MaxRange>
-      <PrepareTime>1000</PrepareTime>
+      <PrepareTime>800</PrepareTime>
       <RepeatTime>250</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
@@ -15,7 +15,7 @@
         <Spread>2</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="3"/>
+        <LaunchPoint y="6"/>
         <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
 	<ImpactAnimationLifetime>1</ImpactAnimationLifetime>
       </Projectile>
