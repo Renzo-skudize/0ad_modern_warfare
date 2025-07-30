@@ -69,6 +69,11 @@
       <MaxTerrainSlope>1.0</MaxTerrainSlope>
       <Clearance>12.0</Clearance>
     </xlarge>
+    <ampxlarge>
+      <Obstructions>pathfinding</Obstructions>
+      <MaxTerrainSlope>1.0</MaxTerrainSlope>
+      <Clearance>10.0</Clearance>
+    </ampxlarge>
     <ship>
       <Obstructions>pathfinding</Obstructions>
       <MinWaterDepth>1</MinWaterDepth>
@@ -76,7 +81,7 @@
     </ship>
     <ship-large>
       <Obstructions>pathfinding</Obstructions>
-      <MinWaterDepth>3</MinWaterDepth>
+      <MinWaterDepth>2</MinWaterDepth>
       <Clearance>30.0</Clearance>
     </ship-large>
     <ship-small>
