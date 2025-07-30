@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_tank_main_battle_tank">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">GPMG</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Cadillac Gage Ranger</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/APC.xml</Actor>
+  </VisualActor>
+</Entity>
