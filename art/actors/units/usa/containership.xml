@@ -4,6 +4,9 @@
   <group>
     <variant>
       <mesh>structural/containership.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
+      </props>
       <textures>
         <texture file="structural/containership.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
