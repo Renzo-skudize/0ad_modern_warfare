@@ -3,12 +3,12 @@
   <Cost>
     <BuildTime>15</BuildTime>
     <Resources>
-      <food>100</food>
-      <metal>80</metal>
+      <food>60</food>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>100</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
