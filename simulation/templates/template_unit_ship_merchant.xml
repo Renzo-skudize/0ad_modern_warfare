@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>GPMG</AttackName>
+      <Damage>
+        <Pierce>140</Pierce>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+      <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>5</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="10"/>
+        <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
+	      <ImpactAnimationLifetime>1</ImpactAnimationLifetime>
+      </Projectile>
+    </Ranged>
+  </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
     <Resources>
