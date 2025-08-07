@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Truck</SpecificName>
+    <GenericName></GenericName>
+    <Icon>units/usa/infantry_rifleman.png</Icon>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>units/usa/truck.xml</Actor>
+  </VisualActor>
+</Entity>
