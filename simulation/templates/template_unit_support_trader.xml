@@ -4,7 +4,7 @@
     <BuildTime>15</BuildTime>
     <Resources>
       <food>60</food>
-      <metal>200</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Health>
