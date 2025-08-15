@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sprites>
-	<sprite name="aircraftcarrier">
+	<sprite name="aircraft_carrier">
 		<image
-			texture="pregame/backgrounds/aircraftcarrier.png"
+			texture="pregame/backgrounds/aircraft_carrier.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>
