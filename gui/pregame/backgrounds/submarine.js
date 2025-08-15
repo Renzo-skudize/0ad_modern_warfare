@@ -1,17 +1,7 @@
 g_BackgroundLayerData.push(
   [
     {
-      "offset": (time, width) => 0,
-      "sprite": "submarine",
-      "tiling": false,
-    },
-    {
-      "offset": (time, width) => 0,
-      "sprite": "submarine",
-      "tiling": false,
-    },
-    {
-      "offset": (time, width) => 0,
+      "offset": (time, width) => 0.18 * width * Math.cos(0.05 * time),
       "sprite": "submarine",
       "tiling": false,
     },
