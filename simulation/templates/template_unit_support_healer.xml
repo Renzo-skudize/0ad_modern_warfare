@@ -43,6 +43,7 @@
   </Promotion>
   <Selectable>
     <Overlay>
+      <AlwaysVisible/>
       <Texture>
         <MainTexture>128x128/plus.png</MainTexture>
         <MainTextureMask>128x128/plus_mask.png</MainTextureMask>
