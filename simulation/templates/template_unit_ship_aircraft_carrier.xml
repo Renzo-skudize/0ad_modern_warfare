@@ -50,7 +50,7 @@
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Plane</EjectClassesOnDestroy>
     <BuffHeal>5</BuffHeal>
-    <LoadingRange>95</LoadingRange>
+    <LoadingRange>300</LoadingRange>
     <Pickup>false</Pickup>
   </GarrisonHolder>
   <Health>
