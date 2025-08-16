@@ -104,7 +104,7 @@
     <FlyingHeight>80.0</FlyingHeight>
     <ClimbRate>75.0</ClimbRate>
     <DiesInWater>true</DiesInWater>
-    <PassabilityClass>unrestricted</PassabilityClass>
+    <DiesInWater>false</DiesInWater>
   </UnitMotionFlying>
   <UnitAI>
     <DefaultStance>violent</DefaultStance>
