@@ -21,7 +21,7 @@ function check_idle_units(data) {
             // Set the target to the unit's current position.
             let position = cmpMotion.GetPosition();
             cmpUnitAI.SetTarget({
-                "x": position.x + 5,
+                "x": position.x + 50,
                 "y": position.y,
                 "z": position.z
             });
