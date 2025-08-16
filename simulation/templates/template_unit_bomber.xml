@@ -85,7 +85,7 @@
     <OvershootTime>2.0</OvershootTime>
     <FlyingHeight>90.0</FlyingHeight>
     <ClimbRate>25.0</ClimbRate>
-    <DiesInWater>true</DiesInWater>
+    <DiesInWater>false</DiesInWater>
     <PassabilityClass>unrestricted</PassabilityClass>
   </UnitMotionFlying>
   <UnitAI>
