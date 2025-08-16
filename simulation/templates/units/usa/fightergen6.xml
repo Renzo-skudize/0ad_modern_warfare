@@ -9,7 +9,6 @@
     <Population op="add">-1</Population>
     <BuildTime op="mul">0.8</BuildTime>
     <Resources>
-      <wood op="mul">0.8</wood>
       <metal op="mul">0.8</metal>
     </Resources>
   </Cost>
