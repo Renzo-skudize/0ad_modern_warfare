@@ -4,7 +4,8 @@
     <contributor>
       <author>Renzo Pereira</author>
       <authoring_tool>Blender 3.4.1</authoring_tool>
-    </contributor>    <unit meter="1" />
+    </contributor>
+    <unit meter="1" />
     <up_axis>Y_UP</up_axis>
   </asset>
   <library_lights />
