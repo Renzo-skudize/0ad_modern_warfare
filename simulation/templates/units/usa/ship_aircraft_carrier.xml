@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_aircraft_carrier">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">RIM-162</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Gerald Ford-class aircraft carrier</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/aircraft_carrier.xml</Actor>
+  </VisualActor>
+</Entity>
