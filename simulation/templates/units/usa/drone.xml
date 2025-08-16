@@ -6,7 +6,6 @@
     </Ranged>
   </Attack>
   <Cost>
-    <Population op="add">-1</Population>
     <BuildTime op="mul">0.8</BuildTime>
   </Cost>
   <Identity>
