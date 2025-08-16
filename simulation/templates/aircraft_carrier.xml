@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>RIM-162</AttackName>
+      <Damage>
+        <Crush>1000</Crush>
+      </Damage>
+      <MaxRange>180</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure Organic Tank Siege Support Ship</RestrictedClasses>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>2</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
+	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Plane</PreferredClasses>
+      <Splash>
+      	<Shape>Circular</Shape>
+      	<Range>15</Range>
+      	<FriendlyFire>true</FriendlyFire>
+      	<Damage>
+	      	<Hack>0.0</Hack>
+	      	<Pierce>25.0</Pierce>
+		      <Crush>60.0</Crush>
+	      </Damage>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Auras datatype="tokens">
+    units/counterair
+    units/AC
+  </Auras>
+  <Cost>
+    <Population>6</Population>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <wood>120</wood>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <List datatype="tokens">Plane</List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Plane</EjectClassesOnDestroy>
+    <BuffHeal>5</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>1400</Max>
+  </Health>
+  <Identity>
+    <GenericName>Medium Warship</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Warship</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <xp>140</xp>
+    <wood>5</wood>
+    <metal>10</metal>
+  </Loot>
+  <Position>
+    <TurnRate>2</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>25</Hack>
+        <Pierce>25</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>ship-large</PassabilityClass>
+    <WalkSpeed op="mul">3</WalkSpeed>
+    <Acceleration op="mul">0.8</Acceleration>
+  </UnitMotion>
+  <Vision>
+    <Range>200</Range>
+  </Vision>
+</Entity>
