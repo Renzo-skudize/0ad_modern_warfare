@@ -5,7 +5,6 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_ninja_fem.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/PASGT.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/medikit.xml" attachpoint="weapon_R"/>
       </props>
@@ -56,8 +55,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/gather_praise.xml"/>
+    <variant name="Idle" frequency="1"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
