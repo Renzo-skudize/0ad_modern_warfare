@@ -19,7 +19,7 @@ function check_idle_aircraft() {
         
         // Überprüfen, ob es sich um ein Flugzeug handelt und es keine Befehle hat.
         // HINWEIS: Ersetzen Sie den Pfad durch den tatsächlichen Template-Namen Ihres Flugzeugs.
-        if (cmpIdentity.HasTag("aircraft") && cmpUnitAI.GetTarget() === -1) {
+        if (cmpIdentity.HasTag("plane") && cmpUnitAI.GetTarget() === -1) {
             
             // Holen Sie die aktuelle Position der Einheit.
             let position = cmpMotion.GetPosition();
