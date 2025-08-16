@@ -46,6 +46,7 @@
   <GarrisonHolder>
     <Max>60</Max>
     <List datatype="tokens">Support Soldier Siege</List>
+	<LoadingRange>30</LoadingRange>
   </GarrisonHolder>
   <Health>
     <Max>1400</Max>
