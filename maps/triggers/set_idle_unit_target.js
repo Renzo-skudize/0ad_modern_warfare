@@ -23,7 +23,7 @@ function check_idle_units(data) {
             cmpUnitAI.SetTarget({
                 "x": position.x,
                 "y": position.y,
-                "z": position.z
+                "z": position.z + 5
             });
         }
     }
