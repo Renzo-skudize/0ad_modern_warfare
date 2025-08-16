@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 10,
+	"affects": ["Plane"],
+	"modifications": [
+		{ "value": "UnitMotion/Acceleration", "multiply": 10000 }
+    { "value": "Vision/Range", "multiply": 10000 }
+	],
+	"auraName": "",
+	"auraDescription": "",
+}
