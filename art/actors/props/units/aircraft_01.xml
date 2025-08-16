@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>structural/aircraft_01.dae</mesh>
+      <mesh>props/aircraft_01.dae</mesh>
       <textures>
         <texture file="structural/F-35.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
