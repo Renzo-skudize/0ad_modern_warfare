@@ -9,6 +9,6 @@
     <Entity>units/usa/support_doctor_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/usa/doctor.xml</Actor>
+    <Actor>units/usa/healer.xml</Actor>
   </VisualActor>
 </Entity>
