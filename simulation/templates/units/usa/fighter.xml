@@ -6,11 +6,7 @@
     </Ranged>
   </Attack>
   <Cost>
-    <Population op="add">-1</Population>
     <BuildTime op="mul">0.8</BuildTime>
-    <Resources>
-      <metal op="mul">0.8</metal>
-    </Resources>
   </Cost>
   <Identity>
     <Civ>usa</Civ>
