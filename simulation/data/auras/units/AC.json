@@ -7,5 +7,5 @@
     	{ "value": "Vision/Range", "multiply": 1000 }
 	],
 	"auraName": "Aircraft catapult",
-	"auraDescription": "enables Aircraft to start"
+	"auraDescription": "Enables Aircraft to start."
 }
