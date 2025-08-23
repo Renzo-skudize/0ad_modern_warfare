@@ -3,9 +3,9 @@
 	"radius": 10,
 	"affects": ["Plane"],
 	"modifications": [
-		{ "value": "UnitMotion/Acceleration", "multiply": 10 },
-    	{ "value": "Vision/Range", "multiply": 10 }
+		{ "value": "UnitMotion/Acceleration", "multiply": 1000 },
+    	{ "value": "Vision/Range", "multiply": 1000 }
 	],
-	"auraName": "",
-	"auraDescription": ""
+	"auraName": "Aircraft catapult",
+	"auraDescription": "enables Aircraft to start"
 }
