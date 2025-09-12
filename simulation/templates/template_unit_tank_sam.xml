@@ -58,7 +58,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>600</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Self propelled SAM System</GenericName>
