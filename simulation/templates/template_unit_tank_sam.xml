@@ -7,7 +7,7 @@
         <Crush>500</Crush>
       </Damage>
       <MaxRange>175</MaxRange>
-      <PrepareTime>1000</PrepareTime>
+      <PrepareTime>0</PrepareTime>
       <RepeatTime>750</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Organic Tank Siege Support Ship</RestrictedClasses>
       <Projectile>
