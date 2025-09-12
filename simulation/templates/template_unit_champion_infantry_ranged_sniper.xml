@@ -26,6 +26,9 @@
       <metal>45</metal>
     </Resources>
   </Cost>
+  <Identity>
+    <GenericName>Champion Infantry Sniper</GenericName>
+  </Identity>
   <Health>
     <Max>120</Max>
   </Health>
