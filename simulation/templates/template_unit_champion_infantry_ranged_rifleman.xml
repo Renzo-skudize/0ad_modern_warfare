@@ -19,6 +19,13 @@
       </Projectile>
     </Ranged>
   </Attack>
+  <Cost>
+    <Resources>
+      <food>60</food>
+      <wood>20</wood>
+      <metal>40</metal>
+    </Resources>
+  </Cost>
   <Health>
     <Max>120</Max>
   </Health>
