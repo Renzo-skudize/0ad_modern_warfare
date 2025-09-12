@@ -86,9 +86,12 @@
       <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
   <UnitMotion>
     <WalkSpeed op="mul">3</WalkSpeed>
-    <Acceleration op="mul">0.5</Acceleration>
+    <Acceleration op="mul">0.75</Acceleration>
     <PassabilityClass>xlarge</PassabilityClass>
   </UnitMotion>
   <Vision>
