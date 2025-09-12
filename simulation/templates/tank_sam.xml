@@ -2,16 +2,15 @@
 <Entity parent="template_unit_tank_sam">
   <Attack>
     <Ranged>
-      <AttackName context="Gun">Rh120</AttackName>
+      <AttackName context="Gun">FIM-92</AttackName>
     </Ranged>
   </Attack>
   <Identity>
     <Civ>usa</Civ>
-    <GenericName>Tank</GenericName>
-    <SpecificName>M 1 Abrahams</SpecificName>
+    <SpecificName>AN/TWQ-1 Avenger</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/usa/M1.xml</Actor>
+    <Actor>units/usa/Avenger.xml</Actor>
   </VisualActor>
 </Entity>
