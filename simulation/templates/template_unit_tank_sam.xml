@@ -38,11 +38,11 @@
   </BuildingAI>
   <Cost>
     <Population>2</Population>
-    <BuildTime>25</BuildTime>
+    <BuildTime>24</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <food>50</food>
-      <metal>150</metal>
+      <wood>60</wood>
+      <food>60</food>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Decay>
