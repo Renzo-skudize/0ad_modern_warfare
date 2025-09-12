@@ -12,7 +12,7 @@
       <Damage>
         <Crush>100</Crush>
       </Damage>
-      <MaxRange>175</MaxRange>
+      <MaxRange>250</MaxRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>750</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Organic Tank Siege Support Ship</RestrictedClasses>
@@ -92,6 +92,6 @@
     <PassabilityClass>xlarge</PassabilityClass>
   </UnitMotion>
   <Vision>
-    <Range>180</Range>
+    <Range>250</Range>
   </Vision>
 </Entity>
