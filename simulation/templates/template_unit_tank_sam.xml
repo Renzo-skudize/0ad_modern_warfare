@@ -15,7 +15,7 @@
       <MaxRange>900</MaxRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>200</RepeatTime>
-	  <RestrictedClasses datatype="tokens">Structure Organic Tank</RestrictedClasses>
+	  <RestrictedClasses datatype="tokens">Structure Tank</RestrictedClasses>
       <Projectile>
         <Speed>500</Speed>
         <Spread>0</Spread>
