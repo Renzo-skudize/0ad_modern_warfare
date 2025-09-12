@@ -12,7 +12,7 @@
       <Damage>
         <Crush>100</Crush>
       </Damage>
-      <MaxRange>900</MaxRange>
+      <MaxRange>220</MaxRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>200</RepeatTime>
 	  <RestrictedClasses datatype="tokens">Structure Tank Siege Support Ship Infantry</RestrictedClasses>
@@ -95,6 +95,6 @@
     <PassabilityClass>xlarge</PassabilityClass>
   </UnitMotion>
   <Vision>
-    <Range>400</Range>
+    <Range>250</Range>
   </Vision>
 </Entity>
