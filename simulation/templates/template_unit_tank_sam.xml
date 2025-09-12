@@ -4,11 +4,11 @@
     <Ranged>
       <AttackName>M68A1</AttackName>
       <Damage>
-        <Crush>450</Crush>
+        <Crush>500</Crush>
       </Damage>
-      <MaxRange>150</MaxRange>
+      <MaxRange>175</MaxRange>
       <PrepareTime>1000</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>750</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
@@ -21,7 +21,7 @@
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
-	<Range>10</Range>
+	<Range>20</Range>
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
@@ -55,7 +55,7 @@
     <Max>600</Max>
   </Health>
   <Identity>
-    <GenericName>Main Battle Tank</GenericName>
+    <GenericName>Self propelled SAM System</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
