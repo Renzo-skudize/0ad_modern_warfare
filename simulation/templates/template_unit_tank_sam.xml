@@ -3,8 +3,14 @@
   <Attack>
     <Ranged>
       <AttackName>M68A1</AttackName>
+	  <Bonuses>
+        <BonusPlane>
+          <Classes>Plane</Classes>
+          <Multiplier>10.0</Multiplier>
+        </BonusPlane>
+      </Bonuses>
       <Damage>
-        <Crush>500</Crush>
+        <Crush>100</Crush>
       </Damage>
       <MaxRange>175</MaxRange>
       <PrepareTime>0</PrepareTime>
