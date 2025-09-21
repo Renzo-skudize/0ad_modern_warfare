@@ -52,7 +52,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>600</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Amphibious Landing Vehicle</GenericName>
