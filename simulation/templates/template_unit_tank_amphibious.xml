@@ -38,11 +38,11 @@
   </BuildingAI>
   <Cost>
     <Population>2</Population>
-    <BuildTime>30</BuildTime>
+    <BuildTime>26</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <food>50</food>
-      <metal>150</metal>
+      <wood>60</wood>
+      <food>60</food>
+      <metal>120</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -55,8 +55,8 @@
     <Max>600</Max>
   </Health>
   <Identity>
-    <GenericName>Main Battle Tank</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
+    <GenericName>Amphibious Landing Vehicle</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Siege Tank Amphibious</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
@@ -70,7 +70,7 @@
     <Entity>
       <Damage>
         <Hack>0</Hack>
-        <Pierce>55</Pierce>
+        <Pierce>50</Pierce>
         <Crush>4</Crush>
       </Damage>
     </Entity>
