@@ -21,9 +21,9 @@
   </Attack>
   <Cost>
     <Resources>
-      <food>30</food>
-      <wood>10</wood>
-      <metal>20</metal>
+      <food>25</food>
+      <wood>15</wood>
+      <metal>15</metal>
     </Resources>
   </Cost>
   <Promotion disable=""/>
