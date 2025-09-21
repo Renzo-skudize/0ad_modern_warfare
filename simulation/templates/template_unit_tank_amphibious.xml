@@ -83,7 +83,7 @@
   <UnitMotion>
     <WalkSpeed op="mul">3</WalkSpeed>
     <Acceleration op="mul">0.5</Acceleration>
-    <PassabilityClass>xlarge</PassabilityClass>
+    <PassabilityClass>ampxlarge</PassabilityClass>
   </UnitMotion>
   <Vision>
     <Range>180</Range>
