@@ -11,6 +11,7 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <Position>
+    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>2</FloatDepth>
     <TurnRate>4</TurnRate>
