@@ -66,9 +66,6 @@
     <wood>5</wood>
     <metal>10</metal>
   </Loot>
-  <Pack>
-    <Time>1</Time>
-  </Pack>
   <Resistance>
     <Entity>
       <Damage>
