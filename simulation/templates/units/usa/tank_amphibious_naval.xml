@@ -15,6 +15,11 @@
     <Entity>units/usa/tank_amphibious</Entity>
     <State>packed</State>
   </Pack>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.5</WalkSpeed>
+    <Acceleration op="mul">0.4</Acceleration>
+    <PassabilityClass>ship-large</PassabilityClass>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/usa/AAV7.xml</Actor>
   </VisualActor>
