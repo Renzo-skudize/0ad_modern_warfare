@@ -9,23 +9,13 @@
     <Civ>usa</Civ>
     <SpecificName>Assault Amphibious Vehicle</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
-    <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
-  <Pack>
-    <Entity>units/usa/tank_amphibious</Entity>
-    <State>packed</State>
-  </Pack>
   <Position>
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
-    <FloatDepth>0</FloatDepth>
-    <TurnRate>1.2</TurnRate>
+    <FloatDepth>2</FloatDepth>
+    <TurnRate>10</TurnRate>
   </Position>
-  <UnitMotion>
-    <WalkSpeed op="mul">0.5</WalkSpeed>
-    <Acceleration op="mul">0.4</Acceleration>
-    <PassabilityClass>ship</PassabilityClass>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/usa/AAV7.xml</Actor>
   </VisualActor>
