@@ -9,6 +9,7 @@
     <Civ>usa</Civ>
     <SpecificName>Assault Amphibious Vehicle</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
+    <VisibleClasses datatype="tokens">Ship</VisibleClasses>
   </Identity>
   <Pack>
     <Entity>units/usa/tank_amphibious</Entity>
