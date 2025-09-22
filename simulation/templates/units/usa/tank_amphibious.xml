@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_tank_amphibious">
+  <Attack>
+    <Ranged>
+      <AttackName context="Grenade Launcher">Mk 19</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Assault Amphibious Vehicle</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
   <Footprint replace="">
     <Square width="8.0" depth="19.0"/>
     <Height>8.0</Height>
@@ -8,4 +18,7 @@
     <Entity>units/usa/tank_amphibious_naval</Entity>
     <State>unpacked</State>
   </Pack>
+  <VisualActor>
+    <Actor>units/usa/AAV7.xml</Actor>
+  </VisualActor>
 </Entity>
