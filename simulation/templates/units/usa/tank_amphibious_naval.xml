@@ -10,6 +10,10 @@
     <SpecificName>Assault Amphibious Vehicle</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
+  <Pack>
+    <Entity>units/usa/tank_amphibious</Entity>
+    <State>packed</State>
+  </Pack>
   <VisualActor>
     <Actor>units/usa/AAV7.xml</Actor>
   </VisualActor>
