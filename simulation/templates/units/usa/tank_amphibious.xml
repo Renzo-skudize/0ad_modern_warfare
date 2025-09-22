@@ -14,7 +14,7 @@
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>2</FloatDepth>
-    <TurnRate>10</TurnRate>
+    <TurnRate>4</TurnRate>
   </Position>
   <VisualActor>
     <Actor>units/usa/AAV7.xml</Actor>
