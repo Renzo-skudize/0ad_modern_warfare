@@ -72,7 +72,6 @@
     <ampxlarge>
       <Obstructions>pathfinding</Obstructions>
       <MaxTerrainSlope>1.0</MaxTerrainSlope>
-      <MinWaterDepth>-10</MinWaterDepth>
       <Clearance>10.0</Clearance>
     </ampxlarge>
     <ship>
