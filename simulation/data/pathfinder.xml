@@ -65,7 +65,7 @@
     </large>
     <xlarge>
       <Obstructions>pathfinding</Obstructions>
-      <MaxWaterDepth>3</MaxWaterDepth>
+      <MaxWaterDepth>2</MaxWaterDepth>
       <MaxTerrainSlope>1.0</MaxTerrainSlope>
       <Clearance>12.0</Clearance>
     </xlarge>
