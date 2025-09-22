@@ -15,6 +15,12 @@
     <Entity>units/usa/tank_amphibious</Entity>
     <State>packed</State>
   </Pack>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>1.2</TurnRate>
+  </Position>
   <UnitMotion>
     <WalkSpeed op="mul">0.5</WalkSpeed>
     <Acceleration op="mul">0.4</Acceleration>
