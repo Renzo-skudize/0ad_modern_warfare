@@ -7,9 +7,9 @@
   </Attack>
   <GarrisonHolder>
     <Max>20</Max>
-    <List datatype="tokens">FemaleCitizen Infantry Healer Dog</List>
+    <List datatype="tokens">Infantry</List>
     <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Infantry</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>false</Pickup>
