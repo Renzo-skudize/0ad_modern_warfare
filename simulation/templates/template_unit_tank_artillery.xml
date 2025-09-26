@@ -4,16 +4,16 @@
     <Ranged>
       <AttackName>M68A1</AttackName>
       <Damage>
-        <Crush>450</Crush>
+        <Crush>500</Crush>
       </Damage>
-      <MaxRange>145</MaxRange>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <MaxRange>180</MaxRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
-        <Spread>3</Spread>
-        <Gravity>9.81</Gravity>
+        <Spread>1</Spread>
+        <Gravity>5</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
@@ -25,8 +25,8 @@
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
-		<Pierce>15.0</Pierce>
-		<Crush>40.0</Crush>
+		<Pierce>25.0</Pierce>
+		<Crush>50.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
@@ -71,7 +71,7 @@
       <Damage>
         <Hack>0</Hack>
         <Pierce>50</Pierce>
-        <Crush>5</Crush>
+        <Crush>4</Crush>
       </Damage>
     </Entity>
   </Resistance>
