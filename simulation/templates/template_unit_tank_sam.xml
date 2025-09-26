@@ -14,7 +14,7 @@
       </Damage>
       <MaxRange>250</MaxRange>
       <PrepareTime>0</PrepareTime>
-      <RepeatTime>500</RepeatTime>
+      <RepeatTime>750</RepeatTime>
 	  <RestrictedClasses datatype="tokens">Structure Tank Siege Support Ship Infantry</RestrictedClasses>
       <Projectile>
         <Speed>500</Speed>
