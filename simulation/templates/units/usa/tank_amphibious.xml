@@ -8,7 +8,7 @@
   <GarrisonHolder>
     <Max>20</Max>
     <List datatype="tokens">Infantry</List>
-    <EjectHealth>0</EjectHealth>
+    <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Infantry</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
