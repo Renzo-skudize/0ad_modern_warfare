@@ -11,6 +11,6 @@
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/usa/M1.xml</Actor>
+    <Actor>units/usa/M109.xml</Actor>
   </VisualActor>
 </Entity>
