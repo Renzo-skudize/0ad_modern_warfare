@@ -13,7 +13,7 @@
         <Crush>100</Crush>
       </Damage>
       <MaxRange>250</MaxRange>
-      <PrepareTime>250</PrepareTime>
+      <PrepareTime>100</PrepareTime>
       <RepeatTime>750</RepeatTime>
 	  <RestrictedClasses datatype="tokens">Structure Tank Siege Support Ship Infantry</RestrictedClasses>
       <Projectile>
