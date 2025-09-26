@@ -51,6 +51,11 @@
     <SinkRate>1</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <List datatype="tokens">Support Soldier Siege</List>
+	<LoadingRange>10</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>500</Max>
   </Health>
