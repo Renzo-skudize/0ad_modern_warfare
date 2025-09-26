@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Attack>
     <Ranged>
-      <AttackName>M68A1</AttackName>
+      <AttackName>M284</AttackName>
       <Damage>
         <Crush>500</Crush>
       </Damage>
@@ -21,7 +21,7 @@
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
-	<Range>10</Range>
+	<Range>12</Range>
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
@@ -40,9 +40,9 @@
     <Population>2</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <food>50</food>
-      <metal>150</metal>
+      <wood>60</wood>
+      <food>60</food>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -52,11 +52,11 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>600</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
-    <GenericName>Main Battle Tank</GenericName>
-    <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
+    <GenericName>Self-propelled Artillery</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Siege Tank Artillery</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
@@ -86,6 +86,6 @@
     <PassabilityClass>xlarge</PassabilityClass>
   </UnitMotion>
   <Vision>
-    <Range>180</Range>
+    <Range>200</Range>
   </Vision>
 </Entity>
