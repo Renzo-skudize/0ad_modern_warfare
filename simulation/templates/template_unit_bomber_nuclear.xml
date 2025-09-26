@@ -2,13 +2,13 @@
 <Entity parent="template_unit">
   <Attack>
     <Ranged>
-      <AttackName>Trident</AttackName>
+      <AttackName>B83</AttackName>
       <Damage>
-        <Crush>10000</Crush>
+        <Crush>8000</Crush>
       </Damage>
-      <MaxRange>250</MaxRange>
-      <PrepareTime>2000</PrepareTime>
-      <RepeatTime>10000</RepeatTime>
+      <MaxRange>280</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>8000</RepeatTime>
       <RestrictedClasses datatype="tokens">Unit</RestrictedClasses>
       <Projectile>
         <Speed>100</Speed>
@@ -32,18 +32,10 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>10</DefaultArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
-  <Cost>
-    <Population>3</Population>
-    <BuildTime>30</BuildTime>
-    <Resources>
-      <wood>100</wood>
-      <metal>150</metal>
-    </Resources>
-  </Cost>
   <Decay>
     <SinkingAnim>false</SinkingAnim>
     <DelayTime>5.0</DelayTime>
