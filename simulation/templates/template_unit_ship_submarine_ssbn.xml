@@ -13,7 +13,7 @@
       <Projectile>
         <Speed>100</Speed>
         <Spread>0</Spread>
-        <Gravity>1250</Gravity>
+        <Gravity>1000</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="-5"/>
         <ImpactActorName>particle/nuclear.xml</ImpactActorName>
