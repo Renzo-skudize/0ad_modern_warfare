@@ -10,6 +10,18 @@
     <SpecificName>Northrop Grumman B-21</SpecificName>
     <Icon>units/usa/B-21.png</Icon>
   </Identity>
+  <Upgrade>
+    <Seal>
+      <Entity>units/usa/bomber</Entity>
+      <Tooltip>Seals the bomber's nuclear arsenal.</Tooltip>
+      <Cost>
+        <food>0</food>
+        <metal>0</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>1</Time>
+    </Seal>
+  </Upgrade>
   <VisualActor>
     <Actor>units/usa/B-21.xml</Actor>
   </VisualActor>
