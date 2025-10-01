@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_bomber_nuclear">
+  <Attack>
+    <Ranged>
+      <AttackName context="Bomb">B83</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Northrop Grumman B-21</SpecificName>
+    <Icon>units/usa/B-21.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/B-21.xml</Actor>
+  </VisualActor>
+</Entity>
