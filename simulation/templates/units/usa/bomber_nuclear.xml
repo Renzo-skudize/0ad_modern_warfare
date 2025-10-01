@@ -9,6 +9,7 @@
     <Civ>usa</Civ>
     <SpecificName>Northrop Grumman B-21</SpecificName>
     <Icon>units/usa/B-21.png</Icon>
+    <Rank>Elite</Rank>
   </Identity>
   <Upgrade>
     <Seal>
