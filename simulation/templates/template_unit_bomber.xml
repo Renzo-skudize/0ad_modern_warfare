@@ -25,6 +25,12 @@
 	<Shape>Circular</Shape>
 	<Range>10</Range>
 	<FriendlyFire>true</FriendlyFire>
+	<Bonuses>
+        <BonusPlane>
+          <Classes>Plane</Classes>
+          <Multiplier>0.1</Multiplier>
+        </BonusPlane>
+      </Bonuses>
 	<Damage>
 		<Hack>0.0</Hack>
 		<Pierce>20.0</Pierce>
