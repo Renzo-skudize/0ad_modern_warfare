@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>M284</AttackName>
       <Damage>
-        <Crush>500</Crush>
+        <Crush>600</Crush>
       </Damage>
       <MaxRange>160</MaxRange>
       <PrepareTime>1500</PrepareTime>
