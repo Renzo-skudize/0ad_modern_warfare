@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_tank_artillery">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">ATACMS</AttackName>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>HIMARS</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/HIMARS.xml</Actor>
+  </VisualActor>
+</Entity>
