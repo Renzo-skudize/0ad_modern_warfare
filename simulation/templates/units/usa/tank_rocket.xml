@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_tank_artillery">
+<Entity parent="template_unit_tank_rocket">
   <Attack>
     <Ranged>
       <AttackName context="Gun">ATACMS</AttackName>
