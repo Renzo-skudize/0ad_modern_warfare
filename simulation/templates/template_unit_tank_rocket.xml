@@ -6,9 +6,9 @@
       <Damage>
         <Crush>500</Crush>
       </Damage>
-      <MaxRange>150</MaxRange>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>4000</RepeatTime>
+      <MaxRange>160</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>400</Speed>
@@ -40,9 +40,9 @@
     <Population>2</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>60</wood>
+      <wood>80</wood>
       <food>60</food>
-      <metal>100</metal>
+      <metal>120</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -52,7 +52,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>500</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Self-propelled Artillery</GenericName>
