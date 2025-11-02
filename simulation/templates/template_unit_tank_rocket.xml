@@ -25,8 +25,8 @@
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
-		<Pierce>25.0</Pierce>
-		<Crush>50.0</Crush>
+		<Pierce>20.0</Pierce>
+		<Crush>60.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
@@ -55,10 +55,10 @@
     <Max>400</Max>
   </Health>
   <Identity>
-    <GenericName>Self-propelled Artillery</GenericName>
+    <GenericName>Rocket Artillery</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank Artillery</VisibleClasses>
     <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
+      <Techs datatype="tokens">phase_city</Techs>
     </Requirements>
   </Identity>
   <Loot>
