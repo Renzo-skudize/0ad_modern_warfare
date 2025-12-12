@@ -52,7 +52,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>400</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Rocket Artillery</GenericName>
