@@ -10,7 +10,7 @@
       <MaxRange>90</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>750</RepeatTime>
-      <Projectile>
+      <!--<Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
         <Gravity>9.81</Gravity>
