@@ -60,8 +60,8 @@
     </Overlay>
   </Selectable>
   <UnitMotion>
-    <WalkSpeed op="add">-3</WalkSpeed>
-    <Acceleration op="add">-5</Acceleration>
+    <WalkSpeed op="add">-0.5</WalkSpeed>
+    <Acceleration op="add">-6</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>160</Range>
