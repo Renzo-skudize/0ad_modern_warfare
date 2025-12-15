@@ -30,8 +30,9 @@
     <Population>2</Population>
     <BuildTime>20</BuildTime>
     <Resources>
-      <wood>75</wood>
-      <metal>75</metal>
+      <food>75</food>
+	  <wood>50</wood>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Decay>
