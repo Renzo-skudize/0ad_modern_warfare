@@ -72,8 +72,9 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
-    <GenericName> </GenericName>
+    <GenericName>Fighter</GenericName>
   </Identity>
   <Obstruction disable=""/>
   <Position>
