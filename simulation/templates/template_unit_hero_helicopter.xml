@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit">
+<Entity parent="template_unit_hero">
   <Attack>
     <Ranged>
       <AttackName context="Gun">M230</AttackName>
@@ -45,6 +45,7 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
     <GenericName> </GenericName>
   </Identity>
