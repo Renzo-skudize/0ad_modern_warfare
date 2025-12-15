@@ -13,6 +13,7 @@
           <Duration>5000</Duration>
         </Burning>
       </ApplyStatus>
+	  <PreferredClasses datatype="tokens">Tank</PreferredClasses>
       <Damage>
         <Crush>200</Crush>
       </Damage>
