@@ -8,7 +8,7 @@
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/AH-64.png" name="baseTex"/>
+        <texture file="structural/usa/AH-64.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
