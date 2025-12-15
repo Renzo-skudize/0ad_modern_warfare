@@ -11,7 +11,7 @@
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
       <PreferredClasses datatype="tokens">Tank</PreferredClasses>
-	  <RestrictedClasses datatype="tokens">Organic</RestrictedClasses>
+	  <RestrictedClasses datatype="tokens">Organic Structure</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
         <Spread>0</Spread>
