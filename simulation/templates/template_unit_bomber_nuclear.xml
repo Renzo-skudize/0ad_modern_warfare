@@ -48,6 +48,7 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName> </GenericName>
   </Identity>
   <Obstruction disable=""/>
