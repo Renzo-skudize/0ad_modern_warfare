@@ -61,6 +61,7 @@
     <Max>300</Max>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName>Self propelled SAM System</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
