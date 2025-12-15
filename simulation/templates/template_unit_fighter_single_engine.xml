@@ -74,7 +74,7 @@
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
-    <GenericName>Fighter aircraft</GenericName>
+    <GenericName>Fighter Aircraft</GenericName>
   </Identity>
   <Obstruction disable=""/>
   <Position>
