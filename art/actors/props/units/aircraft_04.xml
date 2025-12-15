@@ -5,7 +5,7 @@
     <variant>
       <mesh>props/aircraft_04.dae</mesh>
       <textures>
-        <texture file="structural/F-35.png" name="baseTex"/>
+        <texture file="structural/usa/F-35.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
