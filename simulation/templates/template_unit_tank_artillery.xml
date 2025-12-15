@@ -55,6 +55,7 @@
     <Max>500</Max>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName>Self-propelled Artillery</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank Artillery</VisibleClasses>
     <Requirements>
