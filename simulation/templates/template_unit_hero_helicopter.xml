@@ -15,7 +15,7 @@
       </ApplyStatus>
 	  <PreferredClasses datatype="tokens">Tank</PreferredClasses>
       <Damage>
-        <Crush>200</Crush>
+        <Crush>250</Crush>
       </Damage>
 	  <Splash>
 		<Shape>Circular</Shape>
@@ -86,17 +86,17 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>60.0</MaxSpeed>
+    <MaxSpeed>75.0</MaxSpeed>
     <StationaryDistance>5</StationaryDistance>
     <TakeoffSpeed>5.0</TakeoffSpeed>
     <LandingSpeed>5.0</LandingSpeed>
-    <AccelRate>50.0</AccelRate>
-    <SlowingRate>5.0</SlowingRate>
-    <BrakingRate>50.0</BrakingRate>
+    <AccelRate>60.0</AccelRate>
+    <SlowingRate>7.5</SlowingRate>
+    <BrakingRate>60.0</BrakingRate>
     <TurnRate>1.5</TurnRate>
     <OvershootTime>2.0</OvershootTime>
-    <FlyingHeight>25.0</FlyingHeight>
-    <ClimbRate>50.0</ClimbRate>
+    <FlyingHeight>40.0</FlyingHeight>
+    <ClimbRate>60.0</ClimbRate>
     <DiesInWater>false</DiesInWater>
     <PassabilityClass>unrestricted</PassabilityClass>
   </UnitMotionFlying>
