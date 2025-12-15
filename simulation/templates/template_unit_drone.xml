@@ -6,7 +6,7 @@
         <Burning>
           <Interval>1000</Interval>
           <Damage>
-            <Fire>10</Fire>
+            <Fire>40</Fire>
           </Damage>
           <Stackability>Stack</Stackability>
           <Duration>6000</Duration>
