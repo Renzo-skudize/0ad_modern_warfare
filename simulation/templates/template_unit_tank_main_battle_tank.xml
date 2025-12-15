@@ -55,6 +55,7 @@
     <Max>750</Max>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName>Main Battle Tank</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
