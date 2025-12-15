@@ -3,6 +3,16 @@
   <Attack>
     <Ranged>
       <AttackName context="Rocketlauncher">javelin</AttackName>
+	  <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>50</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>5000</Duration>
+        </Burning>
+      </ApplyStatus>
       <Damage>
         <Pierce>0</Pierce>
         <Crush>500</Crush>
