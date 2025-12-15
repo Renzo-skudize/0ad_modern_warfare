@@ -7,10 +7,10 @@
   </Attack>
   <Identity>
     <Civ>usa</Civ>
-    <SpecificName>George W. Bush</SpecificName>
+    <SpecificName>Barack Hussein Obama II</SpecificName>
     <Icon>units/usa/F-35.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/usa/hero_bush.xml</Actor>
+    <Actor>units/usa/hero_obama.xml</Actor>
   </VisualActor>
 </Entity>
