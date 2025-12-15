@@ -49,6 +49,7 @@
     <Max>500</Max>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName>Light Armoured Vehicle</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
     <Requirements>
