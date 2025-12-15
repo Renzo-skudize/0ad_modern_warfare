@@ -77,7 +77,7 @@
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
-    <GenericName>6th Generation Fighter</GenericName>
+    <GenericName>6th Generation Fighter Aircraft</GenericName>
   </Identity>
   <Obstruction disable=""/>
   <Position>
