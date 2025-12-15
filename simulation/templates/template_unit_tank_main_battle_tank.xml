@@ -80,8 +80,8 @@
     <Overlay>
       <AlwaysVisible/>
       <Texture>
-        <MainTexture>128x256/rounded_rectangle.png</MainTexture>
-        <MainTextureMask>128x256/rounded_rectangle_mask.png</MainTextureMask>
+        <MainTexture>128x512/rounded_rectangle.png</MainTexture>
+        <MainTextureMask>128x512/rounded_rectangle_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
