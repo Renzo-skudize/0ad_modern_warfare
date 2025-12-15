@@ -26,7 +26,7 @@
 			<Crush>15.0</Crush>
 		</Damage>
       </Splash>
-      <MaxRange>60</MaxRange>
+      <MaxRange>100</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -47,11 +47,12 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>2</Population>
-    <BuildTime>20</BuildTime>
+    <Population>0</Population>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>75</wood>
-      <metal>75</metal>
+	  <food>200</food>
+      <wood>100</wood>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -61,7 +62,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>300</Max>
+    <Max>1200</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
