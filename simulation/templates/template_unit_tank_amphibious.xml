@@ -3,6 +3,16 @@
   <Attack>
     <Ranged>
       <AttackName>M68A1</AttackName>
+	  <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>30</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>3000</Duration>
+        </Burning>
+      </ApplyStatus>
       <Damage>
         <Crush>300</Crush>
       </Damage>
