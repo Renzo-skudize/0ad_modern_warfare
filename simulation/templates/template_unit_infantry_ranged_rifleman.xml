@@ -10,14 +10,15 @@
       <MaxRange>90</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>750</RepeatTime>
-      <!--<Projectile>
+      <Projectile>
         <Speed>300</Speed>
-        <Spread>4</Spread>
+        <Spread>3.1416</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
         <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
-      </Projectile>-->
+	      <ImpactAnimationLifetime>1</ImpactAnimationLifetime>
+      </Projectile>
     </Ranged>
   </Attack>
   <Cost>
