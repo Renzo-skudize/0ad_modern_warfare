@@ -3,6 +3,16 @@
   <Attack>
     <Ranged>
       <AttackName>Mk 48</AttackName>
+	  <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>50</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>5000</Duration>
+        </Burning>
+      </ApplyStatus>
       <Damage>
         <Crush>750</Crush>
       </Damage>
