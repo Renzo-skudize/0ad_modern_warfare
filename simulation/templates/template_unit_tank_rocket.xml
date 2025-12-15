@@ -55,6 +55,7 @@
     <Max>300</Max>
   </Health>
   <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
     <GenericName>Rocket Artillery</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank Artillery</VisibleClasses>
     <Requirements>
