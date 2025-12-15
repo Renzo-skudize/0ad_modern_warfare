@@ -21,7 +21,7 @@
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Structure Organic Siege Tank Plane</RestrictedClasses>
       <Projectile>
-        <Speed>160</Speed>
+        <Speed>100</Speed>
         <Spread>0</Spread>
         <Gravity>0</Gravity>
         <FriendlyFire>true</FriendlyFire>
