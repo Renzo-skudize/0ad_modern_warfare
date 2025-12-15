@@ -33,8 +33,8 @@
       <RepeatTime>1000</RepeatTime>
       <Projectile>
         <Speed>400</Speed>
-        <Spread>1.5</Spread>
-        <Gravity>1</Gravity>
+        <Spread>1</Spread>
+        <Gravity>2.5</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
         <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
