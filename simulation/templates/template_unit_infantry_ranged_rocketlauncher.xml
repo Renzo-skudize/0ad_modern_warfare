@@ -10,7 +10,7 @@
       <MaxRange>130</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>3000</RepeatTime>
-      <PreferredClasses datatype="tokens">Unit</PreferredClasses>
+      <PreferredClasses datatype="tokens">Tank</PreferredClasses>
 	  <RestrictedClasses datatype="tokens">Organic</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
