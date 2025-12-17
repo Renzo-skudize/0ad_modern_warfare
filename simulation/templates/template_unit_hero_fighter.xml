@@ -20,7 +20,7 @@
         </BonusPlane>
       </Bonuses>
       <Damage>
-        <Crush>200</Crush>
+        <Crush>300</Crush>
       </Damage>
       <MaxRange>160</MaxRange>
       <MinRange>0</MinRange>
