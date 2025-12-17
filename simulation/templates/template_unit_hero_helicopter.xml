@@ -29,7 +29,7 @@
       </Splash>
       <MaxRange>100</MaxRange>
       <MinRange>0</MinRange>
-      <PrepareTime>750</PrepareTime>
+      <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <Projectile>
         <Speed>400</Speed>
