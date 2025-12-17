@@ -5,6 +5,9 @@
       <AttackName context="Rocket">Hydra 70</AttackName>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    units/heroes/usa_hero_obama
+  </Auras>
   <Identity>
     <Civ>usa</Civ>
     <SpecificName>Barack Hussein Obama II</SpecificName>
