@@ -73,7 +73,7 @@
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane</VisibleClasses>
-    <GenericName>Drone</GenericName>
+    <GenericName>Unmanned Combat Air Vehicle</GenericName>
   </Identity>
   <Obstruction disable=""/>
   <Position>
