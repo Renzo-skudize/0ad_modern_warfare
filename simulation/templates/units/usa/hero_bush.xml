@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_fighter">
   <Attack>
     <Ranged>
-      <AttackName context="Rocket">Hydra 70</AttackName>
+      <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
