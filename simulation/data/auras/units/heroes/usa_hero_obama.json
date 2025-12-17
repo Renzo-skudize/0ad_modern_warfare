@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 }
+	],
+	"auraName": "Patient Protection and Affordable Care Act",
+	"auraDescription": "All Units +10% health."
+}
