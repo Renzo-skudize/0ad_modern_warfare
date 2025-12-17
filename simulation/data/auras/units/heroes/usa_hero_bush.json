@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2.5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2.5 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2.5 }
+	],
+	"auraName": "War on Terror",
+	"auraDescription": "Soldiers +2.5 crush, hack, pierce resistance."
+}
