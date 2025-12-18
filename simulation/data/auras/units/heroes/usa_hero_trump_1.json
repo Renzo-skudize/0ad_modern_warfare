@@ -3,11 +3,11 @@
 	"affectedPlayers": ["Enemy"],
 	"affects": ["Player"],
 	"modifications": [
-		{ "value": "ResourceTrickle/Rates/food", "mul": 0.75 },
-    { "value": "ResourceTrickle/Rates/wood", "mul": 0.75 },
-    { "value": "ResourceTrickle/Rates/stone", "mul": 0.75 },
-    { "value": "ResourceTrickle/Rates/metal", "mul": 0.75 }
+		{ "value": "ResourceTrickle/Rates/food", "mul": 0.5 },
+    	{ "value": "ResourceTrickle/Rates/wood", "mul": 0.5 },
+    	{ "value": "ResourceTrickle/Rates/stone", "mul": 0.5 },
+    	{ "value": "ResourceTrickle/Rates/metal", "mul": 0.5 }
 	],
 	"auraName": "Sanctions and Tariffs",
-	"auraDescription": "Enemies -25% Resource Trickle.",
+	"auraDescription": "Enemies -50% Resource Trickle.",
 }
