@@ -7,5 +7,5 @@
 	{ "value": "Trader/GainMultiplier", "multiply": 0.5 }
 	],
 	"auraName": "Sanctions and Tariffs",
-	"auraDescription": "Enemies -25% Resource Gather Speed, Enemies' Traders -50% Trade Gain.",
+	"auraDescription": "Enemies -25% Resource Gather Speed, Enemies' Traders -50% Trade Gain."
 }
