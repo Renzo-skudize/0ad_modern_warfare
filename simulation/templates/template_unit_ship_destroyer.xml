@@ -16,7 +16,7 @@
       <Damage>
         <Crush>400</Crush>
       </Damage>
-      <MaxRange>150</MaxRange>
+      <MaxRange>160</MaxRange>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
@@ -46,12 +46,12 @@
     units/counterair
   </Auras>
   <Cost>
-    <Population>5</Population>
+    <Population>4</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-	  <food>100</food>
-      <wood>80</wood>
-      <metal>175</metal>
+	  <wood>80</wood>
+      <food>160</food>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
