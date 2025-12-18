@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_tank">
+<Entity parent="template_unit_hero_tank_main_battle_tank">
   <Attack>
     <Ranged>
-      <AttackName context="Rocket">Hydra 70</AttackName>
+      <AttackName context="Gun">Rh120</AttackName>
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
