@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affectedPlayers": ["Enemy"],
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "mul": 0.75 },
+    { "value": "ResourceTrickle/Rates/wood", "mul": 0.75 },
+    { "value": "ResourceTrickle/Rates/stone", "mul": 0.75 },
+    { "value": "ResourceTrickle/Rates/metal", "mul": 0.75 }
+	],
+	"auraName": "Sanctions and Tariffs",
+	"auraDescription": "You and Your Allies -25% Resource Trickle.",
+}
