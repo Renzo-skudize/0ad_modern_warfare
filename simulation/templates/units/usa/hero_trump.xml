@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_tank">
+  <Attack>
+    <Ranged>
+      <AttackName context="Rocket">Hydra 70</AttackName>
+    </Ranged>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/usa_hero_obama
+  </Auras>
+  <Identity>
+    <Civ>usa</Civ>
+    <SpecificName>Donald John Trump</SpecificName>
+    <Icon>units/usa/F-35.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/usa/hero_trump.xml</Actor>
+  </VisualActor>
+</Entity>
