@@ -4,7 +4,8 @@
 	"affects": ["Unit"],
 	"modifications": [
     { "value": "ResourceGatherer/BaseSpeed", "multiply": 0.75 }
+	{ "value": "Trader/GainMultiplier", "multiply": 0.5 }
 	],
 	"auraName": "Sanctions and Tariffs",
-	"auraDescription": "Enemies -25% Resource Gather Speed.",
+	"auraDescription": "Enemies -25% Resource Gather Speed, Enemies' Traders -50% Trade Gain.",
 }
