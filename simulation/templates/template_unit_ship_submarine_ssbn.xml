@@ -32,12 +32,13 @@
     </Ranged>
   </Attack>
   <Cost>
-    <Population>5</Population>
-    <BuildTime>25</BuildTime>
+    <Population>4</Population>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <wood>10</wood>
-      <stone>30</stone>
-      <metal>200</metal>
+      <wood>80</wood>
+      <food>120</food>
+      <metal>260</metal>
+	  <stone>100</stone>
     </Resources>
   </Cost>
   <Health>
