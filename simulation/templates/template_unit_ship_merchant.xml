@@ -55,7 +55,7 @@
     </Overlay>
   </Selectable>
   <Trader>
-    <GainMultiplier>10</GainMultiplier>
+    <GainMultiplier>25</GainMultiplier>
   </Trader>
   <TreasureCollector>
     <MaxDistance>40</MaxDistance>
