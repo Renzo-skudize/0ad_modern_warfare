@@ -66,11 +66,8 @@
   </Health>
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
-    <GenericName>Main Battle Tank</GenericName>
+    <GenericName>Main Battle Tank Hero</GenericName>
     <VisibleClasses datatype="tokens">Ranged Siege Tank</VisibleClasses>
-    <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
-    </Requirements>
   </Identity>
   <Loot>
     <xp>140</xp>
