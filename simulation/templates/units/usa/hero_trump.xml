@@ -6,7 +6,10 @@
     </Ranged>
   </Attack>
   <Auras datatype="tokens">
-    units/heroes/usa_hero_obama
+    units/heroes/usa_hero_trump_1
+    units/heroes/usa_hero_trump_2
+    units/heroes/usa_hero_trump_3
+    units/heroes/usa_hero_trump_4
   </Auras>
   <Identity>
     <Civ>usa</Civ>
