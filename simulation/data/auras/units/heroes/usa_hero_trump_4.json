@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affectedPlayers": ["Ally"],
+	"affects": ["Unit"],
+	"modifications": [
+    { "value": "ResourceGatherer/BaseSpeed", "multiply": 0.9 }
+	  { "value": "Trader/GainMultiplier", "multiply": 0.75 }
+	],
+	"auraName": "Sanctions and Tariffs",
+	"auraDescription": "Allies -10% Resource Gather Speed, allied Traders -75% Trade Gain.",
+}
