@@ -9,5 +9,5 @@
     	{ "value": "ResourceTrickle/Rates/metal", "mul": 0.75 }
 	],
 	"auraName": "Sanctions and Tariffs",
-	"auraDescription": "You and Your Allies -25% Resource Trickle.",
+	"auraDescription": "You and Your Allies -25% Resource Trickle."
 }
