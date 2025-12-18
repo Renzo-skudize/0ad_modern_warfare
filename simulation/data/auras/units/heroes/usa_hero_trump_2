@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affectedPlayers": ["Enemy"],
+	"affects": ["Unit"],
+	"modifications": [
+    { "value": "ResourceGatherer/BaseSpeed", "multiply": 0.75 }
+	],
+	"auraName": "Sanctions and Tariffs",
+	"auraDescription": "Enemies -25% Resource Gather Speed.",
+}
