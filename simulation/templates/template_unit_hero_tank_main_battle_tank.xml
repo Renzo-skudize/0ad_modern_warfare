@@ -17,7 +17,7 @@
         <Crush>600</Crush>
       </Damage>
       <MaxRange>150</MaxRange>
-      <PrepareTime>800</PrepareTime>
+      <PrepareTime>750</PrepareTime>
       <RepeatTime>2500</RepeatTime>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
