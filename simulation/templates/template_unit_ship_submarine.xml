@@ -7,14 +7,14 @@
         <Burning>
           <Interval>1000</Interval>
           <Damage>
-            <Fire>50</Fire>
+            <Fire>100</Fire>
           </Damage>
           <Stackability>Stack</Stackability>
-          <Duration>5000</Duration>
+          <Duration>4000</Duration>
         </Burning>
       </ApplyStatus>
       <Damage>
-        <Crush>750</Crush>
+        <Crush>800</Crush>
       </Damage>
       <MaxRange>180</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -32,12 +32,13 @@
     </Ranged>
   </Attack>
   <Cost>
-    <Population>4</Population>
+    <Population>3</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>25</wood>
-      <stone>25</stone>
-      <metal>175</metal>
+      <wood>60</wood>
+      <food>120</food>
+      <metal>250</metal>
+	  <stone>40</stone>
     </Resources>
   </Cost>
   <Health>
