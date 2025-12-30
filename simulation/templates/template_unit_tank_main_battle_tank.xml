@@ -46,12 +46,12 @@
         <Pierce>160</Pierce>
         <Crush>0</Crush>
       </Damage>
-      <MaxRange>90</MaxRange>
+      <MaxRange>80</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>750</RepeatTime>
       <Projectile>
-        <Speed>300</Speed>
-        <Spread>2</Spread>
+        <Speed>3000</Speed>
+        <Spread>3</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
@@ -66,7 +66,7 @@
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>2</Population>
+    <Population>3</Population>
     <BuildTime>30</BuildTime>
     <Resources>
       <wood>50</wood>
