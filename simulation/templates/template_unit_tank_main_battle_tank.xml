@@ -13,6 +13,7 @@
           <Duration>5000</Duration>
         </Burning>
       </ApplyStatus>
+	  <PreferredClasses datatype="tokens">Tank</PreferredClasses>
       <Damage>
         <Crush>450</Crush>
       </Damage>
@@ -43,9 +44,10 @@
 	<Ranged>
       <AttackName context="Gun">M-16</AttackName>
       <Damage>
-        <Pierce>160</Pierce>
+        <Pierce>100</Pierce>
         <Crush>0</Crush>
       </Damage>
+	  <PreferredClasses datatype="tokens">Organic</PreferredClasses>
       <MaxRange>80</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>750</RepeatTime>
