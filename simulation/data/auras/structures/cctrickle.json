@@ -3,10 +3,10 @@
 	"affects": ["Player"],
 	"modifications": [
 		{ "value": "ResourceTrickle/Rates/food", "add": 0.25 },
-    { "value": "ResourceTrickle/Rates/wood", "add": 0.25 },
-    { "value": "ResourceTrickle/Rates/stone", "add": 0.25 },
-    { "value": "ResourceTrickle/Rates/metal", "add": 0.25 }
+    	{ "value": "ResourceTrickle/Rates/wood", "add": 0.25 },
+    	{ "value": "ResourceTrickle/Rates/stone", "add": 0.25 },
+    	{ "value": "ResourceTrickle/Rates/metal", "add": 0.25 }
 	],
 	"auraName": "International Trade",
-	"auraDescription": "+0.5 resource trickle rate."
+	"auraDescription": "+0.25 resource trickle rate."
 }
