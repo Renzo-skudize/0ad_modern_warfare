@@ -1,0 +1,9 @@
+{
+	"type": "player",
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "add": 1 }
+	],
+	"auraName": "International Trade",
+	"auraDescription": "+1 resource trickle rate."
+}
