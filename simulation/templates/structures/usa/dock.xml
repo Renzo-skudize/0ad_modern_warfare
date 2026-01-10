@@ -11,10 +11,18 @@
     <Civ>usa</Civ>
     <SpecificName>Dock</SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/ship_merchant
+      units/{civ}/ship_destroyer
+      units/{civ}/ship_submarine
+      units/{civ}/ship_submarine_ssbn
+      units/{civ}/ship_submarine_ssbn_secure
+    </Entities>
   <Obstruction>
     <Static width="20.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/romans/dock.xml</Actor>
+    <Actor>structures/dock.xml</Actor>
   </VisualActor>
 </Entity>
