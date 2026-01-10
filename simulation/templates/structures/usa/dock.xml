@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
   <Footprint>
-    <Square width="300.0" depth="60.0"/>
+    <Square width="80.0" depth="40.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
