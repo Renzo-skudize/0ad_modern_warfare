@@ -5,7 +5,7 @@
   </Auras>
   <Attack>
     <Ranged>
-      <AttackName context="Gun">M-16</AttackName>
+      <AttackName context="Gun">Shotgun</AttackName>
       <Damage>
         <Pierce>150</Pierce>
         <Crush>0</Crush>
