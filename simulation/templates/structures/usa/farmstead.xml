@@ -7,7 +7,7 @@
     <Ranged>
       <AttackName context="Gun">Shotgun</AttackName>
       <Damage>
-        <Pierce>150</Pierce>
+        <Pierce>30</Pierce>
         <Crush>0</Crush>
       </Damage>
       <MaxRange>60</MaxRange>
@@ -15,13 +15,29 @@
       <RepeatTime>3000</RepeatTime>
       <Projectile>
         <Speed>300</Speed>
-        <Spread>3.5</Spread>
+        <Spread>5</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
         <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
 	      <ImpactAnimationLifetime>1</ImpactAnimationLifetime>
       </Projectile>
+	  <Splash>
+		<Shape>Circular</Shape>
+		<Range>10</Range>
+		<FriendlyFire>true</FriendlyFire>
+		<Bonuses>
+        	<BonusPlane>
+        	  <Classes>Plane</Classes>
+     	     <Multiplier>0.0</Multiplier>
+    	    </BonusPlane>
+   	    </Bonuses>
+		<Damage>
+			<Hack>0.0</Hack>
+			<Pierce>40.0</Pierce>
+			<Crush>1.0</Crush>
+		</Damage>
+      </Splash>
     </Ranged>
   </Attack>
   <BuildingAI>
