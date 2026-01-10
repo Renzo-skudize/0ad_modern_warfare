@@ -21,6 +21,7 @@
       units/{civ}/champion_infantry_navy
       units/{civ}/champion_infantry_marine
     </Entities>
+  </Trainer>
   <Obstruction>
     <Static width="20.0" depth="24.0"/>
   </Obstruction>
