@@ -5,7 +5,7 @@
     <variant>
       <mesh>structural/dock.dae</mesh>
       <textures>
-        <texture file="props/rocket.png" name="baseTex"/>
+        <texture file="structures/dock.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
