@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <MaxArrowCount>8</MaxArrowCount>
+  </BuildingAI>
   <Footprint>
     <Square width="22.0" depth="22.0"/>
     <Height>5.0</Height>
