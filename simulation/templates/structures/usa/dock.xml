@@ -18,6 +18,8 @@
       units/{civ}/ship_submarine
       units/{civ}/ship_submarine_ssbn
       units/{civ}/ship_submarine_ssbn_secure
+      units/{civ}/champion_infantry_navy
+      units/{civ}/champion_infantry_marine
     </Entities>
   <Obstruction>
     <Static width="20.0" depth="24.0"/>
