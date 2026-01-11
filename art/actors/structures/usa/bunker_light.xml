@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="base">
-      <mesh>structural/usa/bunker_light.dae</mesh>
+      <mesh>structural/bunker_light.dae</mesh>
       <props>
         <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
       </props>
