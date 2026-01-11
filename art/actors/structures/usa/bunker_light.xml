@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <mesh>structural/usa/bunker_light.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/usa/bunker_light.png" name="baseTex"/>
+        <texture file="structural/usa/bunker_light.png" name="specTex"/>
+        <texture file="structural/usa/bunker_light.png" name="normTex"/>
+        <texture file="structuralstructural/usa/bunker_light.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
