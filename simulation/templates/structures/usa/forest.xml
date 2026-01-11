@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
+  <Attack>
+    <Ranged>
+      <AttackName context="Gun">Shotgun</AttackName>
+      <Damage>
+        <Pierce>30</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>300</Speed>
+        <Spread>5</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+	  <Splash>
+		<Shape>Circular</Shape>
+		<Range>10</Range>
+		<FriendlyFire>true</FriendlyFire>
+		<Bonuses>
+        	<BonusPlane>
+        	  <Classes>Plane</Classes>
+     	     <Multiplier>0.0</Multiplier>
+    	    </BonusPlane>
+   	    </Bonuses>
+		<Damage>
+			<Hack>0.0</Hack>
+			<Pierce>40.0</Pierce>
+			<Crush>1.0</Crush>
+		</Damage>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <MaxArrowCount>1</MaxArrowCount>
+  </BuildingAI>
   <Footprint>
-    <Square width="18.0" depth="18.0"/>
+    <Square width="28.0" depth="28.0"/>
   </Footprint>
   <Identity>
     <Civ>usa</Civ>
     <SpecificName>Forest</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="16.0" depth="16.0"/>
+    <Static width="22.0" depth="22.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/usa/forest.xml</Actor>
