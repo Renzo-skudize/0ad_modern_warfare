@@ -60,7 +60,7 @@
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
-    <LoadingRange>50</LoadingRange>
+    <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
@@ -105,7 +105,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <PassabilityClass>ship-large</PassabilityClass>
+    <PassabilityClass>ship</PassabilityClass>
     <WalkSpeed op="mul">3</WalkSpeed>
     <Acceleration op="mul">2</Acceleration>
   </UnitMotion>
