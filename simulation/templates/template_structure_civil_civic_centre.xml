@@ -8,7 +8,7 @@
   </AlertRaiser>
   <Attack>
     <Ranged>
-      <AttackName>Bow</AttackName>
+      <AttackName>M-16</AttackName>
       <Damage>
         <Pierce>150</Pierce>
       </Damage>
