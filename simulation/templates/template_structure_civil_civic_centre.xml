@@ -115,8 +115,9 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack op="add">5</Hack>
-        <Pierce op="add">5</Pierce>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+        <Crush></Crush>
       </Damage>
     </Entity>
   </Resistance>
