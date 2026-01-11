@@ -40,7 +40,7 @@
     <Max>20</Max>
     <List datatype="tokens">Infantry</List>
     <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Infantry</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <BuffHeal>0.5</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
