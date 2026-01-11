@@ -9,7 +9,7 @@
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="props/rocket.png" name="baseTex"/>
+        <texture file="structures/usa/bunker_light.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
