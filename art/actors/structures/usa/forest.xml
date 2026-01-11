@@ -15,7 +15,7 @@
         <prop actor="flora/trees/juniper_prickly.xml" attachpoint="box001" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/oak.xml" attachpoint="box002" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/oak_holly.xml" attachpoint="box003" maxheight="20" minheight="-20"/>
-        <prop actor="flora/trees/ochard_tree.xml" attachpoint="box004" maxheight="20" minheight="-20"/>
+        <prop actor="flora/trees/orchard_tree.xml" attachpoint="box004" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/pine_black.xml" attachpoint="delimitator_01" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/pine_maritime.xml" attachpoint="delimitator_02" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/poplar.xml" attachpoint="delimitator_03" maxheight="20" minheight="-20"/>
