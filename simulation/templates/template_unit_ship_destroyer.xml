@@ -60,7 +60,7 @@
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
-    <LoadingRange>32</LoadingRange>
+    <LoadingRange>50</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
