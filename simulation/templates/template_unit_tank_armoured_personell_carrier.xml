@@ -42,7 +42,7 @@
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <BuffHeal>0.5</BuffHeal>
-    <LoadingRange>10</LoadingRange>
+    <LoadingRange>20</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
