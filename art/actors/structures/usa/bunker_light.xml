@@ -6,6 +6,7 @@
       <mesh>structural/bunker_light.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="props/rocket.png" name="baseTex"/>
