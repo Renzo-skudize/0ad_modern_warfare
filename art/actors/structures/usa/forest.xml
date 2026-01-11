@@ -34,7 +34,7 @@
         <prop actor="flora/trees/aleppo_pine.xml" attachpoint="post_12" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/juniper_prickly.xml" attachpoint="brick001" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/pine_maritime.xml" attachpoint="brick002" maxheight="20" minheight="-20"/>
-        <prop actor="flora/trees/oak.xml.xml" attachpoint="brick003" maxheight="20" minheight="-20"/>
+        <prop actor="flora/trees/oak.xml" attachpoint="brick003" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/pine_maritime.xml" attachpoint="brick004" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/apple.xml" attachpoint="brick005" maxheight="20" minheight="-20"/>
         <prop actor="flora/trees/oak_holly.xml" attachpoint="brick006" maxheight="20" minheight="-20"/>
