@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
+  <Auras datatype="tokens">
+    structures/foresttrickle
+  </Auras>
   <Attack>
     <Ranged>
       <AttackName context="Gun">Shotgun</AttackName>
