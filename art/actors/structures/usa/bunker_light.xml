@@ -11,7 +11,7 @@
         <texture file="structural/usa/bunker_light.png" name="baseTex"/>
         <texture file="structural/usa/bunker_light.png" name="specTex"/>
         <texture file="structural/usa/bunker_light.png" name="normTex"/>
-        <texture file="structuralstructural/usa/bunker_light.png" name="aoTex"/>
+        <texture file="structural/usa/bunker_light.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
