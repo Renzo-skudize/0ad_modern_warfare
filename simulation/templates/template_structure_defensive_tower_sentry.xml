@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower">
+  <Attack>
+    <Ranged>
+      <Origin>
+        <X>0</X>
+        <Y>3</Y>
+        <Z>0</Z>
+      </Origin>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <MaxArrowCount>4</MaxArrowCount>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12" depth="12"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+  </Health>
+  <Identity>
+    <GenericName>Light Bunker</GenericName>
+    <SelectionGroupName>template_structure_defensive_tower_sentry</SelectionGroupName>
+    <Tooltip>Garrison Infantry for additional arrows. Needs the “Murder Holes” technology to protect its foot.</Tooltip>
+    <VisibleClasses datatype="tokens">SentryTower</VisibleClasses>
+    <Icon>structures/sentry_tower.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <stone>20</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="10" depth="10"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      tower_watch
+    </Technologies>
+  </Researcher>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>16</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Upgrade>
+    <Tower>
+      <Entity>structures/{civ}/defense_tower</Entity>
+      <Tooltip>Reinforce with stone and upgrade to a medium bunker.</Tooltip>
+      <Cost>
+        <wood>50</wood>
+        <stone>100</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>100</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+    </Tower>
+  </Upgrade>
+</Entity>
