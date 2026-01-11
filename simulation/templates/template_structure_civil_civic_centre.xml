@@ -32,6 +32,7 @@
   </Attack>
   <Auras datatype="tokens">
     structures/cctrickle
+    units/counterair
   </Auras>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
