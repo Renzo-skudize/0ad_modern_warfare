@@ -1,0 +1,9 @@
+{
+	"type": "player",
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "add": 1 }
+	],
+	"auraName": "Fishing",
+	"auraDescription": "+1 food trickle rate."
+}
