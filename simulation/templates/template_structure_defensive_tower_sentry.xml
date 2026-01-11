@@ -70,6 +70,15 @@
       tower_watch
     </Technologies>
   </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>50</Pierce>
+        <Crush>20</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>16</Radius>
