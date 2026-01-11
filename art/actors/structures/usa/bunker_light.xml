@@ -9,9 +9,8 @@
       </props>
       <textures>
         <texture file="structural/usa/bunker_light.png" name="baseTex"/>
-        <texture file="structural/usa/bunker_light.png" name="specTex"/>
-        <texture file="structural/usa/bunker_light.png" name="normTex"/>
-        <texture file="structural/usa/bunker_light.png" name="aoTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
