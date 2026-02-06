@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>structural/Switchblade.dae</mesh>
+      <mesh>structural/switchblade.dae</mesh>
       <textures>
         <texture file="props/rocket.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
