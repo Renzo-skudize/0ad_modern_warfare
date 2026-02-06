@@ -2,8 +2,8 @@
 	"type": "player",
 	"affects": ["Player"],
 	"modifications": [
-		{ "value": "ResourceTrickle/Rates/metal", "add": 2 },
-    { "value": "ResourceTrickle/Rates/stone", "add": 2 }
+		{ "value": "ResourceTrickle/Rates/metal", "add": 1 },
+    	{ "value": "ResourceTrickle/Rates/stone", "add": 1 }
 	],
 	"auraName": "Mining",
 	"auraDescription": "+1 stone and metal trickle rate."
