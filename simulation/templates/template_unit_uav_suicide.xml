@@ -20,9 +20,9 @@
         </BonusPlane>
       </Bonuses>
       <Damage>
-        <Crush>80</Crush>
+        <Crush>400</Crush>
       </Damage>
-      <MaxRange>120</MaxRange>
+      <MaxRange>15</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
@@ -37,12 +37,12 @@
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
-	<Range>10</Range>
+	<Range>20</Range>
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
 		<Pierce>20.0</Pierce>
-		<Crush>0.0</Crush>
+		<Crush>5.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
@@ -56,8 +56,8 @@
     <Population>0</Population>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>50</wood>
-      <metal>150</metal>
+      <wood>10</wood>
+      <metal>20</metal>
     </Resources>
   </Cost>
   <Decay>
@@ -67,7 +67,7 @@
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Health>
-    <Max>300</Max>
+    <Max>10</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
@@ -90,7 +90,7 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>150.0</MaxSpeed>
+    <MaxSpeed>40.0</MaxSpeed>
     <TakeoffSpeed>30.0</TakeoffSpeed>
     <LandingSpeed>30.0</LandingSpeed>
     <AccelRate>80.0</AccelRate>
@@ -98,8 +98,8 @@
     <BrakingRate>80.0</BrakingRate>
     <TurnRate>2.0</TurnRate>
     <OvershootTime>2.0</OvershootTime>
-    <FlyingHeight>75.0</FlyingHeight>
-    <ClimbRate>70.0</ClimbRate>
+    <FlyingHeight>12.0</FlyingHeight>
+    <ClimbRate>50.0</ClimbRate>
     <DiesInWater>false</DiesInWater>
     <PassabilityClass>unrestricted</PassabilityClass>
   </UnitMotionFlying>
@@ -107,6 +107,6 @@
     <DefaultStance>violent</DefaultStance>
   </UnitAI>
   <Vision>
-    <Range>150</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>
