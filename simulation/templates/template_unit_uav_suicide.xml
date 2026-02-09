@@ -27,11 +27,11 @@
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
       <Projectile>
-        <Speed>400</Speed>
+        <Speed>4000</Speed>
         <Spread>0</Spread>
         <ImpactActorName>particle/bigflame.xml</ImpactActorName>
 	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
-        <Gravity>1</Gravity>
+        <Gravity>0</Gravity>
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
