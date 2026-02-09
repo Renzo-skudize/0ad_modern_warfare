@@ -41,27 +41,6 @@
 	</Damage>
       </Splash>
     </Ranged>
-	<Ranged>
-      <AttackName context="Gun">M-16</AttackName>
-      <Damage>
-        <Pierce>100</Pierce>
-        <Crush>0</Crush>
-      </Damage>
-	  <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-      <MaxRange>80</MaxRange>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>750</RepeatTime>
-      <Projectile>
-        <Speed>3000</Speed>
-        <Spread>3</Spread>
-        <Gravity>9.81</Gravity>
-        <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="3"/>
-        <ImpactActorName>particle/dust_cav.xml</ImpactActorName>
-	      <ImpactAnimationLifetime>1</ImpactAnimationLifetime>
-      </Projectile>
-    </Ranged>
-  </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
