@@ -2,7 +2,7 @@
 	"type": "global",
 	"affects": ["Unit", "Structure"],
 	"modifications": [
-		{ "value": "Looter/Resource/metal", "mul": 0 }
+		{ "value": "Looter/Resource/metal": 0 }
 	],
 	"auraName": "Modern Warfare",
 	"auraDescription": "There's no loot anymore."
