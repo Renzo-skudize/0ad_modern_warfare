@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>40</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>6000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
+      <Bonuses>
+        <BonusPlane>
+          <Classes>Plane</Classes>
+          <Multiplier>5.0</Multiplier>
+        </BonusPlane>
+      </Bonuses>
+      <Damage>
+        <Crush>80</Crush>
+      </Damage>
+      <MaxRange>120</MaxRange>
+      <MinRange>0</MinRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>400</Speed>
+        <Spread>0</Spread>
+        <ImpactActorName>particle/bigflame.xml</ImpactActorName>
+	<ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <Gravity>1</Gravity>
+        <FriendlyFire>true</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <Splash>
+	<Shape>Circular</Shape>
+	<Range>10</Range>
+	<FriendlyFire>true</FriendlyFire>
+	<Damage>
+		<Hack>0.0</Hack>
+		<Pierce>20.0</Pierce>
+		<Crush>0.0</Crush>
+	</Damage>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <Population>0</Population>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>50</wood>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Decay>
+    <SinkingAnim>false</SinkingAnim>
+    <DelayTime>5.0</DelayTime>
+    <SinkRate>1</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>300</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+	<Classes datatype="tokens">-Organic</Classes>
+    <VisibleClasses datatype="tokens">Plane UAV</VisibleClasses>
+    <GenericName>Unmanned Combat Air Vehicle</GenericName>
+  </Identity>
+  <Obstruction disable=""/>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>3</TurnRate>
+  </Position>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
+  <UnitAI>
+    <Formations datatype="tokens" replace=""/>
+  </UnitAI>
+  <UnitMotion disable=""/>
+  <UnitMotionFlying>
+    <MaxSpeed>150.0</MaxSpeed>
+    <TakeoffSpeed>30.0</TakeoffSpeed>
+    <LandingSpeed>30.0</LandingSpeed>
+    <AccelRate>80.0</AccelRate>
+    <SlowingRate>8</SlowingRate>
+    <BrakingRate>80.0</BrakingRate>
+    <TurnRate>2.0</TurnRate>
+    <OvershootTime>2.0</OvershootTime>
+    <FlyingHeight>75.0</FlyingHeight>
+    <ClimbRate>70.0</ClimbRate>
+    <DiesInWater>false</DiesInWater>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotionFlying>
+  <UnitAI>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
+  <Vision>
+    <Range>150</Range>
+  </Vision>
+</Entity>
