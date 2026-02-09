@@ -97,7 +97,7 @@
     <AccelRate>100.0</AccelRate>
     <SlowingRate>10</SlowingRate>
     <BrakingRate>90.0</BrakingRate>
-    <TurnRate>2.0</TurnRate>
+    <TurnRate>1.0</TurnRate>
     <OvershootTime>2.0</OvershootTime>
     <FlyingHeight>85.0</FlyingHeight>
     <ClimbRate>80.0</ClimbRate>
