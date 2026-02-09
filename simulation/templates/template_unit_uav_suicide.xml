@@ -22,7 +22,7 @@
       <Damage>
         <Crush>300</Crush>
       </Damage>
-      <MaxRange>15</MaxRange>
+      <MaxRange>20</MaxRange>
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
@@ -37,7 +37,7 @@
       </Projectile>
       <Splash>
 	<Shape>Circular</Shape>
-	<Range>20</Range>
+	<Range>25</Range>
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
