@@ -5,15 +5,15 @@
       <author>Assimp</author>
       <authoring_tool>THREE.GLTFExporter r178</authoring_tool>
     </contributor>
-    <created>2026-02-06T16:13:45</created>
-    <modified>2026-02-06T16:13:45</modified>
+    <created>2026-02-09T11:06:33</created>
+    <modified>2026-02-09T11:06:33</modified>
     <unit name="meter" meter="1" />
     <up_axis>Y_UP</up_axis>
   </asset>
   <library_images>
   </library_images>
   <library_effects>
-    <effect id="Material-fx" name="Material">
+    <effect id="Material.001-fx" name="Material.001">
       <profile_COMMON>
         <technique sid="standard">
           <phong>
@@ -55,8 +55,8 @@
     </effect>
   </library_effects>
   <library_materials>
-    <material id="Material" name="Material">
-      <instance_effect url="#Material-fx"/>
+    <material id="Material.001" name="Material.001">
+      <instance_effect url="#Material.001-fx"/>
     </material>
     <material id="material_1" name="">
       <instance_effect url="#material_1-fx"/>
@@ -66,7 +66,7 @@
     <geometry id="meshesQ0S" name="meshes[0]" >
       <mesh>
         <source id="meshesQ0S-positions" name="meshesQ0S-positions">
-          <float_array id="meshesQ0S-positions-array" count="96"> 1 0.141519994 -0.229339004 -1 0.141519994 -0.229339004 -1 0.141519994 0.229339004 1 0.141519994 0.229339004 1 -0.141519994 0.229339004 1 0.141519994 0.229339004 -1 0.141519994 0.229339004 -1 -0.141519994 0.229339004 -1 -0.141519994 0.229339004 -1 0.141519994 0.229339004 -1 0.141519994 -0.229339004 -1 -0.141519994 -0.229339004 -1 -0.141519994 -0.229339004 1 -0.141519994 -0.229339004 1 -0.141519994 0.229339004 -1 -0.141519994 0.229339004 1 -0.141519994 -0.229339004 1 0.141519994 -0.229339004 1 0.141519994 0.229339004 1 -0.141519994 0.229339004 -1 -0.141519994 -0.229339004 -1 0.141519994 -0.229339004 1 0.141519994 -0.229339004 1 -0.141519994 -0.229339004 -0.723397017 0 1 -0.501415014 0 1 -0.501415014 0 -1 -0.723397017 0 -1 0.71161902 0 1 0.932982981 0 1 0.932982981 0 -1 0.71161902 0 -1 </float_array>
+          <float_array id="meshesQ0S-positions-array" count="96"> -0.229339004 0.141519994 -1 -0.229339004 0.141519994 1 0.229339004 0.141519994 1 0.229339004 0.141519994 -1 0.229339004 -0.141519994 -1 0.229339004 0.141519994 -1 0.229339004 0.141519994 1 0.229339004 -0.141519994 1 0.229339004 -0.141519994 1 0.229339004 0.141519994 1 -0.229339004 0.141519994 1 -0.229339004 -0.141519994 1 -0.229339004 -0.141519994 1 -0.229339004 -0.141519994 -1 0.229339004 -0.141519994 -1 0.229339004 -0.141519994 1 -0.229339004 -0.141519994 -1 -0.229339004 0.141519994 -1 0.229339004 0.141519994 -1 0.229339004 -0.141519994 -1 -0.229339004 -0.141519994 1 -0.229339004 0.141519994 1 -0.229339004 0.141519994 -1 -0.229339004 -0.141519994 -1 1 0 0.723397017 1 0 0.501415014 -1 -0 0.501415014 -1 -0 0.723397017 1 0 -0.71161902 1 0 -0.932982981 -1 -0 -0.932982981 -1 -0 -0.71161902 </float_array>
           <technique_common>
             <accessor count="32" offset="0" source="#meshesQ0S-positions-array" stride="3">
               <param name="X" type="float" />
@@ -76,7 +76,7 @@
           </technique_common>
         </source>
         <source id="meshesQ0S-normals" name="meshesQ0S-normals">
-          <float_array id="meshesQ0S-normals-array" count="96"> -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 </float_array>
+          <float_array id="meshesQ0S-normals-array" count="96"> -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -1 -0 -0 -1 -0 -0 -1 -0 -0 -1 -0 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 </float_array>
           <technique_common>
             <accessor count="32" offset="0" source="#meshesQ0S-normals-array" stride="3">
               <param name="X" type="float" />
@@ -116,7 +116,7 @@
         <instance_geometry url="#meshesQ0S">
           <bind_material>
             <technique_common>
-              <instance_material symbol="defaultMaterial" target="#Material">
+              <instance_material symbol="defaultMaterial" target="#Material.001">
                 <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
