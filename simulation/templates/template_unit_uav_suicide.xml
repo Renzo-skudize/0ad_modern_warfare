@@ -15,12 +15,12 @@
       <AttackName context="Rocket">AIM-120 AMRAAM</AttackName>
       <Bonuses>
         <BonusPlane>
-          <Classes>Plane</Classes>
-          <Multiplier>5.0</Multiplier>
+          <Classes>Tank</Classes>
+          <Multiplier>2.0</Multiplier>
         </BonusPlane>
       </Bonuses>
       <Damage>
-        <Crush>400</Crush>
+        <Crush>300</Crush>
       </Damage>
       <MaxRange>15</MaxRange>
       <MinRange>0</MinRange>
@@ -41,8 +41,8 @@
 	<FriendlyFire>true</FriendlyFire>
 	<Damage>
 		<Hack>0.0</Hack>
-		<Pierce>20.0</Pierce>
-		<Crush>5.0</Crush>
+		<Pierce>40.0</Pierce>
+		<Crush>10.0</Crush>
 	</Damage>
       </Splash>
     </Ranged>
@@ -54,7 +54,7 @@
   </BuildingAI>
   <Cost>
     <Population>0</Population>
-    <BuildTime>25</BuildTime>
+    <BuildTime>10</BuildTime>
     <Resources>
       <wood>10</wood>
       <metal>20</metal>
@@ -90,7 +90,7 @@
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>40.0</MaxSpeed>
+    <MaxSpeed>80.0</MaxSpeed>
     <TakeoffSpeed>30.0</TakeoffSpeed>
     <LandingSpeed>30.0</LandingSpeed>
     <AccelRate>80.0</AccelRate>
