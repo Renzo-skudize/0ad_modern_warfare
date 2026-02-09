@@ -97,7 +97,7 @@
     <SlowingRate>8</SlowingRate>
     <BrakingRate>80.0</BrakingRate>
     <TurnRate>3.0</TurnRate>
-    <OvershootTime>0.8</OvershootTime>
+    <OvershootTime>0.7</OvershootTime>
     <FlyingHeight>12.0</FlyingHeight>
     <ClimbRate>50.0</ClimbRate>
     <DiesInWater>false</DiesInWater>
