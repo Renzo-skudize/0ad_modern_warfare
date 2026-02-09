@@ -41,6 +41,7 @@
 	</Damage>
       </Splash>
     </Ranged>
+  </Attack>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
