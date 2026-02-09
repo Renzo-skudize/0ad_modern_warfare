@@ -73,7 +73,7 @@
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Plane UAV</VisibleClasses>
-    <GenericName>Unmanned Combat Air Vehicle</GenericName>
+    <GenericName>Loitering Ammunition</GenericName>
   </Identity>
   <Obstruction disable=""/>
   <Position>
