@@ -16,7 +16,7 @@
       <Bonuses>
         <BonusPlane>
           <Classes>Tank</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>3.0</Multiplier>
         </BonusPlane>
       </Bonuses>
       <Damage>
