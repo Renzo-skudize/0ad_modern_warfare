@@ -26,6 +26,7 @@
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
+	  <PreferredClasses datatype="tokens">Tank</PreferredClasses>
       <Projectile>
         <Speed>4000</Speed>
         <Spread>0</Spread>
