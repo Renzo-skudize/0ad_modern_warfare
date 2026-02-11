@@ -19,6 +19,7 @@
       <MaxRange>180</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>4000</RepeatTime>
+	  <PreferredClasses datatype="tokens">Tank Ship</PreferredClasses>
       <RestrictedClasses datatype="tokens">Plane</RestrictedClasses>
       <Projectile>
         <Speed>300</Speed>
