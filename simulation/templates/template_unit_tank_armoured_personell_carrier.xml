@@ -46,6 +46,7 @@
   </GarrisonHolder>
   <Health>
     <Max>500</Max>
+	<Unhealable>true</Unhealable>
   </Health>
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
