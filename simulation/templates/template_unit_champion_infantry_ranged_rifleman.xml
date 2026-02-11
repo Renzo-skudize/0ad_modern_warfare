@@ -10,6 +10,7 @@
       <MaxRange>90</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>750</RepeatTime>
+	  <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
       <Projectile>
         <Speed>300</Speed>
         <Spread>2</Spread>
