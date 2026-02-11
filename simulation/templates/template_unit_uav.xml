@@ -26,6 +26,7 @@
       <MinRange>0</MinRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>3000</RepeatTime>
+	  <PreferredClasses datatype="tokens">Tank Ship Plane</PreferredClasses>
       <Projectile>
         <Speed>400</Speed>
         <Spread>0</Spread>
