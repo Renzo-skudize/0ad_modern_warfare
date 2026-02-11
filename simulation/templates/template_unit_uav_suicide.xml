@@ -107,6 +107,6 @@
     <DefaultStance>violent</DefaultStance>
   </UnitAI>
   <Vision>
-    <Range>40</Range>
+    <Range>160</Range>
   </Vision>
 </Entity>
