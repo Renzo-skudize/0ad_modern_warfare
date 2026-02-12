@@ -9,6 +9,7 @@
   </Cost>
   <Health>
     <Max>200</Max>
+    <Unhealable>true</Unhealable>
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
