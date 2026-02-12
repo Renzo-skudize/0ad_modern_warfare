@@ -62,6 +62,7 @@
   </Decay>
   <Health>
     <Max>1500</Max>
+	<Unhealable>true</Unhealable>
   </Health>
   <Identity>
 	<Classes datatype="tokens">-Organic</Classes>
