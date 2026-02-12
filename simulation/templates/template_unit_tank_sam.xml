@@ -84,6 +84,9 @@
     <wood>5</wood>
     <metal>10</metal>
   </Loot>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
   <Resistance>
     <Entity>
       <Damage>
