@@ -42,6 +42,9 @@
   <Trader>
     <GainMultiplier>7.5</GainMultiplier>
   </Trader>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>
