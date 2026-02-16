@@ -5,6 +5,9 @@
       <AttackName context="Gun">M-16</AttackName>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    units/jammer
+  </Auras>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Infantry Soldier with a Jammer</GenericName>
