@@ -8,6 +8,15 @@
   <Auras datatype="tokens">
     units/jammer
   </Auras>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>40</food>
+      <wood>20</wood>
+      <metal>40</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Infantry Soldier with a Jammer</GenericName>
