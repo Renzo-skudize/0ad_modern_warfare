@@ -11,10 +11,6 @@
 			"Type": "peace"
 		},
 		{
-			"File": "Bandit_Country.ogg",
-			"Type": "peace"
-		},
-		{
 			"File": "Calm_Before_the_Storm.ogg",
 			"Type": "peace"
 		},
@@ -31,36 +27,30 @@
 			"Type": "peace"
 		},
 		{
-			"File": "In_the_Shadow_of_Olympus.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Mediterranean_Waves.ogg",
-			"Type": "peace"
-		},
-		{
 			"File": "Tale_of_Warriors.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Alba_Longa_Burns.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Beyond.ogg",
 			"Type": "peace"
 		},
 		{
 			"File": "Point_of_No_Return.ogg",
 			"Type": "peace"
-		},
-		{
-			"File": "The_Hellespont.ogg",
-			"Type": "peace"
 		}
 		 ],
 	"CivBonuses": [
 		{
-			"Name": "Spartan Women",
+			"Name": "USAF",
 			"History": "",
-			"Description": "Female Citizens +40% health and +50% melee attack hack damage."
+			"Description": "All aircrafts become much cheaper."
 		}
 		      ],
 	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/spart/wallset_stone"
 		    ],
 	"StartEntities": [
 		{
@@ -77,9 +67,6 @@
 		{
 			"Template": "units/usa/infantry_rocketlauncher",
 			"Count": 2
-		},
-		{
-			"Template": "units/usa/combine_harvester"
 		}
 	],
 	"AINames": [
@@ -93,7 +80,7 @@
 		"Albert Arnold Gore Jr.",
 		"Richard Bruce Cheney",
 		"Michael Richard Pence",
-    		"Kamala Devi Harris",
+    	"Kamala Devi Harris",
 		"James David Vance"
 	],
 	"SkirmishReplacements": {
