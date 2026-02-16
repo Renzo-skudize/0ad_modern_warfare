@@ -44,6 +44,7 @@
       units/{civ}/champion_infantry_guard
       units/{civ}/champion_infantry_rifleman
       units/{civ}/champion_infantry_sniper
+	  units/{civ}/infantry_jammer
       units/{civ}/infantry_rifleman
       units/{civ}/infantry_rocketlauncher
     </Entities>
