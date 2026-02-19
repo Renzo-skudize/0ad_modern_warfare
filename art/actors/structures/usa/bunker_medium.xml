@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <mesh>structural/bunker_medium.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/usa/bunker_light.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>
