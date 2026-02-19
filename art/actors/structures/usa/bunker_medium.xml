@@ -5,11 +5,11 @@
     <variant name="base">
       <mesh>structural/bunker_medium.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_10x12.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/usa/HIMARS.png" name="baseTex"/>
+        <texture file="structural/usa/bunker_light.png" name="baseTex"/>
         <texture file="null_black.dds" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
