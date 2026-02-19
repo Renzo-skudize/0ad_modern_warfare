@@ -5,7 +5,7 @@
     <variant name="base">
       <mesh>structural/bunker_medium.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/torpedo.xml" attachpoint="projectile"/>
       </props>
       <textures>
