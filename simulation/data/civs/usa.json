@@ -3,50 +3,38 @@
 	"Culture": "occident",
 	"Music": [
 		{
-			"File": "Helen_Leaves_Sparta.ogg",
+			"File": "Backin_Track.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "As_Seasons_Change.ogg",
+			"File": "Bama_Country.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Calm_Before_the_Storm.ogg",
+			"File": "Dippermouth_Blues.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Cradle_of_Civilization.ogg",
+			"File": "Jazz_Me_Blues.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Elysian_Fields.ogg",
+			"File": "The Star-Sprangled_Banner.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Expedition.ogg",
+			"File": "Train.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Tale_of_Warriors.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Alba_Longa_Burns.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Beyond.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Point_of_No_Return.ogg",
+			"File": "America_the_Beautifull.ogg",
 			"Type": "peace"
 		}
 		 ],
 	"CivBonuses": [
 		{
 			"Name": "USAF",
-			"History": "",
+			"History": "Having evolved from the US Army Air Force in 1947, the US Airforce is the strongest airforce in the world, both by number of aerial vehicles (3 times as many as Russia) and by number of Total Servicable Airports.",
 			"Description": "All aircrafts become much cheaper."
 		}
 		      ],
