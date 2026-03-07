@@ -1,3 +1,4 @@
 Almost all art files are based on code from 0ad (or some GitHub 0ad mods), 
-like almost everything found in gui/~ or simulation/~, with the exception 
-of one file from the OpenRA source code.
+like almost everything found in gui/~ or simulation/~.
+
+References for the Audio files come extra.
